@@ -1,0 +1,8 @@
+{
+  "name": "OmniAudit - SEO, AEO & GEO Intelligence",
+  "description": "Enterprise website audit platform for Search Engine Optimisation (SEO), Answer Engine Optimisation (AEO), and Generative Engine Optimisation (GEO) with competitor benchmarking and actionable growth blueprints.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
