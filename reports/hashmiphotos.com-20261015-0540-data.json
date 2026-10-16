@@ -1,0 +1,1775 @@
+{
+  "target": "https://hashmiphotos.com/",
+  "generated_at": "2026-10-15 12:39 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 81.2,
+      "grade": "B"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 41.2,
+      "grade": "F"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 76.7,
+      "grade": "C"
+    },
+    "overall": {
+      "score": 66.4,
+      "grade": "D"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from hashmiphotos.com",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://hashmiphotos.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "https://www.hashmiphotos.com/ -> https://hashmiphotos.com (good)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Fast (0.49s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (41.2 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "fail",
+      "weight": 1.0,
+      "detail": "Too many (40 files)",
+      "fix": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint.",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "cache-control: max-age=3600, must-revalidate",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 1 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://hashmiphotos.com/sitemap.xml — 2976 URLs across 9 child sitemaps",
+      "fix": "",
+      "evidence": [
+        "https://hashmiphotos.com/blog/",
+        "https://hashmiphotos.com/blackmagic-pocket-cinema-camera-4k-review/",
+        "https://hashmiphotos.com/panasonic-lumix-s-series/",
+        "https://hashmiphotos.com/blackmagic-ursa-mini-4-6k/",
+        "https://hashmiphotos.com/the-sony-a7sii-and-a7iii/",
+        "https://hashmiphotos.com/dji-osmo-pocket-overview/",
+        "https://hashmiphotos.com/gopro-hero-7-overview/",
+        "https://hashmiphotos.com/fujifilm-xt3-overview/",
+        "https://hashmiphotos.com/sony-a6300-overview/",
+        "https://hashmiphotos.com/fujifilm-xt3-vs-canon-6d-mark-ii-comparison/"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://hashmiphotos.com/ (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good length (52 chars)",
+      "fix": "",
+      "evidence": "Hashmi Photos - Best Online Camera Store in Pakistan"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good length (121 chars)",
+      "fix": "",
+      "evidence": "Hashmi Photos is Best Online Film & Photo Camera Store in Pakistan.The Name of Quality and Best Customer Service Support."
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: Best Online Camera Store In Pakistan",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "3 level jump(s), e.g. H1 -> H5",
+      "fix": "Do not skip heading levels. Outline the page H1 > H2 > H3 so search engines and AI can parse the structure.",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "fail",
+      "weight": 1.5,
+      "detail": "Almost no structure (0 H2s)",
+      "fix": "Break the page into H2 sections. Long unbroken text is hard to scan and hard for AI to quote.",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Substantial (940 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'camera' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "'camera' only appears in: title, H1",
+      "fix": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words.",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (82 links)",
+      "fix": "",
+      "evidence": [
+        "https://hashmiphotos.com/brands/",
+        "https://hashmiphotos.com/brands/",
+        "https://hashmiphotos.com/p/camera-price-in-pakistan/",
+        "https://hashmiphotos.com/p/camera-lens/",
+        "https://hashmiphotos.com/p/film-equipment/",
+        "https://hashmiphotos.com/p/photography-studio-equipments/",
+        "https://hashmiphotos.com/p/voice-recorder-price-in-pakistan/",
+        "https://hashmiphotos.com/p/camera-accessories/tripod-price-in-pakistan/",
+        "https://hashmiphotos.com/p/camera-accessories/",
+        "https://hashmiphotos.com/p/photography-studio-equipments/studio-light/continuous-lighting/"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "143 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "11 external links, 0 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Some images missing alt (20.5% missing)",
+      "fix": "Write descriptive alt text for every image — it feeds image search, accessibility and AI understanding.",
+      "evidence": {
+        "total": 44,
+        "missing": 9
+      }
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "10 type(s): BreadcrumbList, EntryPoint, ImageObject, ListItem, Organization, PropertyValueSpecification, ReadAction, SearchAction",
+      "fix": "",
+      "evidence": [
+        "BreadcrumbList",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "PropertyValueSpecification",
+        "ReadAction",
+        "SearchAction",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://hashmiphotos.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "fail",
+      "weight": 0.5,
+      "detail": "Very low (code-heavy page) (2.5%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width, initial-scale=1.0",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "warn",
+      "weight": 0.5,
+      "detail": "No lang attribute on <html>",
+      "fix": "Add lang=\"en\" (or the correct language) — it helps both search and screen readers.",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Missing core pages: About page",
+      "fix": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source.",
+      "evidence": {
+        "about": 0,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 200,
+        "faq": 200
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 of 35 sampled internal links failed",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No FAQPage schema",
+      "fix": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No QAPage/Question schema (optional)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No question headings (0 questions)",
+      "fix": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from.",
+      "evidence": []
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No question/answer pairs detected on the page",
+      "fix": "Add a FAQ section: question as the heading, 40-60 word answer immediately below.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No Q&A pairs to assess",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "26 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "Only 1 sentence(s) with terminal punctuation were found, so readability cannot be judged reliably (common on list-heavy product and category pages)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "First paragraph is 11 words",
+      "fix": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand.",
+      "evidence": "Address: Shop # 1-B Hashmi Shopping Center، Preedy Street Saddar Karachi"
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "Breadcrumbs declared — improves SERP display",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "No AI crawler is blocked. Allowed: gptbot, chatgpt-user, oai-searchbot, claudebot, anthropic-ai, claude-web, perplexitybot, perplexity-user",
+      "fix": "",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No outbound links to authoritative sources",
+      "fix": "Add citations: link claims to primary sources. Pages with visible sourcing are dramatically more likely to be quoted by ChatGPT, Perplexity and Google AI Overviews.",
+      "evidence": null
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Good density of numbers (3.3 stats/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No author byline found",
+      "fix": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Person schema",
+      "fix": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity.",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Found: organization, website with sameAs",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (78.3 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "published=? modified=2025-11-08T07:33:30+00:00",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.freshness",
+      "category": "geo",
+      "title": "Content freshness",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Updated within a year (341 days since update)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Article / Product / Service schema",
+      "fix": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question.",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 table(s), 26 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No question-and-answer structure",
+      "fix": "Add an FAQ block. It is what Perplexity and AI Overviews quote most often.",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No /llms.txt (optional; the convention is still emerging, low cost to add: a markdown index of your key pages)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Trust pages found: 6/8",
+      "fix": "",
+      "evidence": {
+        "about": 0,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 200,
+        "faq": 200
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Using: <article>, <nav>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "Not enough punctuated prose to measure (list/table-heavy page)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://hashmiphotos.com/",
+    "final_url": "https://hashmiphotos.com/",
+    "title": "Hashmi Photos - Best Online Camera Store in Pakistan",
+    "title_length": 52,
+    "meta_description": "Hashmi Photos is Best Online Film & Photo Camera Store in Pakistan.The Name of Quality and Best Customer Service Support.",
+    "meta_description_length": 121,
+    "meta_robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://hashmiphotos.com/",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "lang": "",
+    "h1": [
+      "Best Online Camera Store In Pakistan"
+    ],
+    "h2": [],
+    "h3": [
+      "FeelWorld T7 Plus 7′′ IPS On-Camera Monitor with 3D LUT, Waveform & Vectorscope",
+      "BOYA Notra AI Voice Recorder",
+      "FUJIFILM X-S20 Mirrorless Camera",
+      "OSEE GoStream Duet SDI/HDMI/NDI Live Streaming Video Switcher/Recorder Kit",
+      "FUJIFILM XC 50-230mm f/4.5-6.7 OIS II Lens",
+      "DJI Osmo 360 II Action Camera",
+      "Aputure STORM 80c 80W LED Light with Mini ProLock Bowens Mount",
+      "Insta360 X6 360° 8K Camera Essentials Bundle",
+      "Top 10 Reasons to Buy the Sony FX30 Cinema Camera in 2025",
+      "Top 10 Reasons to Buy the Sony FX3 Cinema Camera in 2025",
+      "Sigma Launches Three New Canon RF Lenses for APS-C Cameras: Perfect for Canon R100, R50, and R10",
+      "Top 10 Reasons to Buy the Sony ZV-E10 with 16-50mm Lens in 2025"
+    ],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 0,
+      "h3": 12,
+      "h4": 15,
+      "h5": 20,
+      "h6": 2
+    },
+    "words": 940,
+    "first_paragraph": "Address: Shop # 1-B Hashmi Shopping Center، Preedy Street Saddar Karachi",
+    "links_total": 236,
+    "links_internal": 225,
+    "links_external": 11,
+    "links_authority": 0,
+    "images_total": 44,
+    "images_missing_alt": 9,
+    "schema_types": [
+      "BreadcrumbList",
+      "EntryPoint",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "PropertyValueSpecification",
+      "ReadAction",
+      "SearchAction",
+      "WebPage",
+      "WebSite"
+    ],
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "website",
+      "og:title": "Hashmi Photos - Best Online Camera Store in Pakistan",
+      "og:description": "Hashmi Photos is Best Online Film & Photo Camera Store in Pakistan.The Name of Quality and Best Customer Service Support.",
+      "og:url": "https://hashmiphotos.com/",
+      "og:site_name": "Hashmi Photos",
+      "og:image": "https://hashmiphotos.com/wp-content/themes/rehub-theme/images/default/blank.gif"
+    },
+    "twitter": {},
+    "tables": 0,
+    "lists": 26,
+    "blockquotes": 0,
+    "hreflang": [],
+    "dates": {
+      "modified": "2025-11-08T07:33:30+00:00"
+    },
+    "author": "",
+    "qa_blocks": [],
+    "statistic_density": 3.3,
+    "entity_density": 78.3,
+    "avg_sentence_words": 940.0,
+    "text_html_ratio": 2.5,
+    "head_scripts": 19,
+    "head_stylesheets": 21,
+    "inline_script_bytes": 26694,
+    "inline_style_bytes": 39509,
+    "semantic_tags": {
+      "article": true,
+      "main": false,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "accessories",
+        32
+      ],
+      [
+        "lenses",
+        27
+      ],
+      [
+        "audio",
+        24
+      ],
+      [
+        "camera",
+        23
+      ],
+      [
+        "cameras",
+        19
+      ],
+      [
+        "mount",
+        18
+      ],
+      [
+        "mount lenses",
+        15
+      ],
+      [
+        "microphones",
+        14
+      ],
+      [
+        "microphone",
+        12
+      ],
+      [
+        "studio",
+        12
+      ],
+      [
+        "zoom",
+        12
+      ],
+      [
+        "interfaces",
+        11
+      ],
+      [
+        "sony",
+        11
+      ],
+      [
+        "lighting",
+        10
+      ],
+      [
+        "video",
+        10
+      ]
+    ],
+    "html_bytes": 264828,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://hashmiphotos.com/",
+    "host": "hashmiphotos.com",
+    "root_domain": "hashmiphotos.com",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://hashmiphotos.com/",
+    "www_variant": "www.hashmiphotos.com",
+    "www_redirect": "https://www.hashmiphotos.com/ -> https://hashmiphotos.com (good)",
+    "apex_and_www_both_200": false,
+    "server": "cloudflare",
+    "powered_by": "",
+    "security_headers": {},
+    "missing_security_headers": [
+      "strict-transport-security",
+      "x-content-type-options",
+      "x-frame-options",
+      "content-security-policy",
+      "referrer-policy",
+      "permissions-policy"
+    ],
+    "response_time": 0.486,
+    "home_size": 42185,
+    "content_encoding": "gzip",
+    "cache_control": "max-age=3600, must-revalidate",
+    "cdn_hint": "Cloudflare",
+    "robots": {
+      "url": "https://hashmiphotos.com/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "https://hashmiphotos.com/sitemap.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [
+            "/wp-admin/",
+            "/?s=*",
+            "/*?filter*",
+            "/admin",
+            "/cart",
+            "/orders",
+            "/checkout",
+            "/account",
+            "/my-account",
+            "/my-account/lost-password",
+            "/my-account/orders",
+            "/my-account/downloads",
+            "/my-account/edit-address",
+            "/my-account/edit-account",
+            "/?filter",
+            "?query_type_brands=or&filter_brands="
+          ],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://hashmiphotos.com/sitemap.xml",
+      "status": 200,
+      "is_index": true,
+      "url_count": 2976,
+      "child_count": 9,
+      "has_lastmod": true,
+      "sample": [
+        "https://hashmiphotos.com/blog/",
+        "https://hashmiphotos.com/blackmagic-pocket-cinema-camera-4k-review/",
+        "https://hashmiphotos.com/panasonic-lumix-s-series/",
+        "https://hashmiphotos.com/blackmagic-ursa-mini-4-6k/",
+        "https://hashmiphotos.com/the-sony-a7sii-and-a7iii/",
+        "https://hashmiphotos.com/dji-osmo-pocket-overview/",
+        "https://hashmiphotos.com/gopro-hero-7-overview/",
+        "https://hashmiphotos.com/fujifilm-xt3-overview/",
+        "https://hashmiphotos.com/sony-a6300-overview/",
+        "https://hashmiphotos.com/fujifilm-xt3-vs-canon-6d-mark-ii-comparison/",
+        "https://hashmiphotos.com/fujifilm-x-t100-vs-canon-m50-comparison/",
+        "https://hashmiphotos.com/fujifilm-x-h1-overview/",
+        "https://hashmiphotos.com/fujifilm-x-pro2-overview/",
+        "https://hashmiphotos.com/sony-vario-tessar-t-fe-24-70mm-f-4-overview/",
+        "https://hashmiphotos.com/sony-fe-28-70mm-f-3-5-5-6-oss-overview/",
+        "https://hashmiphotos.com/sony-fe-24-105mm-f-4-g-oss-lens/",
+        "https://hashmiphotos.com/sony-12-24mm-fe-f-4-g-lens-overview/",
+        "https://hashmiphotos.com/blackmagic-design-ursa-mini-pro-4-6k-g2-overview/",
+        "https://hashmiphotos.com/blackmagic-design-raw-update/",
+        "https://hashmiphotos.com/dji-osmo-action-overview/",
+        "https://hashmiphotos.com/rotolight-neo-2-3-light-kit/",
+        "https://hashmiphotos.com/the-beginners-guide-to-the-ultimate-vlogging-kit/",
+        "https://hashmiphotos.com/sennheiser-memory-mic-overview/",
+        "https://hashmiphotos.com/get-flat-25-off-on-orders-of-22-above-on-paying-with-sbi-credit/",
+        "https://hashmiphotos.com/win-100-cashback-every-hour-on-delhi-metro-card-recharge/"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 404,
+      "exists": false,
+      "size": 0,
+      "preview": ""
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 35,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 0,
+    "contact": 200,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 200,
+    "shipping": 0,
+    "returns": 200,
+    "faq": 200
+  },
+  "competitors": [
+    {
+      "domain": "khawajaphotos.pk",
+      "url": "https://khawajaphotos.pk/",
+      "title": "",
+      "appearances": 0,
+      "best_position": 999,
+      "keywords": [],
+      "source": "manual",
+      "is_self": false,
+      "notes": ""
+    },
+    {
+      "domain": "digimax.pk",
+      "url": "https://digimax.pk/",
+      "title": "",
+      "appearances": 0,
+      "best_position": 999,
+      "keywords": [],
+      "source": "manual",
+      "is_self": false,
+      "notes": ""
+    }
+  ],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {
+    "best camera store pakistan": [
+      "best camera shop in pakistan",
+      "best camera store pakistan online shopping",
+      "best camera store pakistan online store"
+    ],
+    "hashmi photos": [
+      "hashmi photos",
+      "hashmi photos karachi",
+      "hashmi photos lahore",
+      "hashmi photos reviews",
+      "hashmi photos dinga",
+      "hashmi photos location",
+      "hashmi photos website",
+      "hashmi photos contact number",
+      "dubai photography spots",
+      "hashmi photoshop",
+      "hashmi photos online shopping",
+      "hashmi photos online free"
+    ],
+    "boya notra voice recorder": [
+      "boya notra voice recorder",
+      "boya note ai voice recorder",
+      "boya notre ai voice recorder review",
+      "boya notra ai voice recorder with 64gb & smart transcription",
+      "boya notra silver ai voice recorder",
+      "boya notra all around recording ai voice recorder",
+      "boya notra black ai voice recorder",
+      "voice recorder name",
+      "voice recorder not recording",
+      "recorder note names"
+    ],
+    "fujifilm 230mm ois lens": [
+      "fujifilm xc 50 230mm ois ii lens",
+      "what is ois on fuji lens",
+      "fujifilm lens size comparison",
+      "fujifilm lens comparison",
+      "fujifilm sharpest lens",
+      "fujifilm 230mm ois lens price in pakistan",
+      "fujifilm 230mm ois lenses"
+    ],
+    "fujifilm s20 mirrorless camera": [
+      "fujifilm x s20 mirrorless camera",
+      "fujifilm x s20 mirrorless camera with xc15 45mm lens",
+      "fujifilm x s20 mirrorless camera lens",
+      "fujifilm x s20 mirrorless camera with 15 45mm lens",
+      "fujifilm x s20 mirrorless camera details",
+      "fujifilm x s20 mirrorless camera body",
+      "fujifilm x s20 mirrorless camera review",
+      "fujifilm x s20 mirrorless camera used",
+      "fujifilm x s20 mirrorless camera black",
+      "fujifilm x s20 mirrorless camera with xc15 45mm lens bundle",
+      "fujifilm x s20 mirrorless camera price",
+      "fujifilm mirrorless camera comparison",
+      "fujifilm mirrorless camera price",
+      "fujifilm mirrorless camera price in india",
+      "fujifilm s20 mirrorless camera price in pakistan",
+      "fujifilm x s20 mirrorless camera price karachi",
+      "fujifilm x s20 mirrorless camera price gulshan",
+      "fujifilm x s20 mirrorless camera price korangi",
+      "fujifilm x s20 mirrorless camera price north nazimabad",
+      "fujifilm x s20 mirrorless camera price sindh",
+      "fujifilm s20 mirrorless camera online free",
+      "fujifilm s20 mirrorless camera online video",
+      "fujifilm s20 mirrorless camera online photo"
+    ],
+    "dji osmo 360 action camera": [
+      "dji osmo 360 action camera",
+      "dji osmo 360 action camera standard combo",
+      "dji osmo 360 action camera adventure combo",
+      "dji osmo 360 action camera combo",
+      "dji osmo 360 action camera review",
+      "dji osmo 360 action camera vs insta360 x5",
+      "dji osmo 360 action camera combo details",
+      "dji osmo 360 action camera 8k",
+      "dji osmo 360 action camera accessories",
+      "dji osmo 360 action camera deals",
+      "dji osmo 360 action camera price",
+      "dji osmo 360 action camera price in india",
+      "action camera dji osmo 360 price philippines",
+      "dji osmo action camera near me"
+    ]
+  },
+  "competitor_snapshots": [
+    {
+      "url": "https://hashmiphotos.com/",
+      "domain": "hashmiphotos.com",
+      "ok": true,
+      "status": 200,
+      "error": "",
+      "title": "Hashmi Photos - Best Online Camera Store in Pakistan",
+      "meta_description": "Hashmi Photos is Best Online Film & Photo Camera Store in Pakistan.The Name of Quality and Best Customer Service Support.",
+      "h1": "Best Online Camera Store In Pakistan",
+      "words": 940,
+      "h2_count": 0,
+      "question_headings": 0,
+      "schema_types": [
+        "BreadcrumbList",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "PropertyValueSpecification",
+        "ReadAction",
+        "SearchAction",
+        "WebPage",
+        "WebSite"
+      ],
+      "has_faq_schema": false,
+      "has_howto_schema": false,
+      "has_org_schema": true,
+      "has_article_schema": false,
+      "has_product_schema": false,
+      "has_breadcrumb": false,
+      "tables": 0,
+      "lists": 26,
+      "qa_blocks": 0,
+      "qa_40_60": 0,
+      "citations": 0,
+      "images": 44,
+      "images_missing_alt": 9,
+      "author": "",
+      "dates": {
+        "modified": "2025-11-08T07:33:30+00:00"
+      },
+      "statistic_density": 3.3,
+      "avg_sentence_words": 940.0,
+      "page_type": "(target)",
+      "title_length": 0,
+      "has_price": false,
+      "internal_links": 225,
+      "response_time": 0.0
+    },
+    {
+      "url": "https://khawajaphotos.pk/",
+      "domain": "khawajaphotos.pk",
+      "ok": true,
+      "status": 200,
+      "error": "",
+      "title": "Best Online Camera Store in Pakistan - Khawaja Photos",
+      "meta_description": "Khawaja Photos – Pakistan’s leading online camera store. Shop top-brand cameras and accessories at the best prices. Quality guaranteed, nationwide delivery!",
+      "h1": "",
+      "words": 1866,
+      "h2_count": 0,
+      "question_headings": 1,
+      "schema_types": [
+        "BreadcrumbList",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "PropertyValueSpecification",
+        "ReadAction",
+        "SearchAction",
+        "WebPage",
+        "WebSite"
+      ],
+      "has_faq_schema": false,
+      "has_howto_schema": false,
+      "has_org_schema": true,
+      "has_article_schema": false,
+      "has_product_schema": false,
+      "has_breadcrumb": true,
+      "tables": 0,
+      "lists": 53,
+      "qa_blocks": 1,
+      "qa_40_60": 0,
+      "citations": 1,
+      "images": 156,
+      "images_missing_alt": 132,
+      "author": "",
+      "dates": {
+        "modified": "2025-06-25T12:11:23+00:00"
+      },
+      "statistic_density": 3.22,
+      "avg_sentence_words": 15.62,
+      "page_type": "category",
+      "title_length": 53,
+      "has_price": false,
+      "internal_links": 536,
+      "response_time": 0.77
+    },
+    {
+      "url": "https://digimax.pk/",
+      "domain": "digimax.pk",
+      "ok": true,
+      "status": 200,
+      "error": "",
+      "title": "digimax.pk",
+      "meta_description": "",
+      "h1": "",
+      "words": 0,
+      "h2_count": 0,
+      "question_headings": 0,
+      "schema_types": [],
+      "has_faq_schema": false,
+      "has_howto_schema": false,
+      "has_org_schema": false,
+      "has_article_schema": false,
+      "has_product_schema": false,
+      "has_breadcrumb": false,
+      "tables": 0,
+      "lists": 0,
+      "qa_blocks": 0,
+      "qa_40_60": 0,
+      "citations": 0,
+      "images": 0,
+      "images_missing_alt": 0,
+      "author": "",
+      "dates": {},
+      "statistic_density": 0.0,
+      "avg_sentence_words": 0.0,
+      "page_type": "category",
+      "title_length": 10,
+      "has_price": false,
+      "internal_links": 0,
+      "response_time": 0.92
+    }
+  ],
+  "backlinks": {
+    "domain": "hashmiphotos.com",
+    "provider": "none",
+    "authority_score": null,
+    "authority_scale": "",
+    "referring_domains": null,
+    "backlinks": null,
+    "dofollow_backlinks": null,
+    "traffic": null,
+    "keywords": null,
+    "common_crawl_pages": 1,
+    "analysis": {
+      "records": 30,
+      "referring_domains": 30,
+      "links_per_domain": 1.0,
+      "dofollow": 20,
+      "nofollow": 10,
+      "nofollow_ratio": 33.3,
+      "avg_dr": 68.4,
+      "median_dr": 84.0,
+      "top_domains": [
+        {
+          "domain": "youtube.com",
+          "links": 1,
+          "dr": 100.0,
+          "sample": "https://www.youtube.com/watch?v=xyz"
+        },
+        {
+          "domain": "facebook.com",
+          "links": 1,
+          "dr": 100.0,
+          "sample": "https://www.facebook.com/cameragroups/posts/1"
+        },
+        {
+          "domain": "instagram.com",
+          "links": 1,
+          "dr": 100.0,
+          "sample": "https://www.instagram.com/p/abc"
+        },
+        {
+          "domain": "linkedin.com",
+          "links": 1,
+          "dr": 100.0,
+          "sample": "https://www.linkedin.com/company/hashmi-photos"
+        },
+        {
+          "domain": "medium.com",
+          "links": 1,
+          "dr": 95.0,
+          "sample": "https://medium.com/@somephotographer/buying-guide"
+        },
+        {
+          "domain": "forbes.com",
+          "links": 1,
+          "dr": 94.0,
+          "sample": "https://forbes.com/sites/contributor/cameras"
+        },
+        {
+          "domain": "tripadvisor.com",
+          "links": 1,
+          "dr": 93.0,
+          "sample": "https://www.tripadvisor.com/Attraction_Review-abc"
+        },
+        {
+          "domain": "cnet.com",
+          "links": 1,
+          "dr": 92.0,
+          "sample": "https://www.cnet.com/tech/cameras/best"
+        },
+        {
+          "domain": "reddit.com",
+          "links": 1,
+          "dr": 91.0,
+          "sample": "https://www.reddit.com/r/pakistan/comments/abc/camera_stores/"
+        },
+        {
+          "domain": "stackexchange.com",
+          "links": 1,
+          "dr": 90.0,
+          "sample": "https://stackexchange.com/questions/99/camera"
+        },
+        {
+          "domain": "dpreview.com",
+          "links": 1,
+          "dr": 89.0,
+          "sample": "https://www.dpreview.com/forums/thread/12345"
+        },
+        {
+          "domain": "dawn.com",
+          "links": 1,
+          "dr": 88.0,
+          "sample": "https://www.dawn.com/news/1234/camera-market-karachi"
+        },
+        {
+          "domain": "bhphotovideo.com",
+          "links": 1,
+          "dr": 87.0,
+          "sample": "https://www.bhphotovideo.com/partners"
+        },
+        {
+          "domain": "photographylife.com",
+          "links": 1,
+          "dr": 86.0,
+          "sample": "https://photographylife.com/where-to-buy-cameras"
+        },
+        {
+          "domain": "tribune.com.pk",
+          "links": 1,
+          "dr": 84.0,
+          "sample": "https://tribune.com.pk/story/camera-prices"
+        },
+        {
+          "domain": "adorama.com",
+          "links": 1,
+          "dr": 84.0,
+          "sample": "https://www.adorama.com/about"
+        },
+        {
+          "domain": "gsmarena.com",
+          "links": 1,
+          "dr": 81.0,
+          "sample": "https://www.gsmarena.com/accessories"
+        },
+        {
+          "domain": "olx.com.pk",
+          "links": 1,
+          "dr": 79.0,
+          "sample": "https://www.olx.com.pk/seller/hashmi"
+        },
+        {
+          "domain": "propakistani.pk",
+          "links": 1,
+          "dr": 72.0,
+          "sample": "https://propakistani.pk/2024/11/camera-deals"
+        },
+        {
+          "domain": "pakwheels.com",
+          "links": 1,
+          "dr": 69.0,
+          "sample": "https://www.pakwheels.com/forums/cameras"
+        },
+        {
+          "domain": "blogspot.com",
+          "links": 1,
+          "dr": 64.0,
+          "sample": "https://blogspot.com/random-post"
+        },
+        {
+          "domain": "techjuice.pk",
+          "links": 1,
+          "dr": 58.0,
+          "sample": "https://techjuice.pk/camera-guide-2025"
+        },
+        {
+          "domain": "photoblog.pk",
+          "links": 1,
+          "dr": 42.0,
+          "sample": "https://photoblog.pk/best-camera-shops-in-pakistan/"
+        },
+        {
+          "domain": "photoexprt.com",
+          "links": 1,
+          "dr": 37.0,
+          "sample": "https://photoexprt.com/blog/dslr-price-pakistan"
+        },
+        {
+          "domain": "camerawarehouse.pk",
+          "links": 1,
+          "dr": 31.0,
+          "sample": "https://camerawarehouse.pk/partners"
+        }
+      ],
+      "top_anchors": [
+        {
+          "anchor": "Hashmi Photos",
+          "count": 21
+        },
+        {
+          "anchor": "hashmiphotos",
+          "count": 3
+        },
+        {
+          "anchor": "Hashmi Photos Karachi",
+          "count": 1
+        },
+        {
+          "anchor": "best camera shop in Pakistan",
+          "count": 1
+        },
+        {
+          "anchor": "hashmiphotos.com",
+          "count": 1
+        },
+        {
+          "anchor": "best camera deals",
+          "count": 1
+        },
+        {
+          "anchor": "click here",
+          "count": 1
+        },
+        {
+          "anchor": "cheap cameras",
+          "count": 1
+        }
+      ],
+      "tld_distribution": {
+        "com": 21,
+        "pk": 6,
+        "xyz": 1,
+        "top": 1,
+        "gq": 1
+      },
+      "risky_links": [
+        {
+          "source": "https://cheapdeals4u.xyz/camera-offers",
+          "tld": "xyz",
+          "anchor": "best camera deals"
+        },
+        {
+          "source": "https://top10loans.top/buy-now",
+          "tld": "top",
+          "anchor": "click here"
+        },
+        {
+          "source": "https://freestuff.gq/cameras",
+          "tld": "gq",
+          "anchor": "cheap cameras"
+        }
+      ],
+      "risky_link_count": 3,
+      "top_anchor": "Hashmi Photos",
+      "top_anchor_share": 70.0,
+      "branded_anchor_share": 13.3,
+      "commercial_anchor_share": 10.0,
+      "anchor_warning": "Top anchor 'Hashmi Photos' is 70.0% of all anchors and it is not branded — an over-optimised anchor distribution is a link-spam signal. Diversify with branded, URL and natural-phrase anchors.",
+      "target_brand_in_anchor": "hashmiphotos"
+    },
+    "record_count": 30,
+    "notes": [
+      "No paid backlink API key found. Referring-domain counts need Semrush, Ahrefs, Moz or a manual export. Use --backlinks-csv with a CSV exported from any backlink tool, or the free Google Search Console Links report for your own site.",
+      "Common Crawl (CC-MAIN-2026-39): 1 page record(s) for this domain. Common Crawl feeds many AI training and retrieval pipelines, so this is a rough proxy for open-web/AI visibility — NOT a backlink count.",
+      "Analysed 30 backlink rows from the supplied CSV."
+    ],
+    "errors": [],
+    "available": false
+  },
+  "rank_factors": [
+    {
+      "title": "Content depth",
+      "verdict": "they-win",
+      "evidence": "Ranking pages average 1866 words; this page has 940. Largest: 1866 words.",
+      "action": "Expand this page to roughly 2,052 words of genuinely useful detail — specification tables, buying guidance, comparisons — not filler.",
+      "category": "seo",
+      "weight": 2.0
+    },
+    {
+      "title": "Citations and sourcing",
+      "verdict": "they-win",
+      "evidence": "Ranking pages link to 1.0 authoritative source(s) on average; this page links to 0.",
+      "action": "Cite manufacturer specs, industry data or government sources. Pages that cite are the ones AI engines quote.",
+      "category": "geo",
+      "weight": 2.5
+    },
+    {
+      "title": "Winning page format",
+      "verdict": "mixed",
+      "evidence": "1 of 1 ranking competitor pages are 'category' pages (category:1).",
+      "action": "If Google is rewarding 'category' pages for your keywords, build that format deliberately. Match the format first, then beat the content.",
+      "category": "seo",
+      "weight": 1.5
+    },
+    {
+      "title": "Off-site authority",
+      "verdict": "unknown",
+      "evidence": "Referring-domain counts need a backlink provider. On-page signals alone cannot explain why a competitor outranks you.",
+      "action": "Add a Semrush or Ahrefs API key, or export a backlink CSV and pass it with --backlinks-csv. Then compare referring-domain counts and top linking domains.",
+      "category": "offpage",
+      "weight": 3.0
+    }
+  ],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.author_byline",
+        "category": "geo",
+        "title": "Named author",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No author byline found",
+        "action": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh."
+      },
+      {
+        "id": "geo.author_schema",
+        "category": "geo",
+        "title": "Person schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Person schema",
+        "action": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity."
+      },
+      {
+        "id": "geo.content_schema",
+        "category": "geo",
+        "title": "Content type schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Article / Product / Service schema",
+        "action": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question."
+      },
+      {
+        "id": "geo.faq_for_summarisation",
+        "category": "geo",
+        "title": "Q&A pairs for summarisation",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No question-and-answer structure",
+        "action": "Add an FAQ block. It is what Perplexity and AI Overviews quote most often."
+      },
+      {
+        "id": "seo.keyword_alignment",
+        "category": "seo",
+        "title": "Keyword alignment",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "'camera' only appears in: title, H1",
+        "action": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "Missing core pages: About page",
+        "action": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source."
+      },
+      {
+        "id": "seo.subheadings",
+        "category": "content",
+        "title": "Subheadings (H2)",
+        "status": "fail",
+        "weight": 1.5,
+        "problem": "Almost no structure (0 H2s)",
+        "action": "Break the page into H2 sections. Long unbroken text is hard to scan and hard for AI to quote."
+      },
+      {
+        "id": "seo.render_blocking",
+        "category": "technical",
+        "title": "Render-blocking head resources",
+        "status": "fail",
+        "weight": 1.0,
+        "problem": "Too many (40 files)",
+        "action": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "fail",
+        "weight": 0.5,
+        "problem": "Very low (code-heavy page) (2.5%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "aeo.faq_schema",
+        "category": "aeo",
+        "title": "FAQPage schema",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No FAQPage schema",
+        "action": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change."
+      },
+      {
+        "id": "geo.citations",
+        "category": "geo",
+        "title": "Cites authoritative sources",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No outbound links to authoritative sources",
+        "action": "Add citations: link claims to primary sources. Pages with visible sourcing are dramatically more likely to be quoted by ChatGPT, Perplexity and Google AI Overviews."
+      },
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No question/answer pairs detected on the page",
+        "action": "Add a FAQ section: question as the heading, 40-60 word answer immediately below."
+      },
+      {
+        "id": "aeo.question_headings",
+        "category": "aeo",
+        "title": "Question-form headings",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No question headings (0 questions)",
+        "action": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.answer_first",
+        "category": "aeo",
+        "title": "Answer-first intro",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "First paragraph is 11 words",
+        "action": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "seo.heading_hierarchy",
+        "category": "seo",
+        "title": "Heading hierarchy",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "3 level jump(s), e.g. H1 -> H5",
+        "action": "Do not skip heading levels. Outline the page H1 > H2 > H3 so search engines and AI can parse the structure."
+      },
+      {
+        "id": "seo.image_alt",
+        "category": "seo",
+        "title": "Image alt text",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Some images missing alt (20.5% missing)",
+        "action": "Write descriptive alt text for every image — it feeds image search, accessibility and AI understanding."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      },
+      {
+        "id": "seo.lang",
+        "category": "technical",
+        "title": "Language declared",
+        "status": "warn",
+        "weight": 0.5,
+        "problem": "No lang attribute on <html>",
+        "action": "Add lang=\"en\" (or the correct language) — it helps both search and screen readers."
+      }
+    ]
+  },
+  "keys_used": {
+    "semrush": false,
+    "ahrefs": false,
+    "openpagerank": false,
+    "serpapi": false,
+    "valueserp": false,
+    "serpstack": false
+  },
+  "notes": [],
+  "errors": []
+}

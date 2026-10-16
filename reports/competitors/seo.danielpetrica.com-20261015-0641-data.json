@@ -1,0 +1,1365 @@
+{
+  "target": "https://seo.danielpetrica.com/",
+  "generated_at": "2026-10-15 13:41 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 87.5,
+      "grade": "B"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 61.5,
+      "grade": "D"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 81.5,
+      "grade": "B"
+    },
+    "overall": {
+      "score": 76.8,
+      "grade": "C"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from seo.danielpetrica.com",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://seo.danielpetrica.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Only one host variant responded, so this is fine",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Fast (0.14s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (11.7 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Few (3 files)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "cache-control: max-age=7200, public, stale-while-revalidate=21600",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "1050 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 1 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://seo.danielpetrica.com/sitemap.xml — 111 URLs",
+      "fix": "",
+      "evidence": [
+        "https://seo.danielpetrica.com/",
+        "https://seo.danielpetrica.com/pricing",
+        "https://seo.danielpetrica.com/audit",
+        "https://seo.danielpetrica.com/features",
+        "https://seo.danielpetrica.com/demo/report",
+        "https://seo.danielpetrica.com/about",
+        "https://seo.danielpetrica.com/learn",
+        "https://seo.danielpetrica.com/learn/seo-audit",
+        "https://seo.danielpetrica.com/learn/seo-audit-checklist",
+        "https://seo.danielpetrica.com/learn/on-page-seo"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'index, follow'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://seo.danielpetrica.com (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good length (54 chars)",
+      "fix": "",
+      "evidence": "SEO by Daniel - Automated SEO Auditing for Freelancers"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good length (152 chars)",
+      "fix": "",
+      "evidence": "Add a domain, we auto-discover pages via your sitemap, run 20+ on-page checks, and give you a client-ready scored report. No setup. No manual URL entry."
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: SEO audits that run themselves",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "No skipped heading levels",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Well structured (9 H2s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Substantial (1050 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'seo audits' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "'seo audits' only appears in: H1",
+      "fix": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words.",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (37 links)",
+      "fix": "",
+      "evidence": [
+        "https://seo.danielpetrica.com/register",
+        "https://seo.danielpetrica.com/demo/report",
+        "https://seo.danielpetrica.com/audit",
+        "https://seo.danielpetrica.com/learn/seo-audit",
+        "https://seo.danielpetrica.com/learn/on-page-seo",
+        "https://seo.danielpetrica.com/learn/seo-audit-checklist",
+        "https://seo.danielpetrica.com/learn",
+        "https://seo.danielpetrica.com/demo/report",
+        "https://seo.danielpetrica.com/register",
+        "https://seo.danielpetrica.com/register"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "24 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "1 external links, 0 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good alt coverage (0.0% missing)",
+      "fix": "",
+      "evidence": {
+        "total": 1,
+        "missing": 0
+      }
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "6 type(s): AggregateOffer, ImageObject, Organization, Person, WebApplication, WebSite",
+      "fix": "",
+      "evidence": [
+        "AggregateOffer",
+        "ImageObject",
+        "Organization",
+        "Person",
+        "WebApplication",
+        "WebSite"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://seo.danielpetrica.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "warn",
+      "weight": 0.5,
+      "detail": "Low (9.6%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width, initial-scale=1",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "html lang=\"en\"",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Missing core pages: Contact page",
+      "fix": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source.",
+      "evidence": {
+        "about": 200,
+        "contact": 0,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 0,
+        "shipping": 0,
+        "returns": 200,
+        "faq": 0
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No FAQPage schema",
+      "fix": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No QAPage/Question schema (optional)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Strong question coverage (8 questions)",
+      "fix": "",
+      "evidence": [
+        "How it works",
+        "Not sure where to start with SEO?",
+        "How the 0-100 score is calculated",
+        "Is the free scan really free?",
+        "Do I have to add pages one by one?",
+        "How is this different from Google Search Console?",
+        "What is in the client report?",
+        "Can I try it before paying?"
+      ]
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "Answers are the wrong length (12.5% of answers)",
+      "fix": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot.",
+      "evidence": [
+        {
+          "question": "How it works",
+          "level": 2,
+          "answer_words": 9,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Three steps to never manually audit a site again."
+        },
+        {
+          "question": "Not sure where to start with SEO?",
+          "level": 2,
+          "answer_words": 30,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "We wrote guides on SEO audits, on-page optimization, and a 25-point checklist based on Google Search Central documentation. No hype, no secrets, no over-promises. Just what actuall"
+        },
+        {
+          "question": "How the 0-100 score is calculated",
+          "level": 2,
+          "answer_words": 28,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Every page starts at 100 and loses points for issues we can see. The deductions are fixed, so two pages with the same problems get the same score."
+        },
+        {
+          "question": "Is the free scan really free?",
+          "level": 3,
+          "answer_words": 28,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Yes. One page, scored 0-100 in about two seconds, with no account and no card. Full-site discovery, scheduled scans, executive summaries and report history come with a plan."
+        },
+        {
+          "question": "Do I have to add pages one by one?",
+          "level": 3,
+          "answer_words": 26,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "No. Add a domain and we read robots.txt for sitemaps, follow nested sitemap indexes and unpack gzipped files. Every URL we find is queued and scored."
+        },
+        {
+          "question": "How is this different from Google Search Console?",
+          "level": 3,
+          "answer_words": 47,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Search Console shows what Google indexed and how it performs. It will not tell you a title tag is 63 characters, a heading order is broken, or an image has no alt text. This tool c"
+        },
+        {
+          "question": "What is in the client report?",
+          "level": 3,
+          "answer_words": 31,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "A 0-100 score per page, issues grouped by severity, and CSV export. Pro and Agency add executive summaries and score trend charts. The report is written to be forwarded, not interp"
+        },
+        {
+          "question": "Can I try it before paying?",
+          "level": 3,
+          "answer_words": 26,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Yes. Every plan starts with a 3-day trial and no credit card. Monthly plans are €19, €49 and €99. Yearly billing is €190, €390 and €790."
+        }
+      ]
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No answer opens with a definition",
+      "fix": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "3 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easy to quote (80 sentences analysed) (11.1 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "First paragraph is 28 words — good for an intro snippet",
+      "fix": "",
+      "evidence": "Add a domain, we auto-discover pages via your sitemap, run 20+ on-page and domain-level checks, and give you a client-ready scored report. No setup. No manual URL entry."
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No BreadcrumbList schema",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "1050 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "No AI crawler is blocked. Allowed: gptbot, chatgpt-user, oai-searchbot, claudebot, anthropic-ai, claude-web, perplexitybot, perplexity-user",
+      "fix": "",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "warn",
+      "weight": 3.0,
+      "detail": "Only 1 authority citation(s): developers.google.com",
+      "fix": "Link to 3+ credible sources (industry data, government, research, manufacturer specs). AI engines preferentially cite content that itself cites sources.",
+      "evidence": [
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      ]
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Good density of numbers (6.29 stats/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No author byline found",
+      "fix": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Person JSON-LD found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Found: organization, website with sameAs",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (14.67 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No datePublished / dateModified found",
+      "fix": "Add visible and machine-readable publish and last-updated dates.",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Article / Product / Service schema",
+      "fix": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question.",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 table(s), 3 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "8 question/answer pair(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found (629 bytes) — an emerging convention for telling AI crawlers what matters",
+      "fix": "",
+      "evidence": "# SEO by Daniel\n\n> Automated SEO auditing for freelancers and agencies. Add a domain, auto-discover pages from sitemaps, and get a 0-100 scored report with prioritized fixes.\n\nSEO by Daniel is a Laravel-based SEO auditing tool. Drop in a domain and it discovers pages via robots.txt and sitemaps, run"
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Only 4/8 trust pages found (missing: contact, blog, shipping, faq)",
+      "fix": "Publish About, Contact, Privacy, Terms, Shipping and Returns pages. AI engines check whether a store is a real, accountable business before recommending it.",
+      "evidence": {
+        "about": 200,
+        "contact": 0,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 0,
+        "shipping": 0,
+        "returns": 200,
+        "faq": 0
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "Only found: nav",
+      "fix": "Wrap content in <main> and <article> and use <nav>. Landmarks help extraction pipelines isolate the real content from the chrome.",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easily quotable (11.1 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://seo.danielpetrica.com/",
+    "final_url": "https://seo.danielpetrica.com/",
+    "title": "SEO by Daniel - Automated SEO Auditing for Freelancers",
+    "title_length": 54,
+    "meta_description": "Add a domain, we auto-discover pages via your sitemap, run 20+ on-page checks, and give you a client-ready scored report. No setup. No manual URL entry.",
+    "meta_description_length": 152,
+    "meta_robots": "index, follow",
+    "canonical": "https://seo.danielpetrica.com",
+    "viewport": "width=device-width, initial-scale=1",
+    "lang": "en",
+    "h1": [
+      "SEO audits that run themselves"
+    ],
+    "h2": [
+      "How it works",
+      "Everything you need to audit on-page SEO",
+      "Not sure where to start with SEO?",
+      "See the report your clients will read",
+      "How the 0-100 score is calculated",
+      "Simple pricing, no surprises",
+      "Frequently asked questions",
+      "Start improving your SEO today",
+      "Built by Daniel Petrica"
+    ],
+    "h3": [
+      "Add a domain",
+      "Scans run automatically",
+      "Get a scored report",
+      "Auto-discover from your sitemap",
+      "Continuous monitoring",
+      "20+ on-page & domain checks",
+      "Client-ready reports with 0-100 scoring",
+      "Domain-level health checks",
+      "Critical: -5 to -15",
+      "Warning: -3 to -10",
+      "Info: -2 to -3",
+      "Starter",
+      "Pro",
+      "Agency",
+      "Is the free scan really free?",
+      "Do I have to add pages one by one?",
+      "How is this different from Google Search Console?",
+      "What is in the client report?",
+      "Can I try it before paying?"
+    ],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 9,
+      "h3": 19,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 1050,
+    "first_paragraph": "Add a domain, we auto-discover pages via your sitemap, run 20+ on-page and domain-level checks, and give you a client-ready scored report. No setup. No manual URL entry.",
+    "links_total": 62,
+    "links_internal": 61,
+    "links_external": 1,
+    "links_authority": 1,
+    "images_total": 1,
+    "images_missing_alt": 0,
+    "schema_types": [
+      "AggregateOffer",
+      "ImageObject",
+      "Organization",
+      "Person",
+      "WebApplication",
+      "WebSite"
+    ],
+    "og": {
+      "og:type": "website",
+      "og:site_name": "SEO by Daniel",
+      "og:locale": "en_US",
+      "og:url": "https://seo.danielpetrica.com",
+      "og:title": "SEO by Daniel - Automated SEO Auditing for Freelancers",
+      "og:description": "Add a domain, we auto-discover pages via your sitemap, run 20+ on-page checks, and give you a client-ready scored report. No setup. No manual URL entry.",
+      "og:image": "https://seo.danielpetrica.com/images/og-default.png",
+      "og:image:width": "1200",
+      "og:image:height": "630"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "SEO by Daniel - Automated SEO Auditing for Freelancers",
+      "twitter:description": "Add a domain, we auto-discover pages via your sitemap, run 20+ on-page checks, and give you a client-ready scored report. No setup. No manual URL entry.",
+      "twitter:image": "https://seo.danielpetrica.com/images/og-default.png"
+    },
+    "tables": 0,
+    "lists": 3,
+    "blockquotes": 0,
+    "hreflang": [],
+    "dates": {},
+    "author": "",
+    "qa_blocks": [
+      {
+        "question": "How it works",
+        "level": 2,
+        "answer_words": 9,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Three steps to never manually audit a site again."
+      },
+      {
+        "question": "Not sure where to start with SEO?",
+        "level": 2,
+        "answer_words": 30,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "We wrote guides on SEO audits, on-page optimization, and a 25-point checklist based on Google Search Central documentation. No hype, no secrets, no over-promises. Just what actuall"
+      },
+      {
+        "question": "How the 0-100 score is calculated",
+        "level": 2,
+        "answer_words": 28,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Every page starts at 100 and loses points for issues we can see. The deductions are fixed, so two pages with the same problems get the same score."
+      },
+      {
+        "question": "Is the free scan really free?",
+        "level": 3,
+        "answer_words": 28,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Yes. One page, scored 0-100 in about two seconds, with no account and no card. Full-site discovery, scheduled scans, executive summaries and report history come with a plan."
+      },
+      {
+        "question": "Do I have to add pages one by one?",
+        "level": 3,
+        "answer_words": 26,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "No. Add a domain and we read robots.txt for sitemaps, follow nested sitemap indexes and unpack gzipped files. Every URL we find is queued and scored."
+      },
+      {
+        "question": "How is this different from Google Search Console?",
+        "level": 3,
+        "answer_words": 47,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Search Console shows what Google indexed and how it performs. It will not tell you a title tag is 63 characters, a heading order is broken, or an image has no alt text. This tool c"
+      },
+      {
+        "question": "What is in the client report?",
+        "level": 3,
+        "answer_words": 31,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "A 0-100 score per page, issues grouped by severity, and CSV export. Pro and Agency add executive summaries and score trend charts. The report is written to be forwarded, not interp"
+      },
+      {
+        "question": "Can I try it before paying?",
+        "level": 3,
+        "answer_words": 26,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Yes. Every plan starts with a 3-day trial and no credit card. Monthly plans are €19, €49 and €99. Yearly billing is €190, €390 and €790."
+      }
+    ],
+    "statistic_density": 6.29,
+    "entity_density": 14.67,
+    "avg_sentence_words": 11.1,
+    "text_html_ratio": 9.6,
+    "head_scripts": 2,
+    "head_stylesheets": 1,
+    "inline_script_bytes": 7500,
+    "inline_style_bytes": 0,
+    "semantic_tags": {
+      "article": false,
+      "main": false,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "score",
+        11
+      ],
+      [
+        "report",
+        10
+      ],
+      [
+        "every",
+        9
+      ],
+      [
+        "page",
+        9
+      ],
+      [
+        "seo",
+        9
+      ],
+      [
+        "domain",
+        8
+      ],
+      [
+        "issues",
+        8
+      ],
+      [
+        "pages",
+        8
+      ],
+      [
+        "sitemap",
+        8
+      ],
+      [
+        "add",
+        7
+      ],
+      [
+        "checks",
+        7
+      ],
+      [
+        "executive",
+        7
+      ],
+      [
+        "0-100",
+        6
+      ],
+      [
+        "free",
+        6
+      ],
+      [
+        "missing",
+        6
+      ]
+    ],
+    "html_bytes": 67597,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://seo.danielpetrica.com/",
+    "host": "seo.danielpetrica.com",
+    "root_domain": "danielpetrica.com",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://seo.danielpetrica.com/",
+    "www_variant": "",
+    "www_redirect": "",
+    "apex_and_www_both_200": false,
+    "server": "cloudflare",
+    "powered_by": "",
+    "security_headers": {},
+    "missing_security_headers": [
+      "strict-transport-security",
+      "x-content-type-options",
+      "x-frame-options",
+      "content-security-policy",
+      "referrer-policy",
+      "permissions-policy"
+    ],
+    "response_time": 0.143,
+    "home_size": 11933,
+    "content_encoding": "gzip",
+    "cache_control": "max-age=7200, public, stale-while-revalidate=21600",
+    "cdn_hint": "Cloudflare",
+    "robots": {
+      "url": "https://seo.danielpetrica.com/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "https://seo.danielpetrica.com/sitemap.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [
+            "/login",
+            "/register",
+            "/forgot-password",
+            "/reset-password",
+            "/dashboard",
+            "/onboarding",
+            "/profile",
+            "/domains",
+            "/scans",
+            "/reports",
+            "/billing",
+            "/admin"
+          ],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://seo.danielpetrica.com/sitemap.xml",
+      "status": 200,
+      "is_index": false,
+      "url_count": 111,
+      "child_count": 0,
+      "has_lastmod": true,
+      "sample": [
+        "https://seo.danielpetrica.com/",
+        "https://seo.danielpetrica.com/pricing",
+        "https://seo.danielpetrica.com/audit",
+        "https://seo.danielpetrica.com/features",
+        "https://seo.danielpetrica.com/demo/report",
+        "https://seo.danielpetrica.com/about",
+        "https://seo.danielpetrica.com/learn",
+        "https://seo.danielpetrica.com/learn/seo-audit",
+        "https://seo.danielpetrica.com/learn/seo-audit-checklist",
+        "https://seo.danielpetrica.com/learn/on-page-seo",
+        "https://seo.danielpetrica.com/learn/what-is-an-seo-audit-report",
+        "https://seo.danielpetrica.com/comparisons",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-screaming-frog",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-seoptimer",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-ahrefs",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-semrush",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-moz",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-sitebulb",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-seobility",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-ubersuggest",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-woorank",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-contentking",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-sitechecker",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-seo-review-tools",
+        "https://seo.danielpetrica.com/comparisons/seo-by-daniel-vs-seo-site-checkup"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 200,
+      "exists": true,
+      "size": 629,
+      "preview": "# SEO by Daniel\n\n> Automated SEO auditing for freelancers and agencies. Add a domain, auto-discover pages from sitemaps, and get a 0-100 scored report with prioritized fixes.\n\nSEO by Daniel is a Laravel-based SEO auditing tool. Drop in a domain and it discovers pages via robots.txt and sitemaps, runs 20+ on-page and technical checks, and produces a client-ready scored report. Built for freelancers and agencies that need fast, honest audits without enterprise tooling.\n\n## Key pages\n\n- [Home](http"
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 200,
+    "contact": 0,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 0,
+    "shipping": 0,
+    "returns": 200,
+    "faq": 0
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.citations",
+        "category": "geo",
+        "title": "Cites authoritative sources",
+        "status": "warn",
+        "weight": 3.0,
+        "problem": "Only 1 authority citation(s): developers.google.com",
+        "action": "Link to 3+ credible sources (industry data, government, research, manufacturer specs). AI engines preferentially cite content that itself cites sources."
+      },
+      {
+        "id": "geo.author_byline",
+        "category": "geo",
+        "title": "Named author",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No author byline found",
+        "action": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh."
+      },
+      {
+        "id": "geo.content_schema",
+        "category": "geo",
+        "title": "Content type schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Article / Product / Service schema",
+        "action": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question."
+      },
+      {
+        "id": "geo.dates",
+        "category": "geo",
+        "title": "Publish / update dates",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No datePublished / dateModified found",
+        "action": "Add visible and machine-readable publish and last-updated dates."
+      },
+      {
+        "id": "geo.eeat_surface",
+        "category": "geo",
+        "title": "E-E-A-T surface area",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Only 4/8 trust pages found (missing: contact, blog, shipping, faq)",
+        "action": "Publish About, Contact, Privacy, Terms, Shipping and Returns pages. AI engines check whether a store is a real, accountable business before recommending it."
+      },
+      {
+        "id": "seo.keyword_alignment",
+        "category": "seo",
+        "title": "Keyword alignment",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "'seo audits' only appears in: H1",
+        "action": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "Missing core pages: Contact page",
+        "action": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "aeo.faq_schema",
+        "category": "aeo",
+        "title": "FAQPage schema",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No FAQPage schema",
+        "action": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change."
+      },
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "Answers are the wrong length (12.5% of answers)",
+        "action": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.definition_style",
+        "category": "aeo",
+        "title": "Definition-style openers",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No answer opens with a definition",
+        "action": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      },
+      {
+        "id": "geo.semantic_html",
+        "category": "geo",
+        "title": "Semantic HTML landmarks",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "Only found: nav",
+        "action": "Wrap content in <main> and <article> and use <nav>. Landmarks help extraction pipelines isolate the real content from the chrome."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "warn",
+        "weight": 0.5,
+        "problem": "Low (9.6%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

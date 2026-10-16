@@ -1,0 +1,1353 @@
+{
+  "target": "http://127.0.0.1:8777/",
+  "generated_at": "2026-10-15 13:45 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 100.0,
+      "grade": "A"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 100.0,
+      "grade": "A"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 94.3,
+      "grade": "A"
+    },
+    "overall": {
+      "score": 98.1,
+      "grade": "A"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Page is not served over HTTPS",
+      "fix": "Install a TLS certificate (Let's Encrypt is free) and 301 all http URLs to https. Chrome marks http pages 'Not secure'.",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "HTTPS is not working, so this cannot be checked",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Only one host variant responded, so this is fine",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Fast (0.22s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (7.7 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Few (1 files)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "cache-control: public, max-age=300",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "1369 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 1 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "http://127.0.0.1:8777/sitemap.xml — 7 URLs",
+      "fix": "",
+      "evidence": [
+        "http://127.0.0.1:8777/",
+        "http://127.0.0.1:8777/about",
+        "http://127.0.0.1:8777/faq",
+        "http://127.0.0.1:8777/how-it-works",
+        "http://127.0.0.1:8777/privacy",
+        "http://127.0.0.1:8777/contact",
+        "http://127.0.0.1:8777/terms"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "http://127.0.0.1:8777/ — points to a DIFFERENT site, check this",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good length (52 chars)",
+      "fix": "",
+      "evidence": "SEO Jaiza Tool — free website SEO, AEO and GEO audit"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good length (146 chars)",
+      "fix": "",
+      "evidence": "Free SEO, AEO and GEO audit for any website: 66 checks, competitor comparison, keyword ideas and a downloadable report — all on your own computer."
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: Apni website ka jaiza lein — muft SEO, AEO aur GEO tool",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "No skipped heading levels",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Well structured (15 H2s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Substantial (1369 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'jaiza' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "'jaiza' appears in: title, H1, first paragraph",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (12 links)",
+      "fix": "",
+      "evidence": [
+        "http://127.0.0.1:8777/how-it-works",
+        "http://127.0.0.1:8777/how-it-works",
+        "http://127.0.0.1:8777/about",
+        "http://127.0.0.1:8777/privacy",
+        "http://127.0.0.1:8777/how-it-works",
+        "http://127.0.0.1:8777/faq",
+        "http://127.0.0.1:8777/how-it-works",
+        "http://127.0.0.1:8777/faq",
+        "http://127.0.0.1:8777/about",
+        "http://127.0.0.1:8777/contact"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "9 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "4 external links, 0 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No images on the page",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "11 type(s): Answer, BreadcrumbList, FAQPage, HowTo, HowToStep, ListItem, Offer, Organization",
+      "fix": "",
+      "evidence": [
+        "Answer",
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo",
+        "HowToStep",
+        "ListItem",
+        "Offer",
+        "Organization",
+        "Question",
+        "WebApplication",
+        "WebSite"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "http://127.0.0.1:8777/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "Good (27.9%)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width, initial-scale=1",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "html lang=\"en\"",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Required: about, contact, privacy, terms. Found: About page, Contact page, Privacy policy, Terms of service, FAQ page | Missing: Blog / news section, Shipping policy, Returns / refund policy (the remaining gaps are not required for this kind of site)",
+      "fix": "",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 0,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 of 6 sampled internal links failed",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "FAQPage JSON-LD found — eligible for FAQ rich results and easy for AI to quote",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "HowTo JSON-LD found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found: answer, question",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Strong question coverage (6 questions)",
+      "fix": "",
+      "evidence": [
+        "Kya ye tool muft hai?",
+        "Report ke teen score ka matlab kya hai?",
+        "Kabhi kabhi zero words kyun dikhata hai?",
+        "Kya API key ke bagair jaiza ho sakta hai?",
+        "Kya mera data kahin jata hai?",
+        "Kya acha score ranking ki guarantee hai?"
+      ]
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Good snippet-length answers (100.0% of answers)",
+      "fix": "",
+      "evidence": [
+        {
+          "question": "Kya ye tool muft hai?",
+          "level": 3,
+          "answer_words": 46,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Ji haan. Ye muft hai aur aap ke apne computer par chalta hai — koi account, koi subscription aur koi limit nahi. Semrush, Ahrefs aur SERP API jaise paid services optional hain; on-"
+        },
+        {
+          "question": "Report ke teen score ka matlab kya hai?",
+          "level": 3,
+          "answer_words": 49,
+          "in_40_60": true,
+          "definition_style": true,
+          "answer_preview": "SEO ka matlab hai Google mein rank karne ki tayyari. AEO ka matlab hai featured snippet, People Also Ask aur voice jawab ke liye tayyari. GEO ka matlab hai ke ChatGPT, Perplexity a"
+        },
+        {
+          "question": "Kabhi kabhi zero words kyun dikhata hai?",
+          "level": 3,
+          "answer_words": 41,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Us page ka content JavaScript banata hai, is liye server khaali container bhejta hai, text nahi. Google JavaScript chala leta hai, magar GPTBot aur PerplexityBot kabhi nahi chalate"
+        },
+        {
+          "question": "Kya API key ke bagair jaiza ho sakta hai?",
+          "level": 3,
+          "answer_words": 40,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Bilkul. On-page, technical, AEO aur GEO ke tamam checks bina kisi key ke chalte hain, aur competitors ke domain aap khud likh sakte hain. Key sirf ye cheezein add karti hai: automa"
+        },
+        {
+          "question": "Kya mera data kahin jata hai?",
+          "level": 3,
+          "answer_words": 45,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Nahi. Tool aap ke computer par chalta hai aur aap ki site ko seedha parhta hai. Aap ka address, aap ki reports aur client ka data kahin upload nahi hota. Sirf un sites ko request j"
+        },
+        {
+          "question": "Kya acha score ranking ki guarantee hai?",
+          "level": 3,
+          "answer_words": 45,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Nahi, aur jo tool aisa wada kare wo aap ko gumraah kar raha hai. Score sirf ye naapta hai ke aap ke safhaat samajhne ke liye kitne tayyar hain. Ranking backlinks, competitors ki au"
+        }
+      ]
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "1 answer(s) open with 'X is ...' — the classic snippet format",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "4 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "2 table(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easy to quote (73 sentences analysed) (12.67 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "First paragraph is 60 words — good for an intro snippet",
+      "fix": "",
+      "evidence": "Neeche apni website ka address likhein aur button dabayein. Ye muft jaiza tool aap ke computer par chalta hai. 66 checks chal kar batate hain ke SEO (Google ranking), AEO (jawab ke box aur voice search) aur GEO (ChatGPT, Perplexity, Gemini mein hawala) mein kya theek karna hai — aur 3 score dikhate "
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "Breadcrumbs declared — improves SERP display",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "1369 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "No AI crawler is blocked. Allowed: gptbot, chatgpt-user, oai-searchbot, claudebot, anthropic-ai, claude-web, perplexitybot, perplexity-user",
+      "fix": "",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "4 outbound links to authority domains (developers.google.com, schema.org, web.dev, www.sitemaps.org)",
+      "fix": "",
+      "evidence": [
+        "https://developers.google.com/search/docs",
+        "https://schema.org/",
+        "https://web.dev/vitals/",
+        "https://www.sitemaps.org/protocol.html"
+      ]
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "warn",
+      "weight": 2.5,
+      "detail": "Few numbers (1.39 stats/100 words)",
+      "fix": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Author: SEO Jaiza Tool",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Author named in structured data",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Found an author reference in the page schema. schema.org accepts a Person or an Organization as the author, so either is valid.",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Found: organization, website (no sameAs list found)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.sameas",
+      "category": "geo",
+      "title": "sameAs entity links",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Organization schema has no sameAs array",
+      "fix": "List every official profile (Facebook, Instagram, LinkedIn, YouTube, Wikipedia) in sameAs so AI engines can resolve your brand as one entity.",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (9.42 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "published=2026-10-01 modified=2026-10-15",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.freshness",
+      "category": "geo",
+      "title": "Content freshness",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Updated within a year (0 days since update)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Found: faqpage, howto, webapplication",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "2 table(s), 4 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "6 question/answer pair(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found (865 bytes) — an emerging convention for telling AI crawlers what matters",
+      "fix": "",
+      "evidence": "# SEO Jaiza Tool\n\n> A local web app that audits any website for SEO (Google ranking readiness),\n> AEO (featured snippets, People Also Ask, voice) and GEO (being cited by ChatGPT,\n> Perplexity and Google AI Overviews). It also compares the site against competitors.\n\nKey facts:\n- Runs entirely on the "
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Trust pages found: 5/8",
+      "fix": "",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 0,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Using: <main>, <nav>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easily quotable (12.67 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "http://127.0.0.1:8777/",
+    "final_url": "http://127.0.0.1:8777/",
+    "title": "SEO Jaiza Tool — free website SEO, AEO and GEO audit",
+    "title_length": 52,
+    "meta_description": "Free SEO, AEO and GEO audit for any website: 66 checks, competitor comparison, keyword ideas and a downloadable report — all on your own computer.",
+    "meta_description_length": 146,
+    "meta_robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "canonical": "http://127.0.0.1:8777/",
+    "viewport": "width=device-width, initial-scale=1",
+    "lang": "en",
+    "h1": [
+      "Apni website ka jaiza lein — muft SEO, AEO aur GEO tool"
+    ],
+    "h2": [
+      "Jaiza ho raha hai...",
+      "Jaiza mukammal nahi ho saka",
+      "Nateeja — aap ki site ke teen score",
+      "Sab se pehle ye kaam karein",
+      "Competitors aap se aage kyun hain",
+      "Aap ke competitors",
+      "Keyword ideas",
+      "Backlinks (off-site authority)",
+      "Tamam checks ki tafseel",
+      "Report download karein",
+      "Jo cheezein check nahi ho sakeen",
+      "Ye tool kaise kaam karta hai",
+      "Ye tool kaise parhein",
+      "Aam sawalat",
+      "Mazeed parhein"
+    ],
+    "h3": [
+      "Apni website ka address likhein",
+      "Button dabayein aur intezar karein",
+      "\"Sab se pehle ye kaam karein\" par amal karein",
+      "SEO",
+      "AEO",
+      "GEO",
+      "Score ka matlab",
+      "Ek jaize mein kya milta hai",
+      "Aap ka data",
+      "Ye checks kin standards par hain",
+      "Kya ye tool muft hai?",
+      "Report ke teen score ka matlab kya hai?",
+      "Kabhi kabhi zero words kyun dikhata hai?",
+      "Kya API key ke bagair jaiza ho sakta hai?",
+      "Kya mera data kahin jata hai?",
+      "Kya acha score ranking ki guarantee hai?",
+      "Poora tareeqa",
+      "Sawalat aur jawab",
+      "Ye tool kya hai",
+      "Madad aur feedback"
+    ],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 15,
+      "h3": 22,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 1369,
+    "first_paragraph": "Neeche apni website ka address likhein aur button dabayein. Ye muft jaiza tool aap ke computer par chalta hai. 66 checks chal kar batate hain ke SEO (Google ranking), AEO (jawab ke box aur voice search) aur GEO (ChatGPT, Perplexity, Gemini mein hawala) mein kya theek karna hai — aur 3 score dikhate hain, saath aap ke competitors se muqabla.",
+    "links_total": 25,
+    "links_internal": 21,
+    "links_external": 4,
+    "links_authority": 4,
+    "images_total": 0,
+    "images_missing_alt": 0,
+    "schema_types": [
+      "Answer",
+      "BreadcrumbList",
+      "FAQPage",
+      "HowTo",
+      "HowToStep",
+      "ListItem",
+      "Offer",
+      "Organization",
+      "Question",
+      "WebApplication",
+      "WebSite"
+    ],
+    "og": {
+      "og:type": "website",
+      "og:site_name": "SEO Jaiza Tool",
+      "og:url": "http://127.0.0.1:8777/",
+      "og:title": "SEO Jaiza Tool — free website SEO, AEO and GEO audit",
+      "og:description": "66 checks across SEO, AEO and GEO, with a competitor comparison and a plain-language to-do list.",
+      "og:image": "http://127.0.0.1:8777/og.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "SEO Jaiza Tool — audit any website for SEO, AEO and GEO",
+      "og:locale": "en",
+      "og:locale:alternate": "ur"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "SEO Jaiza Tool — free website SEO, AEO and GEO audit",
+      "twitter:description": "66 checks across SEO, AEO and GEO, with a competitor comparison and a plain-language to-do list.",
+      "twitter:image": "http://127.0.0.1:8777/og.png"
+    },
+    "tables": 2,
+    "lists": 4,
+    "blockquotes": 0,
+    "hreflang": [],
+    "dates": {
+      "published": "2026-10-01",
+      "modified": "2026-10-15"
+    },
+    "author": "SEO Jaiza Tool",
+    "qa_blocks": [
+      {
+        "question": "Kya ye tool muft hai?",
+        "level": 3,
+        "answer_words": 46,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Ji haan. Ye muft hai aur aap ke apne computer par chalta hai — koi account, koi subscription aur koi limit nahi. Semrush, Ahrefs aur SERP API jaise paid services optional hain; on-"
+      },
+      {
+        "question": "Report ke teen score ka matlab kya hai?",
+        "level": 3,
+        "answer_words": 49,
+        "in_40_60": true,
+        "definition_style": true,
+        "answer_preview": "SEO ka matlab hai Google mein rank karne ki tayyari. AEO ka matlab hai featured snippet, People Also Ask aur voice jawab ke liye tayyari. GEO ka matlab hai ke ChatGPT, Perplexity a"
+      },
+      {
+        "question": "Kabhi kabhi zero words kyun dikhata hai?",
+        "level": 3,
+        "answer_words": 41,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Us page ka content JavaScript banata hai, is liye server khaali container bhejta hai, text nahi. Google JavaScript chala leta hai, magar GPTBot aur PerplexityBot kabhi nahi chalate"
+      },
+      {
+        "question": "Kya API key ke bagair jaiza ho sakta hai?",
+        "level": 3,
+        "answer_words": 40,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Bilkul. On-page, technical, AEO aur GEO ke tamam checks bina kisi key ke chalte hain, aur competitors ke domain aap khud likh sakte hain. Key sirf ye cheezein add karti hai: automa"
+      },
+      {
+        "question": "Kya mera data kahin jata hai?",
+        "level": 3,
+        "answer_words": 45,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Nahi. Tool aap ke computer par chalta hai aur aap ki site ko seedha parhta hai. Aap ka address, aap ki reports aur client ka data kahin upload nahi hota. Sirf un sites ko request j"
+      },
+      {
+        "question": "Kya acha score ranking ki guarantee hai?",
+        "level": 3,
+        "answer_words": 45,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Nahi, aur jo tool aisa wada kare wo aap ko gumraah kar raha hai. Score sirf ye naapta hai ke aap ke safhaat samajhne ke liye kitne tayyar hain. Ranking backlinks, competitors ki au"
+      }
+    ],
+    "statistic_density": 1.39,
+    "entity_density": 9.42,
+    "avg_sentence_words": 12.67,
+    "text_html_ratio": 27.9,
+    "head_scripts": 0,
+    "head_stylesheets": 1,
+    "inline_script_bytes": 6285,
+    "inline_style_bytes": 0,
+    "semantic_tags": {
+      "article": false,
+      "main": true,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "hai",
+        74
+      ],
+      [
+        "aur",
+        61
+      ],
+      [
+        "nahi",
+        39
+      ],
+      [
+        "aap",
+        29
+      ],
+      [
+        "hain",
+        21
+      ],
+      [
+        "par",
+        20
+      ],
+      [
+        "mein",
+        18
+      ],
+      [
+        "kya",
+        17
+      ],
+      [
+        "score",
+        17
+      ],
+      [
+        "tool",
+        16
+      ],
+      [
+        "karein",
+        13
+      ],
+      [
+        "page",
+        13
+      ],
+      [
+        "hai aur",
+        11
+      ],
+      [
+        "jawab",
+        11
+      ],
+      [
+        "liye",
+        11
+      ]
+    ],
+    "html_bytes": 27271,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "http://127.0.0.1:8777/",
+    "host": "127.0.0.1:8777",
+    "root_domain": "0.1:8777",
+    "https_ok": false,
+    "https_error": "",
+    "http_status": 0,
+    "http_redirects_to_https": false,
+    "http_redirect_target": "",
+    "www_variant": "",
+    "www_redirect": "",
+    "apex_and_www_both_200": false,
+    "server": "seoToolUI/1.0 Python/3.12.14",
+    "powered_by": "",
+    "security_headers": {
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "referrer-policy": "strict-origin-when-cross-origin"
+    },
+    "missing_security_headers": [
+      "strict-transport-security",
+      "content-security-policy",
+      "permissions-policy"
+    ],
+    "response_time": 0.224,
+    "home_size": 7932,
+    "content_encoding": "gzip",
+    "cache_control": "public, max-age=300",
+    "cdn_hint": "",
+    "robots": {
+      "url": "http://127.0.0.1:8777/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "http://127.0.0.1:8777/sitemap.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [
+            "/api/",
+            "/reports/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "gptbot"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "oai-searchbot"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "chatgpt-user"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "claudebot"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "anthropic-ai"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "perplexitybot"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "perplexity-user"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "google-extended"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "applebot-extended"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "ccbot"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "meta-externalagent"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "http://127.0.0.1:8777/sitemap.xml",
+      "status": 200,
+      "is_index": false,
+      "url_count": 7,
+      "child_count": 0,
+      "has_lastmod": true,
+      "sample": [
+        "http://127.0.0.1:8777/",
+        "http://127.0.0.1:8777/about",
+        "http://127.0.0.1:8777/faq",
+        "http://127.0.0.1:8777/how-it-works",
+        "http://127.0.0.1:8777/privacy",
+        "http://127.0.0.1:8777/contact",
+        "http://127.0.0.1:8777/terms"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 200,
+      "exists": true,
+      "size": 865,
+      "preview": "# SEO Jaiza Tool\n\n> A local web app that audits any website for SEO (Google ranking readiness),\n> AEO (featured snippets, People Also Ask, voice) and GEO (being cited by ChatGPT,\n> Perplexity and Google AI Overviews). It also compares the site against competitors.\n\nKey facts:\n- Runs entirely on the user's own computer; no data is uploaded.\n- 66 checks across SEO, technical SEO, AEO and GEO.\n- Reports are produced as HTML, Excel, Markdown and JSON.\n- No shared or group-buy SEO tool accounts are u"
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 6,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 200,
+    "contact": 200,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 0,
+    "shipping": 0,
+    "returns": 0,
+    "faq": 200
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.statistics",
+        "category": "geo",
+        "title": "Quantitative facts",
+        "status": "warn",
+        "weight": 2.5,
+        "problem": "Few numbers (1.39 stats/100 words)",
+        "action": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives."
+      },
+      {
+        "id": "seo.https",
+        "category": "technical",
+        "title": "HTTPS enabled",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "Page is not served over HTTPS",
+        "action": "Install a TLS certificate (Let's Encrypt is free) and 301 all http URLs to https. Chrome marks http pages 'Not secure'."
+      }
+    ],
+    "high_impact": [],
+    "nice_to_have": [
+      {
+        "id": "geo.sameas",
+        "category": "geo",
+        "title": "sameAs entity links",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Organization schema has no sameAs array",
+        "action": "List every official profile (Facebook, Instagram, LinkedIn, YouTube, Wikipedia) in sameAs so AI engines can resolve your brand as one entity."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

@@ -1,0 +1,1328 @@
+{
+  "target": "https://seoreviewtools.com/",
+  "generated_at": "2026-10-15 13:41 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 81.2,
+      "grade": "B"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 52.5,
+      "grade": "E"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 78.9,
+      "grade": "C"
+    },
+    "overall": {
+      "score": 70.9,
+      "grade": "C"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from www.seoreviewtools.com",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://www.seoreviewtools.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "https://seoreviewtools.com/ -> https://www.seoreviewtools.com (good)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Acceptable (1.78s)",
+      "fix": "Target under 0.8s. Enable full-page caching, upgrade the host, and put Cloudflare in front.",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (24.4 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "fail",
+      "weight": 1.0,
+      "detail": "Too many (16 files)",
+      "fix": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint.",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "cache-control: max-age=3, must-revalidate",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "818 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.seoreviewtools.com/sitemap.xml — 252 URLs across 6 child sitemaps",
+      "fix": "",
+      "evidence": [
+        "https://www.seoreviewtools.com/",
+        "https://www.seoreviewtools.com/what-is-page-authority/",
+        "https://www.seoreviewtools.com/what-are-linking-root-domains/",
+        "https://www.seoreviewtools.com/author-description-excerpt-wordpress/",
+        "https://www.seoreviewtools.com/update-seo-data-export-to-csv/",
+        "https://www.seoreviewtools.com/updates/",
+        "https://www.seoreviewtools.com/report-bug/",
+        "https://www.seoreviewtools.com/add-google-plus-authorship-wordpress-without-plugin/",
+        "https://www.seoreviewtools.com/tools-design-update/",
+        "https://www.seoreviewtools.com/se-position-checker-tool-updates/"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.seoreviewtools.com/ (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good length (41 chars)",
+      "fix": "",
+      "evidence": "#1 Free SEO & AI Tools → SEO Review Tools"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good length (138 chars)",
+      "fix": "",
+      "evidence": "SEO Review Tools: 76+ Free Online SEO & AI Tools build with ❤! → Rank checker → Domain Authority Checker → Keyword Tool → Backlink Checker"
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: 83 real-time Free SEO + AI Tools..",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "1 level jump(s), e.g. H1 -> H3",
+      "fix": "Do not skip heading levels. Outline the page H1 > H2 > H3 so search engines and AI can parse the structure.",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Well structured (6 H2s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Substantial (818 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'real' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "'real' only appears in: H1",
+      "fix": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words.",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (48 links)",
+      "fix": "",
+      "evidence": [
+        "https://www.seoreviewtools.com/seo-tools/",
+        "https://www.seoreviewtools.com/",
+        "https://www.seoreviewtools.com/seo-tools/seo-authority-tools/",
+        "https://www.seoreviewtools.com/seo-tools/technical-seo-tools/",
+        "https://www.seoreviewtools.com/seo-tools/seo-content-tools/",
+        "https://www.seoreviewtools.com/seo-tools/webmaster-tools/",
+        "https://www.seoreviewtools.com/keyword-research-tool/",
+        "https://www.seoreviewtools.com/contact/",
+        "https://www.seoreviewtools.com/valuable-backlinks-checker/",
+        "https://www.seoreviewtools.com/ai-brand-visibility-report/"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "34 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "8 external links, 6 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Some images missing alt (18.2% missing)",
+      "fix": "Write descriptive alt text for every image — it feeds image search, accessibility and AI understanding.",
+      "evidence": {
+        "total": 66,
+        "missing": 12
+      }
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "7 type(s): BreadcrumbList, CollectionPage, EntryPoint, ListItem, PropertyValueSpecification, SearchAction, WebSite",
+      "fix": "",
+      "evidence": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "EntryPoint",
+        "ListItem",
+        "PropertyValueSpecification",
+        "SearchAction",
+        "WebSite"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://www.seoreviewtools.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "fail",
+      "weight": 0.5,
+      "detail": "Very low (code-heavy page) (4.5%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width, initial-scale=1.0",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "html lang=\"en-US\"",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Missing core pages: About page",
+      "fix": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source.",
+      "evidence": {
+        "about": 0,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No FAQPage schema",
+      "fix": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No QAPage/Question schema (optional)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "warn",
+      "weight": 2.5,
+      "detail": "Some questions covered (2 questions)",
+      "fix": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from.",
+      "evidence": [
+        "How to Use the AI Visibility API?",
+        "Why SEO Review Tools?"
+      ]
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "Answers are the wrong length (0.0% of answers)",
+      "fix": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot.",
+      "evidence": [
+        {
+          "question": "How to Use the AI Visibility API?",
+          "level": 3,
+          "answer_words": 0,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": ""
+        },
+        {
+          "question": "Why SEO Review Tools?",
+          "level": 2,
+          "answer_words": 63,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "SEO Review Tools (SRT) is a popular cloud-based platform providing a suite of Free SEO, content, and AI tools. It is widely used by SEO professionals, Copywriters, and Online marke"
+        }
+      ]
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No answer opens with a definition",
+      "fix": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "12 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (3.1% vague)",
+      "fix": "",
+      "evidence": [
+        "Overview"
+      ]
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Getting long (25.86 words/sentence)",
+      "fix": "Split long sentences. Answers get quoted when they are short and self-contained.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "First paragraph is 54 words — good for an intro snippet",
+      "fix": "",
+      "evidence": "“To quickly see your (or your competitor’s) on-page subheads, use SEO Review Tools’ Headings Checker which extracts HTML headings from any web page. ...extract subheadings from any page and read through them to make sure they make sense even without the full context, flow well and provide a good out"
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "Breadcrumbs declared — improves SERP display",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "818 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "No AI crawler is blocked. Allowed: gptbot, chatgpt-user, oai-searchbot, claudebot, anthropic-ai, claude-web, perplexitybot, perplexity-user",
+      "fix": "",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "4 outbound links to authority domains (github.com, www.linkedin.com, www.reddit.com, www.youtube.com)",
+      "fix": "",
+      "evidence": [
+        "https://www.reddit.com/submit?url=https%3A%2F%2Fwww.seoreviewtools.com%2F&title=%231+Free+SEO+%26amp%3B+AI+Tools+%E2%86%92+SEO+Review+Tools",
+        "https://www.youtube.com/@seoreviewtools",
+        "https://www.linkedin.com/company/seo-review-tools",
+        "https://github.com/SEO-Review-Tools/"
+      ]
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "warn",
+      "weight": 2.5,
+      "detail": "Few numbers (1.34 stats/100 words)",
+      "fix": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No author byline found",
+      "fix": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Person schema",
+      "fix": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity.",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Found: website (no sameAs list found)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.sameas",
+      "category": "geo",
+      "title": "sameAs entity links",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Organization schema has no sameAs array",
+      "fix": "List every official profile (Facebook, Instagram, LinkedIn, YouTube, Wikipedia) in sameAs so AI engines can resolve your brand as one entity.",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (29.46 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No datePublished / dateModified found",
+      "fix": "Add visible and machine-readable publish and last-updated dates.",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Article / Product / Service schema",
+      "fix": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question.",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 table(s), 12 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "2 question/answer pair(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No /llms.txt (optional; the convention is still emerging, low cost to add: a markdown index of your key pages)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Trust pages found: 5/8",
+      "fix": "",
+      "evidence": {
+        "about": 0,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Using: <article>, <nav>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Sometimes long (25.86 words/sentence)",
+      "fix": "Keep sentences under 22 words. AI engines quote self-contained sentences, not sprawling ones.",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://www.seoreviewtools.com/",
+    "final_url": "https://www.seoreviewtools.com/",
+    "title": "#1 Free SEO & AI Tools → SEO Review Tools",
+    "title_length": 41,
+    "meta_description": "SEO Review Tools: 76+ Free Online SEO & AI Tools build with ❤! → Rank checker → Domain Authority Checker → Keyword Tool → Backlink Checker",
+    "meta_description_length": 138,
+    "meta_robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.seoreviewtools.com/",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "lang": "en-US",
+    "h1": [
+      "83 real-time Free SEO + AI Tools.."
+    ],
+    "h2": [
+      "Trusted by",
+      "Latest updates",
+      "Why SEO Review Tools?",
+      "Numbers and stats",
+      "Overview",
+      "Address and contact"
+    ],
+    "h3": [
+      "Keyword Tool",
+      "Rank checker",
+      "Backlink checker",
+      "Domain Authority checker",
+      "AI Brand Visibility checker",
+      "Mention tracker",
+      "Writing assistant",
+      "Website SEO checker",
+      "AI Visibility Tracker [UPDATE]",
+      "Free Mention Checker",
+      "How to Use the AI Visibility API?",
+      "Website Traffic Checker",
+      "Domain Authority & Page Authority Checker",
+      "Readability Checker [IMPROVED]",
+      "SEO Content Editor 6.0",
+      "Free AI Prompt Tracker",
+      "Google Preferred Source generator",
+      "Query Fan-Out Tool",
+      "183,725",
+      "9.3 / 10"
+    ],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 6,
+      "h3": 25,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 818,
+    "first_paragraph": "“To quickly see your (or your competitor’s) on-page subheads, use SEO Review Tools’ Headings Checker which extracts HTML headings from any web page. ...extract subheadings from any page and read through them to make sure they make sense even without the full context, flow well and provide a good outline of your on-page content.”",
+    "links_total": 90,
+    "links_internal": 82,
+    "links_external": 8,
+    "links_authority": 4,
+    "images_total": 66,
+    "images_missing_alt": 12,
+    "schema_types": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "EntryPoint",
+      "ListItem",
+      "PropertyValueSpecification",
+      "SearchAction",
+      "WebSite"
+    ],
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "website",
+      "og:title": "SEO Review Tools",
+      "og:description": "SEO Review Tools: 76+ Free Online SEO & AI Tools build with ❤! → Rank checker → Domain Authority Checker → Keyword Tool → Backlink Checker",
+      "og:url": "https://www.seoreviewtools.com/",
+      "og:site_name": "SEO Review Tools",
+      "og:image": "http://www.seoreviewtools.com/wp-content/uploads/seo-review-tools-social.png"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@SEOReviewTools"
+    },
+    "tables": 0,
+    "lists": 12,
+    "blockquotes": 0,
+    "hreflang": [],
+    "dates": {},
+    "author": "",
+    "qa_blocks": [
+      {
+        "question": "How to Use the AI Visibility API?",
+        "level": 3,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      },
+      {
+        "question": "Why SEO Review Tools?",
+        "level": 2,
+        "answer_words": 63,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "SEO Review Tools (SRT) is a popular cloud-based platform providing a suite of Free SEO, content, and AI tools. It is widely used by SEO professionals, Copywriters, and Online marke"
+      }
+    ],
+    "statistic_density": 1.34,
+    "entity_density": 29.46,
+    "avg_sentence_words": 25.86,
+    "text_html_ratio": 4.5,
+    "head_scripts": 12,
+    "head_stylesheets": 4,
+    "inline_script_bytes": 29237,
+    "inline_style_bytes": 26354,
+    "semantic_tags": {
+      "article": true,
+      "main": false,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "seo",
+        40
+      ],
+      [
+        "tools",
+        22
+      ],
+      [
+        "checker",
+        19
+      ],
+      [
+        "api",
+        15
+      ],
+      [
+        "jasja",
+        14
+      ],
+      [
+        "review",
+        10
+      ],
+      [
+        "seo review",
+        10
+      ],
+      [
+        "tool",
+        10
+      ],
+      [
+        "authority",
+        9
+      ],
+      [
+        "free",
+        9
+      ],
+      [
+        "review tools",
+        9
+      ],
+      [
+        "visibility",
+        8
+      ],
+      [
+        "keyword",
+        7
+      ],
+      [
+        "seo tools",
+        7
+      ],
+      [
+        "horst",
+        6
+      ]
+    ],
+    "html_bytes": 114069,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://www.seoreviewtools.com/",
+    "host": "www.seoreviewtools.com",
+    "root_domain": "seoreviewtools.com",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://www.seoreviewtools.com/",
+    "www_variant": "seoreviewtools.com",
+    "www_redirect": "https://seoreviewtools.com/ -> https://www.seoreviewtools.com (good)",
+    "apex_and_www_both_200": false,
+    "server": "cloudflare",
+    "powered_by": "PHP/7.4.33",
+    "security_headers": {
+      "strict-transport-security": "max-age=15552000; preload",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "referrer-policy": "no-referrer-when-downgrade"
+    },
+    "missing_security_headers": [
+      "content-security-policy",
+      "permissions-policy"
+    ],
+    "response_time": 1.783,
+    "home_size": 25010,
+    "content_encoding": "gzip",
+    "cache_control": "max-age=3, must-revalidate",
+    "cdn_hint": "Cloudflare",
+    "robots": {
+      "url": "https://www.seoreviewtools.com/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [
+            "/wp-admin/admin-ajax.php"
+          ],
+          "disallow": [
+            "/*?check_kw=",
+            "/wp-admin/",
+            "/seo-stuff/",
+            "/spn/*"
+          ],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://www.seoreviewtools.com/sitemap.xml",
+      "status": 200,
+      "is_index": true,
+      "url_count": 252,
+      "child_count": 6,
+      "has_lastmod": true,
+      "sample": [
+        "https://www.seoreviewtools.com/",
+        "https://www.seoreviewtools.com/what-is-page-authority/",
+        "https://www.seoreviewtools.com/what-are-linking-root-domains/",
+        "https://www.seoreviewtools.com/author-description-excerpt-wordpress/",
+        "https://www.seoreviewtools.com/update-seo-data-export-to-csv/",
+        "https://www.seoreviewtools.com/updates/",
+        "https://www.seoreviewtools.com/report-bug/",
+        "https://www.seoreviewtools.com/add-google-plus-authorship-wordpress-without-plugin/",
+        "https://www.seoreviewtools.com/tools-design-update/",
+        "https://www.seoreviewtools.com/se-position-checker-tool-updates/",
+        "https://www.seoreviewtools.com/google-plus-author-checker/",
+        "https://www.seoreviewtools.com/tool-updates/",
+        "https://www.seoreviewtools.com/what-is-the-value-of-pagerank/",
+        "https://www.seoreviewtools.com/1-500-registered-members/",
+        "https://www.seoreviewtools.com/500-registerd-members-counting/",
+        "https://www.seoreviewtools.com/what-is-link-equity/",
+        "https://www.seoreviewtools.com/upcoming-events-data-driven-business-conferences/",
+        "https://www.seoreviewtools.com/make-donation/",
+        "https://www.seoreviewtools.com/smx-2016-munich-london-or-paris/",
+        "https://www.seoreviewtools.com/tweet-count-checker/",
+        "https://www.seoreviewtools.com/wordpress-copy-url-button-plugin/",
+        "https://www.seoreviewtools.com/emetrics-summit-london-2016-15-discount-code/",
+        "https://www.seoreviewtools.com/predictive-analytics-world-london-2016-15-discount-code/",
+        "https://www.seoreviewtools.com/conversion-conference-london-2016-15-discount-code/",
+        "https://www.seoreviewtools.com/stats-update-new-design/"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 404,
+      "exists": false,
+      "size": 0,
+      "preview": ""
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 0,
+    "contact": 200,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 200,
+    "shipping": 0,
+    "returns": 0,
+    "faq": 200
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "aeo.question_headings",
+        "category": "aeo",
+        "title": "Question-form headings",
+        "status": "warn",
+        "weight": 2.5,
+        "problem": "Some questions covered (2 questions)",
+        "action": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from."
+      },
+      {
+        "id": "geo.statistics",
+        "category": "geo",
+        "title": "Quantitative facts",
+        "status": "warn",
+        "weight": 2.5,
+        "problem": "Few numbers (1.34 stats/100 words)",
+        "action": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives."
+      },
+      {
+        "id": "geo.author_byline",
+        "category": "geo",
+        "title": "Named author",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No author byline found",
+        "action": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh."
+      },
+      {
+        "id": "geo.author_schema",
+        "category": "geo",
+        "title": "Person schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Person schema",
+        "action": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity."
+      },
+      {
+        "id": "geo.content_schema",
+        "category": "geo",
+        "title": "Content type schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Article / Product / Service schema",
+        "action": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question."
+      },
+      {
+        "id": "geo.dates",
+        "category": "geo",
+        "title": "Publish / update dates",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No datePublished / dateModified found",
+        "action": "Add visible and machine-readable publish and last-updated dates."
+      },
+      {
+        "id": "seo.keyword_alignment",
+        "category": "seo",
+        "title": "Keyword alignment",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "'real' only appears in: H1",
+        "action": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words."
+      },
+      {
+        "id": "seo.response_time",
+        "category": "technical",
+        "title": "Server response time",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Acceptable (1.78s)",
+        "action": "Target under 0.8s. Enable full-page caching, upgrade the host, and put Cloudflare in front."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "Missing core pages: About page",
+        "action": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source."
+      },
+      {
+        "id": "seo.render_blocking",
+        "category": "technical",
+        "title": "Render-blocking head resources",
+        "status": "fail",
+        "weight": 1.0,
+        "problem": "Too many (16 files)",
+        "action": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "fail",
+        "weight": 0.5,
+        "problem": "Very low (code-heavy page) (4.5%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "aeo.faq_schema",
+        "category": "aeo",
+        "title": "FAQPage schema",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No FAQPage schema",
+        "action": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change."
+      },
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "Answers are the wrong length (0.0% of answers)",
+        "action": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.definition_style",
+        "category": "aeo",
+        "title": "Definition-style openers",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No answer opens with a definition",
+        "action": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern."
+      },
+      {
+        "id": "aeo.sentence_length",
+        "category": "aeo",
+        "title": "Sentence length",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Getting long (25.86 words/sentence)",
+        "action": "Split long sentences. Answers get quoted when they are short and self-contained."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "geo.quotable_sentences",
+        "category": "geo",
+        "title": "Quotable sentence length",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Sometimes long (25.86 words/sentence)",
+        "action": "Keep sentences under 22 words. AI engines quote self-contained sentences, not sprawling ones."
+      },
+      {
+        "id": "geo.sameas",
+        "category": "geo",
+        "title": "sameAs entity links",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Organization schema has no sameAs array",
+        "action": "List every official profile (Facebook, Instagram, LinkedIn, YouTube, Wikipedia) in sameAs so AI engines can resolve your brand as one entity."
+      },
+      {
+        "id": "seo.heading_hierarchy",
+        "category": "seo",
+        "title": "Heading hierarchy",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "1 level jump(s), e.g. H1 -> H3",
+        "action": "Do not skip heading levels. Outline the page H1 > H2 > H3 so search engines and AI can parse the structure."
+      },
+      {
+        "id": "seo.image_alt",
+        "category": "seo",
+        "title": "Image alt text",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Some images missing alt (18.2% missing)",
+        "action": "Write descriptive alt text for every image — it feeds image search, accessibility and AI understanding."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

@@ -1,0 +1,1366 @@
+{
+  "target": "https://www.zupee.com/",
+  "generated_at": "2026-10-15 13:07 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 92.7,
+      "grade": "A"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 78.0,
+      "grade": "C"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 76.9,
+      "grade": "C"
+    },
+    "overall": {
+      "score": 82.5,
+      "grade": "B"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from www.zupee.com",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://www.zupee.com:443/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "https://zupee.com/ -> https://www.zupee.com:443/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Acceptable (1.19s)",
+      "fix": "Target under 0.8s. Enable full-page caching, upgrade the host, and put Cloudflare in front.",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (36.7 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "fail",
+      "weight": 1.0,
+      "detail": "Too many (15 files)",
+      "fix": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint.",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "cache-control: private, must-revalidate, max-age=300",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "1658 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 2 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.zupee.com/sitemap.xml — 2 URLs",
+      "fix": "",
+      "evidence": [
+        "https://www.zupee.com/zupee-theme-sitemap/sitemap.xml",
+        "https://www.zupee.com/sitemaps/posts-sitemap.xml"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'index, follow'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.zupee.com/ (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good length (50 chars)",
+      "fix": "",
+      "evidence": "Zupee – Play Free Online Games on Mobile & Desktop"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Long (164 chars)",
+      "fix": "Keep it 120-160 characters.",
+      "evidence": "Play free online games on Zupee - one of India’s top online gaming apps. Enjoy Ludo, Snakes & Ladders, Carrom, Hand Cricket & more skill games on mobile or desktop."
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: Play Free Online Games Like Ludo & Win Rewards",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "No skipped heading levels",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Well structured (7 H2s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Substantial (1658 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'online' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "'online' appears in: title, H1, first paragraph",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (52 links)",
+      "fix": "",
+      "evidence": [
+        "https://www.zupee.com/ludo/",
+        "https://www.zupee.com/snakes-and-ladders-plus/",
+        "https://www.zupee.com/carrom-ninja/",
+        "https://www.zupee.com/super-over/",
+        "https://www.zupee.com/ludo/",
+        "https://www.zupee.com/ludo/ludo-tournament/",
+        "https://www.zupee.com/ludo/play-ludo-online/",
+        "https://www.zupee.com/",
+        "https://www.zupee.com/about-zupee/",
+        "https://www.zupee.com/contact-us/"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "29 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "5 external links, 0 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good alt coverage (0.0% missing)",
+      "fix": "",
+      "evidence": {
+        "total": 25,
+        "missing": 0
+      }
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "15 type(s): AggregateRating, Answer, ContactPoint, FAQPage, ImageObject, Offer, Organization, Person",
+      "fix": "",
+      "evidence": [
+        "AggregateRating",
+        "Answer",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "Offer",
+        "Organization",
+        "Person",
+        "PostalAddress",
+        "QuantitativeValue",
+        "Question",
+        "SoftwareApplication",
+        "VideoObject",
+        "WebApplication",
+        "WebPage"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://www.zupee.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "fail",
+      "weight": 0.5,
+      "detail": "Very low (code-heavy page) (7.0%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width, initial-scale=1",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "warn",
+      "weight": 0.5,
+      "detail": "No lang attribute on <html>",
+      "fix": "Add lang=\"en\" (or the correct language) — it helps both search and screen readers.",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Found: About page, Contact page, Privacy policy, Terms of service, Blog / news section | Missing: Shipping policy, Returns / refund policy, FAQ page",
+      "fix": "Add the remaining policy/FAQ pages.",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 0
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.hreflang",
+      "category": "seo",
+      "title": "hreflang tags",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "1 alternate language versions declared",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "FAQPage JSON-LD found — eligible for FAQ rich results and easy for AI to quote",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found: answer, question",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Strong question coverage (10 questions)",
+      "fix": "",
+      "evidence": [
+        "Why Play Free Online Games on Zupee App?",
+        "How to Download on Android",
+        "How to Download on iOS",
+        "How to Play Zupee Online Games on Desktop",
+        "Do I need an internet connection to play skill games on Zupee?",
+        "What devices support Zupee for gaming?",
+        "Can I access Zupee on a desktop?",
+        "Are these skill games free to play?",
+        "Can I win or track scores in these online mobile games?",
+        "Do I need to update the app regularly?"
+      ]
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "Answers are the wrong length (0.0% of answers)",
+      "fix": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot.",
+      "evidence": [
+        {
+          "question": "Why Play Free Online Games on Zupee App?",
+          "level": 2,
+          "answer_words": 0,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": ""
+        },
+        {
+          "question": "How to Download on Android",
+          "level": 3,
+          "answer_words": 0,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": ""
+        },
+        {
+          "question": "How to Download on iOS",
+          "level": 3,
+          "answer_words": 0,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": ""
+        },
+        {
+          "question": "How to Play Zupee Online Games on Desktop",
+          "level": 3,
+          "answer_words": 27,
+          "in_40_60": false,
+          "definition_style": true,
+          "answer_preview": "Some Ludo multiplayer games are available on desktop through the Google Play Store Beta version, like the Zupee Free app. Simply follow these steps to get started:"
+        },
+        {
+          "question": "Do I need an internet connection to play skill games on Zupee?",
+          "level": 3,
+          "answer_words": 24,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Yes. An active internet connection is required to play all skill games. This ensures smooth gameplay, quick updates, and real-time scoring across the platform."
+        },
+        {
+          "question": "What devices support Zupee for gaming?",
+          "level": 3,
+          "answer_words": 35,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Zupee works on most Android and iOS smartphones. Some games are also available on desktop via Google Play store download. You can enjoy real online games on tablets, laptops, and P"
+        },
+        {
+          "question": "Can I access Zupee on a desktop?",
+          "level": 3,
+          "answer_words": 27,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Yes. Some games are available through Google Play store beta version which works directly in your browser. This gives a smooth experience similar to the mobile app."
+        },
+        {
+          "question": "Are these skill games free to play?",
+          "level": 3,
+          "answer_words": 30,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Yes. These skill games on Zupee are completely free to play. You just need a quick win game download for free to get started. No purchases are required to begin."
+        }
+      ]
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "1 answer(s) open with 'X is ...' — the classic snippet format",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "19 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easy to quote (68 sentences analysed) (15.1 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "First paragraph is 10 words",
+      "fix": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand.",
+      "evidence": "Play exciting new online winning games on Zupee for Free!"
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No BreadcrumbList schema",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "1658 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "No AI crawler is blocked. Allowed: gptbot, chatgpt-user, oai-searchbot, claudebot, anthropic-ai, claude-web, perplexitybot, perplexity-user",
+      "fix": "",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No outbound links to authoritative sources",
+      "fix": "Add citations: link claims to primary sources. Pages with visible sourcing are dramatically more likely to be quoted by ChatGPT, Perplexity and Google AI Overviews.",
+      "evidence": null
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "Almost no data (0.54 stats/100 words)",
+      "fix": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Author: Zupee Team",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Person JSON-LD found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Found: organization with sameAs",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (21.71 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No datePublished / dateModified found",
+      "fix": "Add visible and machine-readable publish and last-updated dates.",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Article / Product / Service schema",
+      "fix": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question.",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 table(s), 19 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "10 question/answer pair(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found (1819 bytes) — an emerging convention for telling AI crawlers what matters",
+      "fix": "",
+      "evidence": "llm.txt for Zupee.com\r\nOwner\r\nOwner: Zupee (Cashgrail Private Limited)\r\nContact: support@zupee.com\r\nWebsite: https://www.zupee.com\r\n\r\nZupee Overview\r\nJoin Zupee to play Ludo online for free in fast, competitive rounds. Download the app, test your skills, and experience multiplayer fun anytime.\r\n\r\n\r\n"
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Trust pages found: 5/8",
+      "fix": "",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 0
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Using: <main>, <nav>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easily quotable (15.1 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://www.zupee.com/",
+    "final_url": "https://www.zupee.com/",
+    "title": "Zupee – Play Free Online Games on Mobile & Desktop",
+    "title_length": 50,
+    "meta_description": "Play free online games on Zupee - one of India’s top online gaming apps. Enjoy Ludo, Snakes & Ladders, Carrom, Hand Cricket & more skill games on mobile or desktop.",
+    "meta_description_length": 164,
+    "meta_robots": "index, follow",
+    "canonical": "https://www.zupee.com/",
+    "viewport": "width=device-width, initial-scale=1",
+    "lang": "",
+    "h1": [
+      "Play Free Online Games Like Ludo & Win Rewards"
+    ],
+    "h2": [
+      "Why Play Free Online Games on Zupee App?",
+      "Advantages to Download Free Online Games",
+      "Top Online Games on Zupee App",
+      "Key Features of Online Games on Zupee",
+      "Online Game App Download for Mobile & Desktop",
+      "Shift in Skill-Based Game Formats Before and After Real Money Games Regulations",
+      "Zupee Online Gaming App - (FAQs)"
+    ],
+    "h3": [
+      "Ludo Game Online",
+      "Snakes and Ladders Plus",
+      "Carrom Board Game Online",
+      "Hand Cricket Online",
+      "How to Download on Android",
+      "How to Download on iOS",
+      "How to Play Zupee Online Games on Desktop",
+      "Do I need an internet connection to play skill games on Zupee?",
+      "What devices support Zupee for gaming?",
+      "Can I access Zupee on a desktop?",
+      "Are these skill games free to play?",
+      "Can I win or track scores in these online mobile games?",
+      "Do I need to update the app regularly?"
+    ],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 7,
+      "h3": 13,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 1658,
+    "first_paragraph": "Play exciting new online winning games on Zupee for Free!",
+    "links_total": 86,
+    "links_internal": 81,
+    "links_external": 5,
+    "links_authority": 0,
+    "images_total": 25,
+    "images_missing_alt": 0,
+    "schema_types": [
+      "AggregateRating",
+      "Answer",
+      "ContactPoint",
+      "FAQPage",
+      "ImageObject",
+      "Offer",
+      "Organization",
+      "Person",
+      "PostalAddress",
+      "QuantitativeValue",
+      "Question",
+      "SoftwareApplication",
+      "VideoObject",
+      "WebApplication",
+      "WebPage"
+    ],
+    "og": {
+      "og:title": "Zupee – Play Free Online Games on Mobile & Desktop",
+      "og:description": "Play free online games on Zupee - one of India’s top online gaming apps. Enjoy Ludo, Snakes & Ladders, Carrom, Hand Cricket & more skill games on mobile or desktop.",
+      "og:url": "https://www.zupee.com/",
+      "og:image": "https://static-perf1.zupee.com/wp-content/uploads/2024/06/og-image.jpg",
+      "og:image:alt": "Play Ludo Game",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Zupee – Play Free Online Games on Mobile & Desktop",
+      "twitter:description": "Play free online games on Zupee - one of India’s top online gaming apps. Enjoy Ludo, Snakes & Ladders, Carrom, Hand Cricket & more skill games on mobile or desktop.",
+      "twitter:image": "https://static-perf1.zupee.com/wp-content/uploads/2024/06/og-image.jpg",
+      "twitter:image:alt": "Play Ludo Game",
+      "twitter:image:width": "1200",
+      "twitter:image:height": "630"
+    },
+    "tables": 0,
+    "lists": 19,
+    "blockquotes": 0,
+    "hreflang": [
+      "hi:https://www.zupee.com/hi/"
+    ],
+    "dates": {},
+    "author": "Zupee Team",
+    "qa_blocks": [
+      {
+        "question": "Why Play Free Online Games on Zupee App?",
+        "level": 2,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      },
+      {
+        "question": "How to Download on Android",
+        "level": 3,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      },
+      {
+        "question": "How to Download on iOS",
+        "level": 3,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      },
+      {
+        "question": "How to Play Zupee Online Games on Desktop",
+        "level": 3,
+        "answer_words": 27,
+        "in_40_60": false,
+        "definition_style": true,
+        "answer_preview": "Some Ludo multiplayer games are available on desktop through the Google Play Store Beta version, like the Zupee Free app. Simply follow these steps to get started:"
+      },
+      {
+        "question": "Do I need an internet connection to play skill games on Zupee?",
+        "level": 3,
+        "answer_words": 24,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Yes. An active internet connection is required to play all skill games. This ensures smooth gameplay, quick updates, and real-time scoring across the platform."
+      },
+      {
+        "question": "What devices support Zupee for gaming?",
+        "level": 3,
+        "answer_words": 35,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Zupee works on most Android and iOS smartphones. Some games are also available on desktop via Google Play store download. You can enjoy real online games on tablets, laptops, and P"
+      },
+      {
+        "question": "Can I access Zupee on a desktop?",
+        "level": 3,
+        "answer_words": 27,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Yes. Some games are available through Google Play store beta version which works directly in your browser. This gives a smooth experience similar to the mobile app."
+      },
+      {
+        "question": "Are these skill games free to play?",
+        "level": 3,
+        "answer_words": 30,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Yes. These skill games on Zupee are completely free to play. You just need a quick win game download for free to get started. No purchases are required to begin."
+      },
+      {
+        "question": "Can I win or track scores in these online mobile games?",
+        "level": 3,
+        "answer_words": 21,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Yes. Most games let you track your progress, plan your moves, and compete for the top spots in points and leaderboards."
+      },
+      {
+        "question": "Do I need to update the app regularly?",
+        "level": 3,
+        "answer_words": 29,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Yes. Updating ensures you get new features, bug fixes, and smoother gameplay. You can update directly through your device’s app store or by downloading the latest online game APK."
+      }
+    ],
+    "statistic_density": 0.54,
+    "entity_density": 21.71,
+    "avg_sentence_words": 15.1,
+    "text_html_ratio": 7.0,
+    "head_scripts": 14,
+    "head_stylesheets": 1,
+    "inline_script_bytes": 94312,
+    "inline_style_bytes": 0,
+    "semantic_tags": {
+      "article": false,
+      "main": true,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "online",
+        51
+      ],
+      [
+        "games",
+        48
+      ],
+      [
+        "play",
+        34
+      ],
+      [
+        "free",
+        32
+      ],
+      [
+        "zupee",
+        28
+      ],
+      [
+        "game",
+        25
+      ],
+      [
+        "ludo",
+        20
+      ],
+      [
+        "app",
+        19
+      ],
+      [
+        "free online",
+        17
+      ],
+      [
+        "online games",
+        12
+      ],
+      [
+        "skill-based",
+        11
+      ],
+      [
+        "win",
+        11
+      ],
+      [
+        "carrom",
+        10
+      ],
+      [
+        "snakes",
+        10
+      ],
+      [
+        "download",
+        9
+      ]
+    ],
+    "html_bytes": 143253,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://www.zupee.com/",
+    "host": "www.zupee.com",
+    "root_domain": "zupee.com",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://www.zupee.com:443/",
+    "www_variant": "zupee.com",
+    "www_redirect": "https://zupee.com/ -> https://www.zupee.com:443/",
+    "apex_and_www_both_200": false,
+    "server": "",
+    "powered_by": "",
+    "security_headers": {},
+    "missing_security_headers": [
+      "strict-transport-security",
+      "x-content-type-options",
+      "x-frame-options",
+      "content-security-policy",
+      "referrer-policy",
+      "permissions-policy"
+    ],
+    "response_time": 1.193,
+    "home_size": 37613,
+    "content_encoding": "gzip",
+    "cache_control": "private, must-revalidate, max-age=300",
+    "cdn_hint": "",
+    "robots": {
+      "url": "https://www.zupee.com/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "https://www.zupee.com/sitemap.xml",
+        "https://www.zupee.com/zupee-theme-sitemap/sitemap.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [],
+          "disallow": [
+            "/wp-admin/",
+            "/blog/tag/",
+            "/author/",
+            "/blogs/",
+            "/blog/"
+          ],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://www.zupee.com/sitemap.xml",
+      "status": 200,
+      "is_index": false,
+      "url_count": 2,
+      "child_count": 0,
+      "has_lastmod": true,
+      "sample": [
+        "https://www.zupee.com/zupee-theme-sitemap/sitemap.xml",
+        "https://www.zupee.com/sitemaps/posts-sitemap.xml"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 200,
+      "exists": true,
+      "size": 1819,
+      "preview": "llm.txt for Zupee.com\r\nOwner\r\nOwner: Zupee (Cashgrail Private Limited)\r\nContact: support@zupee.com\r\nWebsite: https://www.zupee.com\r\n\r\nZupee Overview\r\nJoin Zupee to play Ludo online for free in fast, competitive rounds. Download the app, test your skills, and experience multiplayer fun anytime.\r\n\r\n\r\n\r\nKey Features\r\nLudo Variants: Ludo Supreme, Ludo Ninja, Ludo Turbo, Ludo Supreme League, Super Over, Carrom Ninja, Snakes and ladders plus, Trump cards mania.\r\nCasual Skill Games: Snakes & Ladders Pl"
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 200,
+    "contact": 200,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 200,
+    "shipping": 0,
+    "returns": 0,
+    "faq": 0
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.content_schema",
+        "category": "geo",
+        "title": "Content type schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Article / Product / Service schema",
+        "action": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question."
+      },
+      {
+        "id": "geo.dates",
+        "category": "geo",
+        "title": "Publish / update dates",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No datePublished / dateModified found",
+        "action": "Add visible and machine-readable publish and last-updated dates."
+      },
+      {
+        "id": "seo.response_time",
+        "category": "technical",
+        "title": "Server response time",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Acceptable (1.19s)",
+        "action": "Target under 0.8s. Enable full-page caching, upgrade the host, and put Cloudflare in front."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Found: About page, Contact page, Privacy policy, Terms of service, Blog / news section | Missing: Shipping policy, Returns / refund policy, FAQ page",
+        "action": "Add the remaining policy/FAQ pages."
+      },
+      {
+        "id": "seo.render_blocking",
+        "category": "technical",
+        "title": "Render-blocking head resources",
+        "status": "fail",
+        "weight": 1.0,
+        "problem": "Too many (15 files)",
+        "action": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "fail",
+        "weight": 0.5,
+        "problem": "Very low (code-heavy page) (7.0%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "geo.citations",
+        "category": "geo",
+        "title": "Cites authoritative sources",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No outbound links to authoritative sources",
+        "action": "Add citations: link claims to primary sources. Pages with visible sourcing are dramatically more likely to be quoted by ChatGPT, Perplexity and Google AI Overviews."
+      },
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "Answers are the wrong length (0.0% of answers)",
+        "action": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot."
+      },
+      {
+        "id": "geo.statistics",
+        "category": "geo",
+        "title": "Quantitative facts",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "Almost no data (0.54 stats/100 words)",
+        "action": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.answer_first",
+        "category": "aeo",
+        "title": "Answer-first intro",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "First paragraph is 10 words",
+        "action": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "seo.meta_description_len",
+        "category": "seo",
+        "title": "Meta description length",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Long (164 chars)",
+        "action": "Keep it 120-160 characters."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      },
+      {
+        "id": "seo.lang",
+        "category": "technical",
+        "title": "Language declared",
+        "status": "warn",
+        "weight": 0.5,
+        "problem": "No lang attribute on <html>",
+        "action": "Add lang=\"en\" (or the correct language) — it helps both search and screen readers."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

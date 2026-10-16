@@ -1,0 +1,1456 @@
+{
+  "target": "https://freesiteaudit.com/",
+  "generated_at": "2026-10-15 13:41 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 84.4,
+      "grade": "B"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 87.8,
+      "grade": "B"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 81.5,
+      "grade": "B"
+    },
+    "overall": {
+      "score": 84.6,
+      "grade": "B"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from freesiteaudit.com",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://freesiteaudit.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "fail",
+      "weight": 1.5,
+      "detail": "Both freesiteaudit.com and www.freesiteaudit.com return 200",
+      "fix": "Pick one (usually https://www or https://apex), 301 the other to it, and make sure the canonical tag matches.",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Acceptable (0.83s)",
+      "fix": "Target under 0.8s. Enable full-page caching, upgrade the host, and put Cloudflare in front.",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (24.4 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "Several (9 files)",
+      "fix": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint.",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "cache-control: public, max-age=0, must-revalidate",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "1527 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 1 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://freesiteaudit.com/sitemap.xml — 732 URLs",
+      "fix": "",
+      "evidence": [
+        "https://freesiteaudit.com",
+        "https://freesiteaudit.com/about",
+        "https://freesiteaudit.com/pricing",
+        "https://freesiteaudit.com/demo",
+        "https://freesiteaudit.com/blog",
+        "https://freesiteaudit.com/tools",
+        "https://freesiteaudit.com/industries",
+        "https://freesiteaudit.com/fixes",
+        "https://freesiteaudit.com/agencies",
+        "https://freesiteaudit.com/case-studies"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'index, follow'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://freesiteaudit.com (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good length (58 chars)",
+      "fix": "",
+      "evidence": "Free Site Audit | Check Your Website SEO, Speed & Security"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Long (163 chars)",
+      "fix": "Keep it 120-160 characters.",
+      "evidence": "Run a free website audit in under 60 seconds. See your SEO score, speed, mobile, security and trust issues with a clear fix plan. No account or credit card needed."
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: You're one audit away from a better website.",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "1 level jump(s), e.g. H2 -> H4",
+      "fix": "Do not skip heading levels. Outline the page H1 > H2 > H3 so search engines and AI can parse the structure.",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Well structured (9 H2s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Substantial (1527 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'audit' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "'audit' appears in: title, H1, URL, first paragraph",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (10 links)",
+      "fix": "",
+      "evidence": [
+        "https://freesiteaudit.com/demo",
+        "https://freesiteaudit.com/dashboard",
+        "https://freesiteaudit.com",
+        "https://freesiteaudit.com",
+        "https://freesiteaudit.com/case-studies",
+        "https://freesiteaudit.com/agencies",
+        "https://freesiteaudit.com/case-studies",
+        "https://freesiteaudit.com/blog/freesiteaudit-vs-semrush",
+        "https://freesiteaudit.com/blog/freesiteaudit-vs-seoptimer-vs-seo-site-checkup",
+        "https://freesiteaudit.com/blog/website-audit-guide-for-plumbers-what-to-fix-first"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "35 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "5 external links, 0 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No images on the page",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "12 type(s): Answer, ContactPoint, FAQPage, ImageObject, Offer, OfferCatalog, Organization, Place",
+      "fix": "",
+      "evidence": [
+        "Answer",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "Offer",
+        "OfferCatalog",
+        "Organization",
+        "Place",
+        "ProfessionalService",
+        "Question",
+        "Service",
+        "WebSite"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://freesiteaudit.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "fail",
+      "weight": 0.5,
+      "detail": "Very low (code-heavy page) (5.1%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width, initial-scale=1",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "html lang=\"en\"",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Missing core pages: Contact page",
+      "fix": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source.",
+      "evidence": {
+        "about": 200,
+        "contact": 0,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 0
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.hreflang",
+      "category": "seo",
+      "title": "hreflang tags",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "2 alternate language versions declared",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "FAQPage JSON-LD found — eligible for FAQ rich results and easy for AI to quote",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found: answer, question",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Strong question coverage (11 questions)",
+      "fix": "",
+      "evidence": [
+        "How It Works",
+        "How We Compare",
+        "Is the free audit really free?",
+        "How long until I get my report?",
+        "What do you analyze?",
+        "Do I need technical knowledge?",
+        "How accurate is the analysis?",
+        "Is my data safe?",
+        "Can I see a sample report before buying?",
+        "How do I cancel my subscription?",
+        "Who built FreeSiteAudit?"
+      ]
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "warn",
+      "weight": 2.5,
+      "detail": "Mixed answer lengths (27.3% of answers)",
+      "fix": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot.",
+      "evidence": [
+        {
+          "question": "How It Works",
+          "level": 2,
+          "answer_words": 16,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Paste your URL. Get a score, your top issues, and a clear plan to fix them."
+        },
+        {
+          "question": "How We Compare",
+          "level": 2,
+          "answer_words": 10,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "See how FreeSiteAudit stacks up against other popular audit tools."
+        },
+        {
+          "question": "Is the free audit really free?",
+          "level": 3,
+          "answer_words": 40,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Yes, completely free. Just enter your URL — no account, no email, no credit card. You get your overall score and top issues instantly. Want more? Create a free account to save your"
+        },
+        {
+          "question": "How long until I get my report?",
+          "level": 3,
+          "answer_words": 19,
+          "in_40_60": false,
+          "definition_style": true,
+          "answer_preview": "The Quick Scan is typically under 60 seconds. Paid reports are generated and emailed within 2–3 minutes of payment."
+        },
+        {
+          "question": "What do you analyze?",
+          "level": 3,
+          "answer_words": 47,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "9 categories: SEO & Search Visibility, Website Performance & Speed, Mobile Experience, Security & Privacy, Accessibility, Content & Messaging, Technical Health, Trust & Credibility"
+        },
+        {
+          "question": "Do I need technical knowledge?",
+          "level": 3,
+          "answer_words": 33,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Not at all. Reports are written in plain language with prioritized, step-by-step recommendations. Each issue is labeled with who can fix it, and many are things you can do yourself"
+        },
+        {
+          "question": "How accurate is the analysis?",
+          "level": 3,
+          "answer_words": 31,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "We analyze your actual live website, checking real page speed, real HTML structure, and real content. Every finding comes with specific evidence from your site, so you can verify i"
+        },
+        {
+          "question": "Is my data safe?",
+          "level": 3,
+          "answer_words": 56,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Absolutely. We only use your email to deliver your report. No spam, no sharing with third parties. We analyze publicly accessible pages (the same thing Google sees). We never store"
+        }
+      ]
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "2 answer(s) open with 'X is ...' — the classic snippet format",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "14 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "1 table(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easy to quote (70 sentences analysed) (14.49 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "First paragraph is 14 words",
+      "fix": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand.",
+      "evidence": "Free instant audit. No signup needed. Create an account for 2 free Pro scans."
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No BreadcrumbList schema",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "1527 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "No AI crawler is blocked. Allowed: gptbot, chatgpt-user, oai-searchbot, claudebot, anthropic-ai, claude-web, perplexitybot, perplexity-user",
+      "fix": "",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No outbound links to authoritative sources",
+      "fix": "Add citations: link claims to primary sources. Pages with visible sourcing are dramatically more likely to be quoted by ChatGPT, Perplexity and Google AI Overviews.",
+      "evidence": null
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Good density of numbers (5.96 stats/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Author: FreeSiteAudit",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Person schema",
+      "fix": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity.",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Found: organization, website with sameAs",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (19.78 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No datePublished / dateModified found",
+      "fix": "Add visible and machine-readable publish and last-updated dates.",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Found: service",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "1 table(s), 14 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "11 question/answer pair(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found (1488 bytes) — an emerging convention for telling AI crawlers what matters",
+      "fix": "",
+      "evidence": "# FreeSiteAudit\n\n> Free instant website health audit. Scan any URL and get a score with actionable fixes in under 60 seconds.\n\n## What it does\n\nFreeSiteAudit scans websites for SEO, performance, mobile-friendliness, security, and accessibility issues. It produces a health score (0–100) and prioritiz"
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Only 4/8 trust pages found (missing: contact, shipping, returns, faq)",
+      "fix": "Publish About, Contact, Privacy, Terms, Shipping and Returns pages. AI engines check whether a store is a real, accountable business before recommending it.",
+      "evidence": {
+        "about": 200,
+        "contact": 0,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 0
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Using: <main>, <nav>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easily quotable (14.49 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://freesiteaudit.com/",
+    "final_url": "https://freesiteaudit.com/",
+    "title": "Free Site Audit | Check Your Website SEO, Speed & Security",
+    "title_length": 58,
+    "meta_description": "Run a free website audit in under 60 seconds. See your SEO score, speed, mobile, security and trust issues with a clear fix plan. No account or credit card needed.",
+    "meta_description_length": 163,
+    "meta_robots": "index, follow",
+    "canonical": "https://freesiteaudit.com",
+    "viewport": "width=device-width, initial-scale=1",
+    "lang": "en",
+    "h1": [
+      "You're one audit away from a better website."
+    ],
+    "h2": [
+      "How It Works",
+      "Real Issues, Real Evidence",
+      "Built for What You're Building",
+      "Real Results From Real Businesses",
+      "Run branded audits for your clients",
+      "How We Compare",
+      "Plans for Business Owners",
+      "Frequently Asked Questions",
+      "Know where you stand. Start improving."
+    ],
+    "h3": [
+      "Enter your URL",
+      "Get your score",
+      "See top issues",
+      "Follow the fix plan",
+      "Plain-language reports",
+      "Evidence-based findings",
+      "DIY-friendly fixes",
+      "Missing meta description on 12 pages",
+      "vs Semrush",
+      "vs SEOptimer",
+      "vs Manual audits",
+      "Free",
+      "Starter",
+      "Plus",
+      "Pro",
+      "Is the free audit really free?",
+      "How long until I get my report?",
+      "What do you analyze?",
+      "Do I need technical knowledge?",
+      "How accurate is the analysis?"
+    ],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 9,
+      "h3": 24,
+      "h4": 6,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 1527,
+    "first_paragraph": "Free instant audit. No signup needed. Create an account for 2 free Pro scans.",
+    "links_total": 50,
+    "links_internal": 45,
+    "links_external": 5,
+    "links_authority": 0,
+    "images_total": 0,
+    "images_missing_alt": 0,
+    "schema_types": [
+      "Answer",
+      "ContactPoint",
+      "FAQPage",
+      "ImageObject",
+      "Offer",
+      "OfferCatalog",
+      "Organization",
+      "Place",
+      "ProfessionalService",
+      "Question",
+      "Service",
+      "WebSite"
+    ],
+    "og": {
+      "og:title": "Free Site Audit | Check Your Website SEO, Speed & Security",
+      "og:description": "Run a free website audit in under 60 seconds. See your SEO score, speed, mobile, security and trust issues with a clear fix plan. No account needed.",
+      "og:url": "https://freesiteaudit.com",
+      "og:site_name": "FreeSiteAudit",
+      "og:locale": "en_US",
+      "og:image": "https://freesiteaudit.com/og-image.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "FreeSiteAudit: Instant Website Audit for Small Businesses",
+      "og:type": "website"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Free Site Audit | Website SEO Checker",
+      "twitter:description": "Free website audit for small businesses. Get your score and top issues instantly.",
+      "twitter:image": "https://freesiteaudit.com/og-image.png"
+    },
+    "tables": 1,
+    "lists": 14,
+    "blockquotes": 0,
+    "hreflang": [
+      "en-US:https://freesiteaudit.com",
+      "x-default:https://freesiteaudit.com"
+    ],
+    "dates": {},
+    "author": "FreeSiteAudit",
+    "qa_blocks": [
+      {
+        "question": "How It Works",
+        "level": 2,
+        "answer_words": 16,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Paste your URL. Get a score, your top issues, and a clear plan to fix them."
+      },
+      {
+        "question": "How We Compare",
+        "level": 2,
+        "answer_words": 10,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "See how FreeSiteAudit stacks up against other popular audit tools."
+      },
+      {
+        "question": "Is the free audit really free?",
+        "level": 3,
+        "answer_words": 40,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Yes, completely free. Just enter your URL — no account, no email, no credit card. You get your overall score and top issues instantly. Want more? Create a free account to save your"
+      },
+      {
+        "question": "How long until I get my report?",
+        "level": 3,
+        "answer_words": 19,
+        "in_40_60": false,
+        "definition_style": true,
+        "answer_preview": "The Quick Scan is typically under 60 seconds. Paid reports are generated and emailed within 2–3 minutes of payment."
+      },
+      {
+        "question": "What do you analyze?",
+        "level": 3,
+        "answer_words": 47,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "9 categories: SEO & Search Visibility, Website Performance & Speed, Mobile Experience, Security & Privacy, Accessibility, Content & Messaging, Technical Health, Trust & Credibility"
+      },
+      {
+        "question": "Do I need technical knowledge?",
+        "level": 3,
+        "answer_words": 33,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Not at all. Reports are written in plain language with prioritized, step-by-step recommendations. Each issue is labeled with who can fix it, and many are things you can do yourself"
+      },
+      {
+        "question": "How accurate is the analysis?",
+        "level": 3,
+        "answer_words": 31,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "We analyze your actual live website, checking real page speed, real HTML structure, and real content. Every finding comes with specific evidence from your site, so you can verify i"
+      },
+      {
+        "question": "Is my data safe?",
+        "level": 3,
+        "answer_words": 56,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Absolutely. We only use your email to deliver your report. No spam, no sharing with third parties. We analyze publicly accessible pages (the same thing Google sees). We never store"
+      },
+      {
+        "question": "Can I see a sample report before buying?",
+        "level": 3,
+        "answer_words": 26,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Yes! Check out our interactive demo report to see exactly what a full audit looks like, with real findings, evidence, and fix instructions you can explore."
+      },
+      {
+        "question": "How do I cancel my subscription?",
+        "level": 3,
+        "answer_words": 28,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "You can cancel anytime from your dashboard. Just click \"Manage Subscription\" to open the billing portal. Your audit access continues until the end of your current billing period."
+      },
+      {
+        "question": "Who built FreeSiteAudit?",
+        "level": 3,
+        "answer_words": 33,
+        "in_40_60": false,
+        "definition_style": true,
+        "answer_preview": "FreeSiteAudit was built by web professionals who wanted to make professional-grade website audits accessible to every business owner. We combined real-world SEO and web development"
+      }
+    ],
+    "statistic_density": 5.96,
+    "entity_density": 19.78,
+    "avg_sentence_words": 14.49,
+    "text_html_ratio": 5.1,
+    "head_scripts": 7,
+    "head_stylesheets": 2,
+    "inline_script_bytes": 21136,
+    "inline_style_bytes": 0,
+    "semantic_tags": {
+      "article": false,
+      "main": true,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "audit",
+        19
+      ],
+      [
+        "fix",
+        16
+      ],
+      [
+        "free",
+        14
+      ],
+      [
+        "real",
+        12
+      ],
+      [
+        "issues",
+        11
+      ],
+      [
+        "pages",
+        11
+      ],
+      [
+        "website",
+        11
+      ],
+      [
+        "audits",
+        10
+      ],
+      [
+        "plan",
+        8
+      ],
+      [
+        "top",
+        8
+      ],
+      [
+        "every",
+        7
+      ],
+      [
+        "report",
+        7
+      ],
+      [
+        "reports",
+        7
+      ],
+      [
+        "scans",
+        7
+      ],
+      [
+        "score",
+        7
+      ]
+    ],
+    "html_bytes": 185776,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://freesiteaudit.com/",
+    "host": "freesiteaudit.com",
+    "root_domain": "freesiteaudit.com",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://freesiteaudit.com/",
+    "www_variant": "www.freesiteaudit.com",
+    "www_redirect": "https://www.freesiteaudit.com/ serves its own 200 (both variants live)",
+    "apex_and_www_both_200": true,
+    "server": "Vercel",
+    "powered_by": "",
+    "security_headers": {
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://js.stripe.com https://us-assets.i.posthog.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: blob:; font-src 'self' data:; connect-src 'self' https://*.supabase.co https://api.stripe.com https://www.google-analytics.com https://generativelanguage.googleapis.com https://api.anthropic.com https://us.i.posthog.com https://us-assets.i.posthog.com; frame-src https://js.stripe.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "permissions-policy": "camera=(), microphone=(), geolocation=()"
+    },
+    "missing_security_headers": [],
+    "response_time": 0.834,
+    "home_size": 24943,
+    "content_encoding": "gzip",
+    "cache_control": "public, max-age=0, must-revalidate",
+    "cdn_hint": "yes (edge/CDN headers present)",
+    "robots": {
+      "url": "https://freesiteaudit.com/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "https://freesiteaudit.com/sitemap.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [
+            "/api/",
+            "/dashboard/",
+            "/_next/",
+            "/fonts/",
+            "/results/",
+            "/share/",
+            "/fix-plan",
+            "/compare/",
+            "/embed/",
+            "/verify",
+            "/receipt"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "googlebot",
+            "bingbot",
+            "duckduckbot",
+            "slurp"
+          ],
+          "allow": [
+            "/",
+            "/about",
+            "/pricing",
+            "/blog",
+            "/blog/",
+            "/demo",
+            "/tools",
+            "/tools/",
+            "/industries",
+            "/industries/",
+            "/fixes",
+            "/fixes/",
+            "/agencies",
+            "/case-studies",
+            "/case-studies/",
+            "/lp/",
+            "/privacy",
+            "/terms"
+          ],
+          "disallow": [
+            "/api/",
+            "/dashboard/",
+            "/_next/",
+            "/fonts/",
+            "/auth/",
+            "/verify",
+            "/receipt",
+            "/embed/",
+            "/results/",
+            "/share/",
+            "/fix-plan",
+            "/compare/"
+          ],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://freesiteaudit.com/sitemap.xml",
+      "status": 200,
+      "is_index": false,
+      "url_count": 732,
+      "child_count": 0,
+      "has_lastmod": true,
+      "sample": [
+        "https://freesiteaudit.com",
+        "https://freesiteaudit.com/about",
+        "https://freesiteaudit.com/pricing",
+        "https://freesiteaudit.com/demo",
+        "https://freesiteaudit.com/blog",
+        "https://freesiteaudit.com/tools",
+        "https://freesiteaudit.com/industries",
+        "https://freesiteaudit.com/fixes",
+        "https://freesiteaudit.com/agencies",
+        "https://freesiteaudit.com/case-studies",
+        "https://freesiteaudit.com/lp/local-audit",
+        "https://freesiteaudit.com/privacy",
+        "https://freesiteaudit.com/terms",
+        "https://freesiteaudit.com/tools/meta-title-checker",
+        "https://freesiteaudit.com/tools/meta-description-checker",
+        "https://freesiteaudit.com/tools/sitemap-checker",
+        "https://freesiteaudit.com/tools/robots-txt-checker",
+        "https://freesiteaudit.com/tools/speed-snapshot",
+        "https://freesiteaudit.com/tools/core-web-vitals",
+        "https://freesiteaudit.com/tools/mobile-friendly-test",
+        "https://freesiteaudit.com/tools/ssl-check",
+        "https://freesiteaudit.com/tools/local-seo-check",
+        "https://freesiteaudit.com/tools/click-to-call-check",
+        "https://freesiteaudit.com/tools/nap-consistency",
+        "https://freesiteaudit.com/tools/cta-visibility"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 200,
+      "exists": true,
+      "size": 1488,
+      "preview": "# FreeSiteAudit\n\n> Free instant website health audit. Scan any URL and get a score with actionable fixes in under 60 seconds.\n\n## What it does\n\nFreeSiteAudit scans websites for SEO, performance, mobile-friendliness, security, and accessibility issues. It produces a health score (0–100) and prioritized fix recommendations. Paid plans add deeper crawls, AI-written narratives, scheduled re-audits, branded PDF reports, and team collaboration.\n\n## Target audience\n\n- Indie hackers and solo developers "
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 200,
+    "contact": 0,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 200,
+    "shipping": 0,
+    "returns": 0,
+    "faq": 0
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "warn",
+        "weight": 2.5,
+        "problem": "Mixed answer lengths (27.3% of answers)",
+        "action": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot."
+      },
+      {
+        "id": "geo.author_schema",
+        "category": "geo",
+        "title": "Person schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Person schema",
+        "action": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity."
+      },
+      {
+        "id": "geo.dates",
+        "category": "geo",
+        "title": "Publish / update dates",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No datePublished / dateModified found",
+        "action": "Add visible and machine-readable publish and last-updated dates."
+      },
+      {
+        "id": "geo.eeat_surface",
+        "category": "geo",
+        "title": "E-E-A-T surface area",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Only 4/8 trust pages found (missing: contact, shipping, returns, faq)",
+        "action": "Publish About, Contact, Privacy, Terms, Shipping and Returns pages. AI engines check whether a store is a real, accountable business before recommending it."
+      },
+      {
+        "id": "seo.response_time",
+        "category": "technical",
+        "title": "Server response time",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Acceptable (0.83s)",
+        "action": "Target under 0.8s. Enable full-page caching, upgrade the host, and put Cloudflare in front."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "Missing core pages: Contact page",
+        "action": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source."
+      },
+      {
+        "id": "seo.host_canonical",
+        "category": "technical",
+        "title": "One canonical hostname",
+        "status": "fail",
+        "weight": 1.5,
+        "problem": "Both freesiteaudit.com and www.freesiteaudit.com return 200",
+        "action": "Pick one (usually https://www or https://apex), 301 the other to it, and make sure the canonical tag matches."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "fail",
+        "weight": 0.5,
+        "problem": "Very low (code-heavy page) (5.1%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "geo.citations",
+        "category": "geo",
+        "title": "Cites authoritative sources",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No outbound links to authoritative sources",
+        "action": "Add citations: link claims to primary sources. Pages with visible sourcing are dramatically more likely to be quoted by ChatGPT, Perplexity and Google AI Overviews."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.answer_first",
+        "category": "aeo",
+        "title": "Answer-first intro",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "First paragraph is 14 words",
+        "action": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand."
+      },
+      {
+        "id": "seo.heading_hierarchy",
+        "category": "seo",
+        "title": "Heading hierarchy",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "1 level jump(s), e.g. H2 -> H4",
+        "action": "Do not skip heading levels. Outline the page H1 > H2 > H3 so search engines and AI can parse the structure."
+      },
+      {
+        "id": "seo.meta_description_len",
+        "category": "seo",
+        "title": "Meta description length",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Long (163 chars)",
+        "action": "Keep it 120-160 characters."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      },
+      {
+        "id": "seo.render_blocking",
+        "category": "technical",
+        "title": "Render-blocking head resources",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "Several (9 files)",
+        "action": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

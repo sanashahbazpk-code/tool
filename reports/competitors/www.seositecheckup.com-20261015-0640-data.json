@@ -1,0 +1,1485 @@
+{
+  "target": "https://www.seositecheckup.com/",
+  "generated_at": "2026-10-15 13:40 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 72.9,
+      "grade": "C"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 86.6,
+      "grade": "B"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 69.0,
+      "grade": "D"
+    },
+    "overall": {
+      "score": 76.2,
+      "grade": "C"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from seositecheckup.com",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://seositecheckup.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "https://www.seositecheckup.com/ -> https://seositecheckup.com (good)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Acceptable (0.96s)",
+      "fix": "Target under 0.8s. Enable full-page caching, upgrade the host, and put Cloudflare in front.",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (38.4 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "Several (11 files)",
+      "fix": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint.",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No cache-control header on the HTML response",
+      "fix": "Add Cache-Control and an ETag so repeat visits and crawls are cheap.",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "2525 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 1 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://seositecheckup.com/sitemap_index.xml — 802 URLs across 35 child sitemaps",
+      "fix": "",
+      "evidence": [
+        "https://seositecheckup.com",
+        "https://seositecheckup.com/about",
+        "https://seositecheckup.com/articles/3-crucial-mindsets-for-seo",
+        "https://seositecheckup.com/articles/3-google-adwords-hacks-you-must-know-and-3-mistakes-to-avoid",
+        "https://seositecheckup.com/articles/3-proven-tips-for-increasing-conversion-rates-on-homepages",
+        "https://seositecheckup.com/articles/3-types-of-backlinks-the-good-bad-and-the-worst",
+        "https://seositecheckup.com/articles/4-actionable-copywriting-secrets-that-significantly-boost-your-seo",
+        "https://seositecheckup.com/articles/4-amazing-tips-for-creating-and-promoting-infographics",
+        "https://seositecheckup.com/articles/4-excellent-link-building-tools-and-how-to-use-them",
+        "https://seositecheckup.com/articles/4-google-adwords-tips-that-will-help-you-increase-your-profit"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'index, follow'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://seositecheckup.com/ (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Too long/short (71 chars)",
+      "fix": "Keep titles 30-60 characters so they are not truncated in the SERP. Front-load the primary keyword.",
+      "evidence": "Reclaim Lost Traffic with LLM-Ready SEO Intelligence | SEO Site Checkup"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good length (126 chars)",
+      "fix": "",
+      "evidence": "Get SEO insights by page group. AI brand visibility. Domain-level audits. Keyword tracking. Backlinks checker. Plus much more."
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "2 H1s found: ['Reclaim Lost Traffic with LLM-Ready SEO Intelligence', 'Get unlimited checks, saved reports & competitor tracking.']",
+      "fix": "Keep a single H1 per page; demote the others to H2.",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "1 level jump(s), e.g. H1 -> H3",
+      "fix": "Do not skip heading levels. Outline the page H1 > H2 > H3 so search engines and AI can parse the structure.",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Well structured (13 H2s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Substantial (2525 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'reclaim lost' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "'reclaim lost' only appears in: title, H1",
+      "fix": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words.",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (60 links)",
+      "fix": "",
+      "evidence": [
+        "https://seositecheckup.com/terms-of-service",
+        "https://seositecheckup.com/pricing",
+        "https://seositecheckup.com/use-cases/for-saas-marketers",
+        "https://seositecheckup.com/use-cases/for-content-led-companies",
+        "https://seositecheckup.com/use-cases/for-growth-agencies",
+        "https://seositecheckup.com/use-cases/for-ecommerce-brands",
+        "https://seositecheckup.com/features/deep-domain-analysis",
+        "https://seositecheckup.com/features/llm-visibility-checker",
+        "https://seositecheckup.com/features/ai-content-analysis",
+        "https://seositecheckup.com/features/visual-seo-analysis"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "39 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "4 external links, 0 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Some images missing alt (28.2% missing)",
+      "fix": "Write descriptive alt text for every image — it feeds image search, accessibility and AI understanding.",
+      "evidence": {
+        "total": 39,
+        "missing": 11
+      }
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "10 type(s): AggregateOffer, Answer, BusinessAudience, ContactPoint, FAQPage, Organization, Question, SoftwareApplication",
+      "fix": "",
+      "evidence": [
+        "AggregateOffer",
+        "Answer",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "Organization",
+        "Question",
+        "SoftwareApplication",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://seositecheckup.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "fail",
+      "weight": 0.5,
+      "detail": "Very low (code-heavy page) (7.5%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "html lang=\"en\"",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Found: About page, Contact page, Privacy policy, Terms of service, Blog / news section, Returns / refund policy, FAQ page | Missing: Shipping policy",
+      "fix": "Add the remaining policy/FAQ pages.",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 200,
+        "faq": 200
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "FAQPage JSON-LD found — eligible for FAQ rich results and easy for AI to quote",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found: answer, question",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Strong question coverage (8 questions)",
+      "fix": "",
+      "evidence": [
+        "Can I change my plan later?",
+        "Can I white-label reports for my clients?",
+        "Do I need technical SEO knowledge to use this tool?",
+        "How is SEO Site Checkup different from other tools?",
+        "Is there a free trial available?",
+        "What if I want to manage more domains?",
+        "What is your cancellation policy?",
+        "What’s included in the AI visibility tracking?"
+      ]
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Good snippet-length answers (75.0% of answers)",
+      "fix": "",
+      "evidence": [
+        {
+          "question": "Can I change my plan later?",
+          "level": 3,
+          "answer_words": 41,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Yes! You can upgrade or switch plans at any time as your needs evolve. Whether you want to add more domains, enable advanced tracking features, or access higher-tier reporting limi"
+        },
+        {
+          "question": "Can I white-label reports for my clients?",
+          "level": 3,
+          "answer_words": 37,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Yes — SEO Site Checkup's Website and Professional Plans supports white-label reports specifically for agencies and teams. You can generate branded SEO reports with your own logo an"
+        },
+        {
+          "question": "Do I need technical SEO knowledge to use this tool?",
+          "level": 3,
+          "answer_words": 45,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "No — the platform is designed for both beginners and seasoned SEO professionals. It automatically scans and prioritizes issues for you, explains each finding in plain English, and "
+        },
+        {
+          "question": "How is SEO Site Checkup different from other tools?",
+          "level": 3,
+          "answer_words": 54,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "SEO Site Checkup stands out because it combines traditional SEO auditing (technical issues, meta tags, site structure) with AI visibility tracking across major LLM platforms like C"
+        },
+        {
+          "question": "Is there a free trial available?",
+          "level": 3,
+          "answer_words": 50,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Yes, you can try us for free for 7 days. After the trial ends, you will be billed and you can cancel your plan at any time. If you want, we’ll provide you with a free, personalized"
+        },
+        {
+          "question": "What if I want to manage more domains?",
+          "level": 3,
+          "answer_words": 41,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "You can add and manage multiple domains from a single dashboard. Higher tier plans let you track more sites and provide centralized reporting and monitoring across all of them — id"
+        },
+        {
+          "question": "What is your cancellation policy?",
+          "level": 3,
+          "answer_words": 46,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "You can cancel your subscription at any time. Upon cancellation, you’ll retain access through the end of your current billing period, and you won’t be charged again going forward. "
+        },
+        {
+          "question": "What’s included in the AI visibility tracking?",
+          "level": 3,
+          "answer_words": 27,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "AI visibility tracking shows how your brand or domain appears inside AI engines and LLM responses across platforms like ChatGPT, Gemini, Perplexity, Claude and more. It includes:"
+        }
+      ]
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No answer opens with a definition",
+      "fix": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "19 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easy to quote (116 sentences analysed) (11.67 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "First paragraph is 8 words",
+      "fix": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand.",
+      "evidence": "AI Search is Your Growth Advantage Supported platforms:"
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No BreadcrumbList schema",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "2525 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "robots.txt blocks: bytespider",
+      "fix": "Un-block the AI crawlers you want citations from (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot). If they cannot fetch the page, ChatGPT, Claude and Perplexity will never quote it. This is the single most common reason a site is invisible in AI answers.",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "blocked",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "warn",
+      "weight": 3.0,
+      "detail": "Only 1 authority citation(s): www.linkedin.com",
+      "fix": "Link to 3+ credible sources (industry data, government, research, manufacturer specs). AI engines preferentially cite content that itself cites sources.",
+      "evidence": [
+        "https://www.linkedin.com/company/seositecheckup"
+      ]
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "warn",
+      "weight": 2.5,
+      "detail": "Few numbers (1.27 stats/100 words)",
+      "fix": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No author byline found",
+      "fix": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Person schema",
+      "fix": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity.",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Found: organization, website with sameAs",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (22.38 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No datePublished / dateModified found",
+      "fix": "Add visible and machine-readable publish and last-updated dates.",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Article / Product / Service schema",
+      "fix": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question.",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 table(s), 19 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "8 question/answer pair(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No /llms.txt (optional; the convention is still emerging, low cost to add: a markdown index of your key pages)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Trust pages found: 7/8",
+      "fix": "",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 200,
+        "faq": 200
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Using: <article>, <main>, <nav>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easily quotable (11.67 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://seositecheckup.com/",
+    "final_url": "https://seositecheckup.com/",
+    "title": "Reclaim Lost Traffic with LLM-Ready SEO Intelligence | SEO Site Checkup",
+    "title_length": 71,
+    "meta_description": "Get SEO insights by page group. AI brand visibility. Domain-level audits. Keyword tracking. Backlinks checker. Plus much more.",
+    "meta_description_length": 126,
+    "meta_robots": "index, follow",
+    "canonical": "https://seositecheckup.com/",
+    "viewport": "width=device-width",
+    "lang": "en",
+    "h1": [
+      "Reclaim Lost Traffic with LLM-Ready SEO Intelligence",
+      "Get unlimited checks, saved reports & competitor tracking."
+    ],
+    "h2": [
+      "SEO Site Checkup helps you rank higher on Google and AI Engines.",
+      "SEO Site Checkup’s Features",
+      "Deep Domain Analysis",
+      "LLM Visibility Checker",
+      "AI Content Analysis",
+      "Visual SEO Analysis",
+      "Technical SEO Audits",
+      "Other Features",
+      "Search is shifting to AI. And you're invisible.",
+      "Customer reviews",
+      "Frequently asked questions",
+      "Latest writings",
+      "Dominate search today on Google and AI Engines."
+    ],
+    "h3": [
+      "Sign up for free",
+      "For SaaS Marketers",
+      "For Content-Led Companies",
+      "For Growth Agencies",
+      "For E-commerce Brands",
+      "Site Speed & Outage",
+      "Backlinks Checker",
+      "Top Keywords",
+      "Keyword Position Tracker",
+      "Keyword Research",
+      "White Label Reports",
+      "You’re losing deals to competitors cited by AI",
+      "You don’t know what prompts are triggering competitors",
+      "Your brand is not mentioned by LLM agents",
+      "You don’t know how to optimize for AI visibility",
+      "Can I change my plan later?",
+      "Can I white-label reports for my clients?",
+      "Do I need technical SEO knowledge to use this tool?",
+      "How is SEO Site Checkup different from other tools?",
+      "Is there a free trial available?"
+    ],
+    "heading_counts": {
+      "h1": 2,
+      "h2": 13,
+      "h3": 31,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 2525,
+    "first_paragraph": "AI Search is Your Growth Advantage Supported platforms:",
+    "links_total": 103,
+    "links_internal": 99,
+    "links_external": 4,
+    "links_authority": 1,
+    "images_total": 39,
+    "images_missing_alt": 11,
+    "schema_types": [
+      "AggregateOffer",
+      "Answer",
+      "BusinessAudience",
+      "ContactPoint",
+      "FAQPage",
+      "Organization",
+      "Question",
+      "SoftwareApplication",
+      "WebPage",
+      "WebSite"
+    ],
+    "og": {
+      "og:title": "Reclaim Lost Traffic with LLM-Ready SEO Intelligence | SEO Site Checkup",
+      "og:type": "website",
+      "og:image": "https://media.adaptocms.com/60659756-4e49-4975-8fd0-de59ae94dd96/images/5c352822-2474-40e0-b466-4d48865fc152.webp",
+      "og:url": "https://seositecheckup.com/",
+      "og:description": "Get SEO insights by page group. AI brand visibility. Domain-level audits. Keyword tracking. Backlinks checker. Plus much more.",
+      "og:locale": "en",
+      "og:site_name": "SEO Site Checkup",
+      "og:image:url": "https://media.adaptocms.com/60659756-4e49-4975-8fd0-de59ae94dd96/images/5c352822-2474-40e0-b466-4d48865fc152.webp",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Reclaim Lost Traffic with LLM-Ready SEO Intelligence | SEO Site Checkup"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@seositecheckup",
+      "twitter:title": "Reclaim Lost Traffic with LLM-Ready SEO Intelligence | SEO Site Checkup",
+      "twitter:image": "https://media.adaptocms.com/60659756-4e49-4975-8fd0-de59ae94dd96/images/5c352822-2474-40e0-b466-4d48865fc152.webp",
+      "twitter:image:alt": "Reclaim Lost Traffic with LLM-Ready SEO Intelligence | SEO Site Checkup",
+      "twitter:description": "Get SEO insights by page group. AI brand visibility. Domain-level audits. Keyword tracking. Backlinks checker. Plus much more.",
+      "twitter:creator": "@seositecheckup"
+    },
+    "tables": 0,
+    "lists": 19,
+    "blockquotes": 0,
+    "hreflang": [],
+    "dates": {},
+    "author": "",
+    "qa_blocks": [
+      {
+        "question": "Can I change my plan later?",
+        "level": 3,
+        "answer_words": 41,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Yes! You can upgrade or switch plans at any time as your needs evolve. Whether you want to add more domains, enable advanced tracking features, or access higher-tier reporting limi"
+      },
+      {
+        "question": "Can I white-label reports for my clients?",
+        "level": 3,
+        "answer_words": 37,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Yes — SEO Site Checkup's Website and Professional Plans supports white-label reports specifically for agencies and teams. You can generate branded SEO reports with your own logo an"
+      },
+      {
+        "question": "Do I need technical SEO knowledge to use this tool?",
+        "level": 3,
+        "answer_words": 45,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "No — the platform is designed for both beginners and seasoned SEO professionals. It automatically scans and prioritizes issues for you, explains each finding in plain English, and "
+      },
+      {
+        "question": "How is SEO Site Checkup different from other tools?",
+        "level": 3,
+        "answer_words": 54,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "SEO Site Checkup stands out because it combines traditional SEO auditing (technical issues, meta tags, site structure) with AI visibility tracking across major LLM platforms like C"
+      },
+      {
+        "question": "Is there a free trial available?",
+        "level": 3,
+        "answer_words": 50,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Yes, you can try us for free for 7 days. After the trial ends, you will be billed and you can cancel your plan at any time. If you want, we’ll provide you with a free, personalized"
+      },
+      {
+        "question": "What if I want to manage more domains?",
+        "level": 3,
+        "answer_words": 41,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "You can add and manage multiple domains from a single dashboard. Higher tier plans let you track more sites and provide centralized reporting and monitoring across all of them — id"
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "level": 3,
+        "answer_words": 46,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "You can cancel your subscription at any time. Upon cancellation, you’ll retain access through the end of your current billing period, and you won’t be charged again going forward. "
+      },
+      {
+        "question": "What’s included in the AI visibility tracking?",
+        "level": 3,
+        "answer_words": 27,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "AI visibility tracking shows how your brand or domain appears inside AI engines and LLM responses across platforms like ChatGPT, Gemini, Perplexity, Claude and more. It includes:"
+      }
+    ],
+    "statistic_density": 1.27,
+    "entity_density": 22.38,
+    "avg_sentence_words": 11.67,
+    "text_html_ratio": 7.5,
+    "head_scripts": 9,
+    "head_stylesheets": 2,
+    "inline_script_bytes": 19515,
+    "inline_style_bytes": 928,
+    "semantic_tags": {
+      "article": true,
+      "main": true,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "seo",
+        57
+      ],
+      [
+        "content",
+        33
+      ],
+      [
+        "keyword",
+        25
+      ],
+      [
+        "monitor",
+        25
+      ],
+      [
+        "pages",
+        23
+      ],
+      [
+        "reports",
+        23
+      ],
+      [
+        "analysis",
+        20
+      ],
+      [
+        "site",
+        19
+      ],
+      [
+        "visibility",
+        19
+      ],
+      [
+        "chatgpt",
+        18
+      ],
+      [
+        "audits",
+        17
+      ],
+      [
+        "brand",
+        17
+      ],
+      [
+        "tracking",
+        17
+      ],
+      [
+        "across",
+        16
+      ],
+      [
+        "growth",
+        16
+      ]
+    ],
+    "html_bytes": 224290,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://seositecheckup.com/",
+    "host": "seositecheckup.com",
+    "root_domain": "seositecheckup.com",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://seositecheckup.com/",
+    "www_variant": "www.seositecheckup.com",
+    "www_redirect": "https://www.seositecheckup.com/ -> https://seositecheckup.com (good)",
+    "apex_and_www_both_200": false,
+    "server": "AmazonS3",
+    "powered_by": "",
+    "security_headers": {},
+    "missing_security_headers": [
+      "strict-transport-security",
+      "x-content-type-options",
+      "x-frame-options",
+      "content-security-policy",
+      "referrer-policy",
+      "permissions-policy"
+    ],
+    "response_time": 0.961,
+    "home_size": 39271,
+    "content_encoding": "gzip",
+    "cache_control": "",
+    "cdn_hint": "yes (edge/CDN headers present)",
+    "robots": {
+      "url": "https://seositecheckup.com/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "https://seositecheckup.com/sitemap_index.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "bytespider"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "bytedance"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "bytedance"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "dotbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/seo-audit/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "petalbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/seo-audit/"
+          ],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "blocked",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [
+      "bytespider"
+    ],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://seositecheckup.com/sitemap_index.xml",
+      "status": 200,
+      "is_index": true,
+      "url_count": 802,
+      "child_count": 35,
+      "has_lastmod": true,
+      "sample": [
+        "https://seositecheckup.com",
+        "https://seositecheckup.com/about",
+        "https://seositecheckup.com/articles/3-crucial-mindsets-for-seo",
+        "https://seositecheckup.com/articles/3-google-adwords-hacks-you-must-know-and-3-mistakes-to-avoid",
+        "https://seositecheckup.com/articles/3-proven-tips-for-increasing-conversion-rates-on-homepages",
+        "https://seositecheckup.com/articles/3-types-of-backlinks-the-good-bad-and-the-worst",
+        "https://seositecheckup.com/articles/4-actionable-copywriting-secrets-that-significantly-boost-your-seo",
+        "https://seositecheckup.com/articles/4-amazing-tips-for-creating-and-promoting-infographics",
+        "https://seositecheckup.com/articles/4-excellent-link-building-tools-and-how-to-use-them",
+        "https://seositecheckup.com/articles/4-google-adwords-tips-that-will-help-you-increase-your-profit",
+        "https://seositecheckup.com/articles/4-insights-and-4-actionable-takeaways-from-semrushs-ai-search-study",
+        "https://seositecheckup.com/articles/4-seo-features-your-ecommerce-platform-must-have",
+        "https://seositecheckup.com/articles/4-simple-ways-to-start-generating-more-search-engine-traffic-without-backlinks",
+        "https://seositecheckup.com/articles/4-types-of-blog-posts-that-are-guaranteed-to-bring-you-traffic",
+        "https://seositecheckup.com/articles/5-ai-tools-that-seos-and-content-marketers-can-use-and-how-to-use-them",
+        "https://seositecheckup.com/articles/5-big-seo-news-you-might-have-missed-in-2020",
+        "https://seositecheckup.com/articles/5-easy-steps-to-adapt-to-the-latest-google-adwords-matching-behavior-change",
+        "https://seositecheckup.com/articles/5-evergreen-seo-techniques",
+        "https://seositecheckup.com/articles/5-fatal-errors-of-online-marketing",
+        "https://seositecheckup.com/articles/5-reasons-why-fresh-content-is-critical-for-your-website-and-seo",
+        "https://seositecheckup.com/articles/5-reverse-engineering-strategies-which-can-help-you-benefit-from-your-competitions-successes",
+        "https://seositecheckup.com/articles/5-search-engine-optimization-tips-for-e-commerce-websites",
+        "https://seositecheckup.com/articles/5-seo-mistakes-that-expert-webmasters-avoid-and-how-they-handle-failure",
+        "https://seositecheckup.com/articles/5-seo-myths-you-should-no-longer-follow-in-2015",
+        "https://seositecheckup.com/articles/5-things-to-note-down-when-analyzing-competitors"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 404,
+      "exists": false,
+      "size": 0,
+      "preview": ""
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 200,
+    "contact": 200,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 200,
+    "shipping": 0,
+    "returns": 200,
+    "faq": 200
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.citations",
+        "category": "geo",
+        "title": "Cites authoritative sources",
+        "status": "warn",
+        "weight": 3.0,
+        "problem": "Only 1 authority citation(s): www.linkedin.com",
+        "action": "Link to 3+ credible sources (industry data, government, research, manufacturer specs). AI engines preferentially cite content that itself cites sources."
+      },
+      {
+        "id": "geo.statistics",
+        "category": "geo",
+        "title": "Quantitative facts",
+        "status": "warn",
+        "weight": 2.5,
+        "problem": "Few numbers (1.27 stats/100 words)",
+        "action": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives."
+      },
+      {
+        "id": "geo.author_byline",
+        "category": "geo",
+        "title": "Named author",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No author byline found",
+        "action": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh."
+      },
+      {
+        "id": "geo.author_schema",
+        "category": "geo",
+        "title": "Person schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Person schema",
+        "action": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity."
+      },
+      {
+        "id": "geo.content_schema",
+        "category": "geo",
+        "title": "Content type schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Article / Product / Service schema",
+        "action": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question."
+      },
+      {
+        "id": "geo.dates",
+        "category": "geo",
+        "title": "Publish / update dates",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No datePublished / dateModified found",
+        "action": "Add visible and machine-readable publish and last-updated dates."
+      },
+      {
+        "id": "seo.h1_single",
+        "category": "seo",
+        "title": "Exactly one H1",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "2 H1s found: ['Reclaim Lost Traffic with LLM-Ready SEO Intelligence', 'Get unlimited checks, saved reports & competitor tracking.']",
+        "action": "Keep a single H1 per page; demote the others to H2."
+      },
+      {
+        "id": "seo.keyword_alignment",
+        "category": "seo",
+        "title": "Keyword alignment",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "'reclaim lost' only appears in: title, H1",
+        "action": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words."
+      },
+      {
+        "id": "seo.response_time",
+        "category": "technical",
+        "title": "Server response time",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Acceptable (0.96s)",
+        "action": "Target under 0.8s. Enable full-page caching, upgrade the host, and put Cloudflare in front."
+      },
+      {
+        "id": "seo.title_length",
+        "category": "seo",
+        "title": "Title tag length",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "Too long/short (71 chars)",
+        "action": "Keep titles 30-60 characters so they are not truncated in the SERP. Front-load the primary keyword."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Found: About page, Contact page, Privacy policy, Terms of service, Blog / news section, Returns / refund policy, FAQ page | Missing: Shipping policy",
+        "action": "Add the remaining policy/FAQ pages."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "fail",
+        "weight": 0.5,
+        "problem": "Very low (code-heavy page) (7.5%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "geo.ai_crawler_access",
+        "category": "geo",
+        "title": "AI crawlers allowed",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "robots.txt blocks: bytespider",
+        "action": "Un-block the AI crawlers you want citations from (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot). If they cannot fetch the page, ChatGPT, Claude and Perplexity will never quote it. This is the single most common reason a site is invisible in AI answers."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.answer_first",
+        "category": "aeo",
+        "title": "Answer-first intro",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "First paragraph is 8 words",
+        "action": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand."
+      },
+      {
+        "id": "aeo.definition_style",
+        "category": "aeo",
+        "title": "Definition-style openers",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No answer opens with a definition",
+        "action": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "seo.heading_hierarchy",
+        "category": "seo",
+        "title": "Heading hierarchy",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "1 level jump(s), e.g. H1 -> H3",
+        "action": "Do not skip heading levels. Outline the page H1 > H2 > H3 so search engines and AI can parse the structure."
+      },
+      {
+        "id": "seo.image_alt",
+        "category": "seo",
+        "title": "Image alt text",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Some images missing alt (28.2% missing)",
+        "action": "Write descriptive alt text for every image — it feeds image search, accessibility and AI understanding."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      },
+      {
+        "id": "seo.cache_headers",
+        "category": "technical",
+        "title": "Cache headers",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No cache-control header on the HTML response",
+        "action": "Add Cache-Control and an ETag so repeat visits and crawls are cheap."
+      },
+      {
+        "id": "seo.render_blocking",
+        "category": "technical",
+        "title": "Render-blocking head resources",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "Several (11 files)",
+        "action": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

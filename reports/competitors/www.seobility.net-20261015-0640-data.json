@@ -1,0 +1,1894 @@
+{
+  "target": "https://www.seobility.net/en/",
+  "generated_at": "2026-10-15 13:40 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 87.5,
+      "grade": "B"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 45.9,
+      "grade": "F"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 81.2,
+      "grade": "B"
+    },
+    "overall": {
+      "score": 71.5,
+      "grade": "C"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from www.seobility.net",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://www.seobility.net/en/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "https://seobility.net/ -> https://www.seobility.net/en/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Fast (0.49s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (44.0 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "Several (9 files)",
+      "fix": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint.",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "cache-control: max-age=259200, must-revalidate",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "1712 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 1 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.seobility.net/sitemap_index.xml — 1318 URLs across 8 child sitemaps",
+      "fix": "",
+      "evidence": [
+        "https://www.seobility.net/en/blog/joomla-seo/",
+        "https://www.seobility.net/en/blog/why-is-my-competitor-ranking-higher/",
+        "https://www.seobility.net/en/blog/seo-for-ecommerce-product-pages/",
+        "https://www.seobility.net/en/blog/content-refresh/",
+        "https://www.seobility.net/en/blog/google-e-e-a-t/",
+        "https://www.seobility.net/en/blog/small-business-seo-mistakes/",
+        "https://www.seobility.net/en/blog/new-seo-quiz-by-seobility/",
+        "https://www.seobility.net/en/blog/looking-back-at-2021/",
+        "https://www.seobility.net/en/blog/local-pack-rank-tracking/",
+        "https://www.seobility.net/en/blog/seobility-speaks-spanish/"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.seobility.net/en/ (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good length (59 chars)",
+      "fix": "",
+      "evidence": "Seobility - Online SEO Software & Tools For Better Rankings"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good length (156 chars)",
+      "fix": "",
+      "evidence": "Improve your Google rankings and drive more visitors to your website with Seobility's All-in-One SEO platform. Top-rated ✓ Easy-to-use ✓ 14-day free trial ✓"
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: Improve your rankings and show up where it matters",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "No skipped heading levels",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Well structured (8 H2s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Substantial (1712 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'seobility' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "'seobility' only appears in: title, URL",
+      "fix": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words.",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (22 links)",
+      "fix": "",
+      "evidence": [
+        "https://app.seobility.net/user/register",
+        "https://app.seobility.net/user/register",
+        "https://www.seobility.net/en/website-audit/",
+        "https://www.seobility.net/en/ranking-monitoring/",
+        "https://www.seobility.net/en/backlink-monitoring/",
+        "https://www.seobility.net/en/seo-content-tools/",
+        "https://www.seobility.net/en/uptime-monitoring/",
+        "https://www.seobility.net/en/website-audit/",
+        "https://www.seobility.net/en/ranking-monitoring/",
+        "https://www.seobility.net/en/backlink-monitoring/"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "65 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "3 external links, 0 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good alt coverage (7.3% missing)",
+      "fix": "",
+      "evidence": {
+        "total": 109,
+        "missing": 8
+      }
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "16 type(s): BreadcrumbList, ContactPoint, EntryPoint, ImageObject, ListItem, Organization, Person, Place",
+      "fix": "",
+      "evidence": [
+        "BreadcrumbList",
+        "ContactPoint",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Place",
+        "PostalAddress",
+        "PropertyValueSpecification",
+        "QuantitativeValue",
+        "ReadAction",
+        "SearchAction",
+        "TechArticle",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://www.seobility.net/en/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "fail",
+      "weight": 0.5,
+      "detail": "Very low (code-heavy page) (4.7%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width, initial-scale=1",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "html lang=\"en-US\"",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Missing core pages: About page",
+      "fix": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source.",
+      "evidence": {
+        "about": 0,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.hreflang",
+      "category": "seo",
+      "title": "hreflang tags",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "4 alternate language versions declared",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No FAQPage schema",
+      "fix": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No QAPage/Question schema (optional)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No question headings (0 questions)",
+      "fix": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from.",
+      "evidence": []
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No question/answer pairs detected on the page",
+      "fix": "Add a FAQ section: question as the heading, 40-60 word answer immediately below.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No Q&A pairs to assess",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "14 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easy to quote (49 sentences analysed) (18.27 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "First paragraph is 9 words",
+      "fix": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand.",
+      "evidence": "Get an overview of our all-in-one SEO software suite"
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "Breadcrumbs declared — improves SERP display",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "1712 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "No AI crawler is blocked. Allowed: gptbot, chatgpt-user, oai-searchbot, claudebot, anthropic-ai, claude-web, perplexitybot, perplexity-user",
+      "fix": "",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "warn",
+      "weight": 3.0,
+      "detail": "Only 1 authority citation(s): www.linkedin.com",
+      "fix": "Link to 3+ credible sources (industry data, government, research, manufacturer specs). AI engines preferentially cite content that itself cites sources.",
+      "evidence": [
+        "https://www.linkedin.com/company/seobility-seo-tool/"
+      ]
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "Almost no data (0.23 stats/100 words)",
+      "fix": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Author: Manuel Weiss",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Person JSON-LD found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Found: organization, website with sameAs",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (24.3 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "published=? modified=2026-10-08T07:55:08+00:00",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.freshness",
+      "category": "geo",
+      "title": "Content freshness",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Updated within a year (7 days since update)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Article / Product / Service schema",
+      "fix": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question.",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 table(s), 14 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No question-and-answer structure",
+      "fix": "Add an FAQ block. It is what Perplexity and AI Overviews quote most often.",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found (1770 bytes) — an emerging convention for telling AI crawlers what matters",
+      "fix": "",
+      "evidence": "# Seobility\n\n> Seobility is an all-in-one SEO platform for website audits, keyword rank tracking (incl. Google AI Overviews), backlink monitoring, competitor analysis, and content optimization. This file lists the most important Seobility URLs for AI systems.\n\nPrimary notes:\n- The main marketing sit"
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Trust pages found: 5/8",
+      "fix": "",
+      "evidence": {
+        "about": 0,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "Only found: nav",
+      "fix": "Wrap content in <main> and <article> and use <nav>. Landmarks help extraction pipelines isolate the real content from the chrome.",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easily quotable (18.27 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://www.seobility.net/en/",
+    "final_url": "https://www.seobility.net/en/",
+    "title": "Seobility - Online SEO Software & Tools For Better Rankings",
+    "title_length": 59,
+    "meta_description": "Improve your Google rankings and drive more visitors to your website with Seobility's All-in-One SEO platform. Top-rated ✓ Easy-to-use ✓ 14-day free trial ✓",
+    "meta_description_length": 156,
+    "meta_robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "canonical": "https://www.seobility.net/en/",
+    "viewport": "width=device-width, initial-scale=1",
+    "lang": "en-US",
+    "h1": [
+      "Improve your rankings and show up where it matters"
+    ],
+    "h2": [
+      "A trusted website SEO solution you can count on",
+      "Everything you need in an online SEO platform",
+      "Professional SEO without the complexities",
+      "Helping 700,000+ users grow online",
+      "Try it now – Get 14 days free!",
+      "Seobility features",
+      "Recommended by industry professionals",
+      "Free tools to use - without registration"
+    ],
+    "h3": [
+      "SEO software for SMBs, agencies, and entrepreneurs",
+      "SEO tools for every experience level",
+      "Website Audit",
+      "Ranking Monitoring",
+      "Backlink Monitoring",
+      "Keyword Research & AI Content Tools",
+      "White Label Reporting",
+      "Uptime Monitoring",
+      "Website Audit",
+      "Ranking Monitoring",
+      "Backlink Monitoring",
+      "Keyword Research & AI Content Tools",
+      "White Label Reporting",
+      "Uptime Monitoring",
+      "On-Page & Technical SEO",
+      "Off-Page & SERPs",
+      "Keyword Research & Content"
+    ],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 8,
+      "h3": 17,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 1712,
+    "first_paragraph": "Get an overview of our all-in-one SEO software suite",
+    "links_total": 90,
+    "links_internal": 87,
+    "links_external": 3,
+    "links_authority": 1,
+    "images_total": 109,
+    "images_missing_alt": 8,
+    "schema_types": [
+      "BreadcrumbList",
+      "ContactPoint",
+      "EntryPoint",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Person",
+      "Place",
+      "PostalAddress",
+      "PropertyValueSpecification",
+      "QuantitativeValue",
+      "ReadAction",
+      "SearchAction",
+      "TechArticle",
+      "WebPage",
+      "WebSite"
+    ],
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "website",
+      "og:title": "Seobility - Online SEO Software & Tools For Better Rankings",
+      "og:description": "Improve your Google rankings and drive more visitors to your website with Seobility's All-in-One SEO platform. Top-rated ✓ Easy-to-use ✓ 14-day free trial ✓",
+      "og:url": "https://www.seobility.net/en/",
+      "og:site_name": "Seobility",
+      "og:image": "https://www.seobility.net/wp-content/uploads/2025/06/seobility-og-image.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:type": "image/png"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@seobility_net"
+    },
+    "tables": 0,
+    "lists": 14,
+    "blockquotes": 0,
+    "hreflang": [
+      "en:https://www.seobility.net/en/",
+      "de:https://www.seobility.net/de/",
+      "es:https://www.seobility.net/es/",
+      "x-default:https://www.seobility.net/en/"
+    ],
+    "dates": {
+      "modified": "2026-10-08T07:55:08+00:00"
+    },
+    "author": "Manuel Weiss",
+    "qa_blocks": [],
+    "statistic_density": 0.23,
+    "entity_density": 24.3,
+    "avg_sentence_words": 18.27,
+    "text_html_ratio": 4.7,
+    "head_scripts": 9,
+    "head_stylesheets": 0,
+    "inline_script_bytes": 48474,
+    "inline_style_bytes": 89504,
+    "semantic_tags": {
+      "article": false,
+      "main": false,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "seo",
+        60
+      ],
+      [
+        "seobility",
+        58
+      ],
+      [
+        "website",
+        27
+      ],
+      [
+        "monitoring",
+        18
+      ],
+      [
+        "rankings",
+        18
+      ],
+      [
+        "search",
+        18
+      ],
+      [
+        "tools",
+        18
+      ],
+      [
+        "content",
+        17
+      ],
+      [
+        "keyword",
+        16
+      ],
+      [
+        "backlink",
+        13
+      ],
+      [
+        "visibility",
+        13
+      ],
+      [
+        "answers",
+        12
+      ],
+      [
+        "technical",
+        12
+      ],
+      [
+        "track",
+        12
+      ],
+      [
+        "use",
+        12
+      ]
+    ],
+    "html_bytes": 246452,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://www.seobility.net/en/",
+    "host": "www.seobility.net",
+    "root_domain": "seobility.net",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://www.seobility.net/en/",
+    "www_variant": "seobility.net",
+    "www_redirect": "https://seobility.net/ -> https://www.seobility.net/en/",
+    "apex_and_www_both_200": false,
+    "server": "cloudflare",
+    "powered_by": "WP Engine",
+    "security_headers": {},
+    "missing_security_headers": [
+      "strict-transport-security",
+      "x-content-type-options",
+      "x-frame-options",
+      "content-security-policy",
+      "referrer-policy",
+      "permissions-policy"
+    ],
+    "response_time": 0.493,
+    "home_size": 45029,
+    "content_encoding": "gzip",
+    "cache_control": "max-age=259200, must-revalidate",
+    "cdn_hint": "Cloudflare",
+    "robots": {
+      "url": "https://www.seobility.net/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "https://www.seobility.net/sitemap_index.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [
+            "/wp-admin/admin-ajax.php"
+          ],
+          "disallow": [
+            "/wp-admin/",
+            "/*/keywordcheck/check/*",
+            "/*/keywordchecker/check/*",
+            "/*/seocompare/check/*",
+            "/*/comparador-web-seo/check/*",
+            "/*/rankingcheck/check/*",
+            "/*/serpchecker/check/*",
+            "/*/seocheck/pdfexport*",
+            "/*/seochecker/pdfexport*",
+            "/*/seocheck/check*",
+            "/*/seochecker/check*",
+            "/en/keyword-research-tool/check",
+            "/de/keyword-recherche-tool/check",
+            "/es/buscador-palabras-clave/check",
+            "/pdfexample/",
+            "/docs/ai/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "seobility"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/keywordcheck/",
+            "/*/keywordchecker/",
+            "/*/seocompare/",
+            "/es/comparador-web-seo/",
+            "/outbound/",
+            "/pdfexample/",
+            "/*/seocheck/",
+            "/*/seochecker/",
+            "/*/rankingcheck/",
+            "/es/serpchecker/",
+            "/de/wdf-idf-tool/",
+            "/en/tf-idf-keyword-tool/",
+            "/es/herramienta-tf-idf/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "googlebot"
+          ],
+          "allow": [
+            "/*/seocheck/check*",
+            "/*/seochecker/check*"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "bingbot"
+          ],
+          "allow": [
+            "/*/seocheck/check*",
+            "/*/seochecker/check*"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "googleother"
+          ],
+          "allow": [
+            "/*/seocheck/check*",
+            "/*/seochecker/check*"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "google-inspectiontool"
+          ],
+          "allow": [
+            "/*/seocheck/check*",
+            "/*/seochecker/check*"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "gptbot"
+          ],
+          "allow": [
+            "/docs/ai/",
+            "/llms.txt"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "chatgpt-user"
+          ],
+          "allow": [
+            "/docs/ai/",
+            "/llms.txt"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "oai-searchbot"
+          ],
+          "allow": [
+            "/docs/ai/",
+            "/llms.txt"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "claudebot"
+          ],
+          "allow": [
+            "/docs/ai/",
+            "/llms.txt"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "perplexitybot"
+          ],
+          "allow": [
+            "/docs/ai/",
+            "/llms.txt"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "youbot"
+          ],
+          "allow": [
+            "/docs/ai/",
+            "/llms.txt"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "applebot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/seocheck/check",
+            "/*/seochecker/check"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "amazonbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/seocheck/check",
+            "/*/seochecker/check"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "turnitin"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/seocheck/check",
+            "/*/seochecker/check"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "slurp"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/seocheck/",
+            "/*/seochecker/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "ia_archiver"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/seocheck/",
+            "/*/seochecker/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "stackrambler"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/seocheck/",
+            "/*/seochecker/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "baiduspider"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/seocheck/",
+            "/*/seochecker/",
+            "/en/keywordcheck/check"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "sogou"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/seocheck/",
+            "/*/seochecker/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "panscient.com"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "semrushbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "semrushbot-sa"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "mj12bot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/seocheck/",
+            "/*/seochecker/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "ahrefsbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "dotbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "zookabot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "008"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "proximic"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "crystalsemanticsbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "larbin"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "blexbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "ubicrawler"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "doc"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "zao"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "sitecheck.internetseer.com"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "zealbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "msiecrawler"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "sitesnagger"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "webstripper"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "webcopier"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "fetch"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "offline explorer"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "teleport"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "teleportpro"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "webzip"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "linko"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "httrack"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "microsoft.url.control"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "xenu"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "larbin"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "libwww"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "zyborg"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "download ninja"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "sogou web spider"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "grub-client"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "k2spider"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "npbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "webreaper"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://www.seobility.net/sitemap_index.xml",
+      "status": 200,
+      "is_index": true,
+      "url_count": 1318,
+      "child_count": 8,
+      "has_lastmod": true,
+      "sample": [
+        "https://www.seobility.net/en/blog/joomla-seo/",
+        "https://www.seobility.net/en/blog/why-is-my-competitor-ranking-higher/",
+        "https://www.seobility.net/en/blog/seo-for-ecommerce-product-pages/",
+        "https://www.seobility.net/en/blog/content-refresh/",
+        "https://www.seobility.net/en/blog/google-e-e-a-t/",
+        "https://www.seobility.net/en/blog/small-business-seo-mistakes/",
+        "https://www.seobility.net/en/blog/new-seo-quiz-by-seobility/",
+        "https://www.seobility.net/en/blog/looking-back-at-2021/",
+        "https://www.seobility.net/en/blog/local-pack-rank-tracking/",
+        "https://www.seobility.net/en/blog/seobility-speaks-spanish/",
+        "https://www.seobility.net/en/blog/google-title-update-everything-you-need-to-know/",
+        "https://www.seobility.net/en/blog/google-updates-june-july-2021/",
+        "https://www.seobility.net/en/blog/free-keyword-research-tool/",
+        "https://www.seobility.net/en/blog/cost-of-seo/",
+        "https://www.seobility.net/en/blog/zero-click-searches/",
+        "https://www.seobility.net/de/blog/joomla-seo-check/",
+        "https://www.seobility.net/de/blog/godaddy-seo-check/",
+        "https://www.seobility.net/de/blog/squarespace-seo-check/",
+        "https://www.seobility.net/de/blog/duplicate-content-probleme/",
+        "https://www.seobility.net/de/blog/suchintention-optimierung/",
+        "https://www.seobility.net/de/blog/nutzersignale-optimieren/",
+        "https://www.seobility.net/de/blog/warum-rankt-die-konkurrenz-besser/",
+        "https://www.seobility.net/de/blog/content-marketing-fuer-kleine-unternehmen/",
+        "https://www.seobility.net/de/blog/content-refresh-guide/",
+        "https://www.seobility.net/de/blog/seo-strategien-fuer-kleine-unternehmen/"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 200,
+      "exists": true,
+      "size": 1770,
+      "preview": "# Seobility\n\n> Seobility is an all-in-one SEO platform for website audits, keyword rank tracking (incl. Google AI Overviews), backlink monitoring, competitor analysis, and content optimization. This file lists the most important Seobility URLs for AI systems.\n\nPrimary notes:\n- The main marketing site is https://www.seobility.net/ (EN/DE/ES available).\n- The web app lives at https://app.seobility.net/ (requires an account).\n- Authoritative entity/terminology grounding for AI systems is published "
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 0,
+    "contact": 200,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 200,
+    "shipping": 0,
+    "returns": 0,
+    "faq": 200
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.citations",
+        "category": "geo",
+        "title": "Cites authoritative sources",
+        "status": "warn",
+        "weight": 3.0,
+        "problem": "Only 1 authority citation(s): www.linkedin.com",
+        "action": "Link to 3+ credible sources (industry data, government, research, manufacturer specs). AI engines preferentially cite content that itself cites sources."
+      },
+      {
+        "id": "geo.content_schema",
+        "category": "geo",
+        "title": "Content type schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Article / Product / Service schema",
+        "action": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question."
+      },
+      {
+        "id": "geo.faq_for_summarisation",
+        "category": "geo",
+        "title": "Q&A pairs for summarisation",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No question-and-answer structure",
+        "action": "Add an FAQ block. It is what Perplexity and AI Overviews quote most often."
+      },
+      {
+        "id": "seo.keyword_alignment",
+        "category": "seo",
+        "title": "Keyword alignment",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "'seobility' only appears in: title, URL",
+        "action": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "Missing core pages: About page",
+        "action": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "fail",
+        "weight": 0.5,
+        "problem": "Very low (code-heavy page) (4.7%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "aeo.faq_schema",
+        "category": "aeo",
+        "title": "FAQPage schema",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No FAQPage schema",
+        "action": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change."
+      },
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No question/answer pairs detected on the page",
+        "action": "Add a FAQ section: question as the heading, 40-60 word answer immediately below."
+      },
+      {
+        "id": "aeo.question_headings",
+        "category": "aeo",
+        "title": "Question-form headings",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No question headings (0 questions)",
+        "action": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from."
+      },
+      {
+        "id": "geo.statistics",
+        "category": "geo",
+        "title": "Quantitative facts",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "Almost no data (0.23 stats/100 words)",
+        "action": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.answer_first",
+        "category": "aeo",
+        "title": "Answer-first intro",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "First paragraph is 9 words",
+        "action": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      },
+      {
+        "id": "geo.semantic_html",
+        "category": "geo",
+        "title": "Semantic HTML landmarks",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "Only found: nav",
+        "action": "Wrap content in <main> and <article> and use <nav>. Landmarks help extraction pipelines isolate the real content from the chrome."
+      },
+      {
+        "id": "seo.render_blocking",
+        "category": "technical",
+        "title": "Render-blocking head resources",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "Several (9 files)",
+        "action": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

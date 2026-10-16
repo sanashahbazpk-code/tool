@@ -1,0 +1,1372 @@
+{
+  "target": "https://sitechecker.pro/",
+  "generated_at": "2026-10-15 13:40 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 78.1,
+      "grade": "C"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 37.2,
+      "grade": "F"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 83.3,
+      "grade": "B"
+    },
+    "overall": {
+      "score": 66.2,
+      "grade": "D"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from sitechecker.pro",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://sitechecker.pro/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "https://www.sitechecker.pro/ -> https://sitechecker.pro (good)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Fast (0.7s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (25.7 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "Several (11 files)",
+      "fix": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint.",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No cache-control header on the HTML response",
+      "fix": "Add Cache-Control and an ETag so repeat visits and crawls are cheap.",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "315 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 13 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://sitechecker.pro/sitemap_index.xml — 1083 URLs across 3 child sitemaps",
+      "fix": "",
+      "evidence": [
+        "https://sitechecker.pro/how-crawl-website-with-sitechecker/",
+        "https://sitechecker.pro/text-similarity-checker/",
+        "https://sitechecker.pro/google-keyword-planner/",
+        "https://sitechecker.pro/web-hosting/namecheap-vs-godaddy/",
+        "https://sitechecker.pro/web-hosting/wpx.net/",
+        "https://sitechecker.pro/web-hosting/muvi.com/",
+        "https://sitechecker.pro/web-hosting/webhosting.uk.com/",
+        "https://sitechecker.pro/web-hosting/liquidweb.com/",
+        "https://sitechecker.pro/web-hosting/mediatemple.net/",
+        "https://sitechecker.pro/web-hosting/ovh.com/"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'index,follow'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://sitechecker.pro/ (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Slightly long (61 chars)",
+      "fix": "Keep titles 30-60 characters so they are not truncated in the SERP. Front-load the primary keyword.",
+      "evidence": "The SEO command center for agencies managing 10+ client sites"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good length (134 chars)",
+      "fix": "",
+      "evidence": "Monitor all important SEO metrics for dozens of sites in one dashboard. Without any additional fees for invited users and data export."
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: SEO & AI visibility analyticsfor agencies",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "1 level jump(s), e.g. H2 -> H4",
+      "fix": "Do not skip heading levels. Outline the page H1 > H2 > H3 so search engines and AI can parse the structure.",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Well structured (5 H2s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Thin-ish (315 words)",
+      "fix": "Expand to at least 600 words of genuinely useful detail. Cover the questions a buyer asks before purchasing.",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'visibility' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "'visibility' only appears in: H1",
+      "fix": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words.",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (79 links)",
+      "fix": "",
+      "evidence": [
+        "https://help.sitechecker.pro/article/181-how-to-use-ai-visibility",
+        "https://sitechecker.pro/case-studies/",
+        "https://sitechecker.pro/case-studies/vuurwerk-agency/",
+        "https://sitechecker.pro/case-studies/lightcyde-agency/",
+        "https://sitechecker.pro/case-studies/us-junk-cars/",
+        "https://sitechecker.pro/case-studies/bellastrega-agency/",
+        "https://sitechecker.pro/case-studies/parkers-executive-chauffeurs/",
+        "https://sitechecker.pro/case-studies/senior-care-clicks/",
+        "https://sitechecker.pro/case-studies/vuurwerk-agency/",
+        "https://sitechecker.pro/case-studies/lightcyde-agency/"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "27 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "12 external links, 5 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "fail",
+      "weight": 1.5,
+      "detail": "Most images missing alt (35.4% missing)",
+      "fix": "Write descriptive alt text for every image — it feeds image search, accessibility and AI understanding.",
+      "evidence": {
+        "total": 65,
+        "missing": 23
+      }
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "8 type(s): AggregateRating, Organization, Person, Product, Rating, Review, SearchAction, WebSite",
+      "fix": "",
+      "evidence": [
+        "AggregateRating",
+        "Organization",
+        "Person",
+        "Product",
+        "Rating",
+        "Review",
+        "SearchAction",
+        "WebSite"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://sitechecker.pro/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "fail",
+      "weight": 0.5,
+      "detail": "Very low (code-heavy page) (1.1%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width, initial-scale=1",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "html lang=\"en\"",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Found: About page, Contact page, Privacy policy, Terms of service, Blog / news section, Shipping policy, FAQ page | Missing: Returns / refund policy",
+      "fix": "Add the remaining policy/FAQ pages.",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 200,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.hreflang",
+      "category": "seo",
+      "title": "hreflang tags",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "17 alternate language versions declared",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No FAQPage schema",
+      "fix": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No QAPage/Question schema (optional)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No question headings (1 questions)",
+      "fix": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from.",
+      "evidence": [
+        "What users are saying"
+      ]
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "Answers are the wrong length (0.0% of answers)",
+      "fix": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot.",
+      "evidence": [
+        {
+          "question": "What users are saying",
+          "level": 4,
+          "answer_words": 0,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": ""
+        }
+      ]
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No answer opens with a definition",
+      "fix": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "4 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "fail",
+      "weight": 1.5,
+      "detail": "Sentences too long (39.38 words/sentence)",
+      "fix": "Split long sentences. Answers get quoted when they are short and self-contained.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "First paragraph is 6 words",
+      "fix": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand.",
+      "evidence": "© 2026 Sitechecker. All rights reserved."
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No BreadcrumbList schema",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "315 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "No AI crawler is blocked. Allowed: gptbot, chatgpt-user, oai-searchbot, claudebot, anthropic-ai, claude-web, perplexitybot, perplexity-user",
+      "fix": "",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "3 outbound links to authority domains (www.linkedin.com, www.reddit.com, www.youtube.com)",
+      "fix": "",
+      "evidence": [
+        "https://www.reddit.com/r/Sitechecker/",
+        "https://www.linkedin.com/company/sitechecker-pro",
+        "https://www.youtube.com/channel/UCd2OR5M9Mzdip2C5Z_9Xdxg"
+      ]
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "warn",
+      "weight": 2.5,
+      "detail": "Few numbers (1.59 stats/100 words)",
+      "fix": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No author byline found",
+      "fix": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Person JSON-LD found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Found: organization, website with sameAs",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (35.56 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No datePublished / dateModified found",
+      "fix": "Add visible and machine-readable publish and last-updated dates.",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Found: product",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 table(s), 4 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "1 question/answer pair(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No /llms.txt (optional; the convention is still emerging, low cost to add: a markdown index of your key pages)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Trust pages found: 7/8",
+      "fix": "",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 200,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "Only found: main",
+      "fix": "Wrap content in <main> and <article> and use <nav>. Landmarks help extraction pipelines isolate the real content from the chrome.",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "fail",
+      "weight": 1.5,
+      "detail": "Too long to quote (39.38 words/sentence)",
+      "fix": "Keep sentences under 22 words. AI engines quote self-contained sentences, not sprawling ones.",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://sitechecker.pro/",
+    "final_url": "https://sitechecker.pro/",
+    "title": "The SEO command center for agencies managing 10+ client sites",
+    "title_length": 61,
+    "meta_description": "Monitor all important SEO metrics for dozens of sites in one dashboard. Without any additional fees for invited users and data export.",
+    "meta_description_length": 134,
+    "meta_robots": "index,follow",
+    "canonical": "https://sitechecker.pro/",
+    "viewport": "width=device-width, initial-scale=1",
+    "lang": "en",
+    "h1": [
+      "SEO & AI visibility analyticsfor agencies"
+    ],
+    "h2": [
+      "Growing agencies struggle with this every day",
+      "One platform that covers what others miss",
+      "Join 1000+ teams monitoring websites with Sitechecker",
+      "Tools to make happy both your customers and your teammates",
+      "Get access to SEO insights powered by real data"
+    ],
+    "h3": [
+      "Proactive alerts across Search Console and GA4 metrics, site health and content changes",
+      "One unified dashboard for all client sites",
+      "Data analysis that goes beyond Google Search Console limitations",
+      "Agency-ready SEO reporting in minutes",
+      "Simple, scalable pricing. No extra fees for users"
+    ],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 5,
+      "h3": 5,
+      "h4": 1,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 315,
+    "first_paragraph": "© 2026 Sitechecker. All rights reserved.",
+    "links_total": 118,
+    "links_internal": 106,
+    "links_external": 12,
+    "links_authority": 3,
+    "images_total": 65,
+    "images_missing_alt": 23,
+    "schema_types": [
+      "AggregateRating",
+      "Organization",
+      "Person",
+      "Product",
+      "Rating",
+      "Review",
+      "SearchAction",
+      "WebSite"
+    ],
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "website",
+      "og:title": "The SEO command center for agencies managing 10+ client sites",
+      "og:description": "Monitor all important SEO metrics for dozens of sites in one dashboard. Without any additional fees for invited users and data export.",
+      "og:url": "https://sitechecker.pro/",
+      "og:site_name": "Sitechecker",
+      "og:image": "https://sitechecker.pro/wp-content/uploads/2024/12/1200x600-dark-logo.png",
+      "og:image:secure_url": "https://sitechecker.pro/wp-content/uploads/2024/12/1200x600-dark-logo.png"
+    },
+    "twitter": {
+      "twitter:card": "summary",
+      "twitter:description": "Monitor all important SEO metrics for dozens of sites in one dashboard. Without any additional fees for invited users and data export.",
+      "twitter:title": "The SEO command center for agencies managing 10+ client sites",
+      "twitter:image": "https://sitechecker.pro/wp-content/uploads/2024/12/1200x600-dark-logo.png"
+    },
+    "tables": 0,
+    "lists": 4,
+    "blockquotes": 0,
+    "hreflang": [
+      "en:https://sitechecker.pro/",
+      "de:https://sitechecker.pro/de/",
+      "uk:https://sitechecker.pro/ua/",
+      "fr:https://sitechecker.pro/fr/",
+      "it:https://sitechecker.pro/it/",
+      "nl:https://sitechecker.pro/nl/",
+      "es:https://sitechecker.pro/es/",
+      "no:https://sitechecker.pro/no/",
+      "pt:https://sitechecker.pro/pt/",
+      "sv:https://sitechecker.pro/sv/",
+      "tr:https://sitechecker.pro/tr/",
+      "pl:https://sitechecker.pro/pl/",
+      "ja:https://sitechecker.pro/ja/",
+      "vi:https://sitechecker.pro/vi/",
+      "zh:https://sitechecker.pro/zh/",
+      "ru:https://sitechecker.pro/ru/",
+      "x-default:https://sitechecker.pro/"
+    ],
+    "dates": {},
+    "author": "",
+    "qa_blocks": [
+      {
+        "question": "What users are saying",
+        "level": 4,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      }
+    ],
+    "statistic_density": 1.59,
+    "entity_density": 35.56,
+    "avg_sentence_words": 39.38,
+    "text_html_ratio": 1.1,
+    "head_scripts": 10,
+    "head_stylesheets": 1,
+    "inline_script_bytes": 51669,
+    "inline_style_bytes": 1732,
+    "semantic_tags": {
+      "article": false,
+      "main": true,
+      "nav": false
+    },
+    "top_terms": [
+      [
+        "seo",
+        13
+      ],
+      [
+        "website",
+        8
+      ],
+      [
+        "dashboard",
+        5
+      ],
+      [
+        "tools",
+        5
+      ],
+      [
+        "visibility",
+        5
+      ],
+      [
+        "gsc",
+        4
+      ],
+      [
+        "track",
+        4
+      ],
+      [
+        "tracker",
+        4
+      ],
+      [
+        "checker",
+        3
+      ],
+      [
+        "data",
+        3
+      ],
+      [
+        "issues",
+        3
+      ],
+      [
+        "monitoring",
+        3
+      ],
+      [
+        "agencies",
+        2
+      ],
+      [
+        "alerts",
+        2
+      ],
+      [
+        "analysis",
+        2
+      ]
+    ],
+    "html_bytes": 192731,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://sitechecker.pro/",
+    "host": "sitechecker.pro",
+    "root_domain": "sitechecker.pro",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://sitechecker.pro/",
+    "www_variant": "www.sitechecker.pro",
+    "www_redirect": "https://www.sitechecker.pro/ -> https://sitechecker.pro (good)",
+    "apex_and_www_both_200": false,
+    "server": "",
+    "powered_by": "PHP/7.4.33",
+    "security_headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    },
+    "missing_security_headers": [
+      "x-content-type-options",
+      "x-frame-options",
+      "content-security-policy",
+      "referrer-policy",
+      "permissions-policy"
+    ],
+    "response_time": 0.699,
+    "home_size": 26328,
+    "content_encoding": "gzip",
+    "cache_control": "",
+    "cdn_hint": "",
+    "robots": {
+      "url": "https://sitechecker.pro/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "https://sitechecker.pro/sitemap_index.xml",
+        "https://sitechecker.pro/it/sitemap_index.xml",
+        "https://sitechecker.pro/de/sitemap_index.xml",
+        "https://sitechecker.pro/ru/sitemap_index.xml",
+        "https://sitechecker.pro/fr/sitemap_index.xml",
+        "https://sitechecker.pro/nl/sitemap_index.xml",
+        "https://sitechecker.pro/es/sitemap_index.xml",
+        "https://sitechecker.pro/no/sitemap_index.xml",
+        "https://sitechecker.pro/pt/sitemap_index.xml",
+        "https://sitechecker.pro/sv/sitemap_index.xml",
+        "https://sitechecker.pro/tr/sitemap_index.xml",
+        "https://sitechecker.pro/pl/sitemap_index.xml",
+        "https://sitechecker.pro/ja/sitemap_index.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [
+            "*/uploads",
+            "/*/*.js",
+            "/*/*.css",
+            "/wp-*.png",
+            "/wp-*.jpg",
+            "/wp-*.jpeg",
+            "/wp-*.gif",
+            "/wp-*.svg",
+            "/wp-content/themes/sitechecker/out/*.css",
+            "/wp-content/themes/sitechecker/out/*.js",
+            "/wp-content/themes/sitechecker/out/*.png",
+            "/wp-content/themes/sitechecker/out/*.svg",
+            "/wp-content/themes/sitechecker/stylesheets/*.css",
+            "/wp-content/themes/sitechecker/favicons/"
+          ],
+          "disallow": [
+            "/cgi-bin",
+            "/wp-admin",
+            "/wp-content/cache",
+            "/trackback",
+            "*/trackback",
+            "*/*/trackback",
+            "/feed",
+            "*/feed",
+            "/comments",
+            "*/comment-*",
+            "/wp-login.php",
+            "*/comments",
+            "/tag",
+            "*/terms-and-conditions/",
+            "*/privacy-policy/",
+            "*/lostpassword/",
+            "*/crawl-report-domain/*",
+            "*/crawl-report/",
+            "/login/",
+            "/404/",
+            "/checkout/",
+            "/register/",
+            "/lostpassword/",
+            "/resetpass/",
+            "/logout/"
+          ],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://sitechecker.pro/sitemap_index.xml",
+      "status": 200,
+      "is_index": true,
+      "url_count": 1083,
+      "child_count": 3,
+      "has_lastmod": true,
+      "sample": [
+        "https://sitechecker.pro/how-crawl-website-with-sitechecker/",
+        "https://sitechecker.pro/text-similarity-checker/",
+        "https://sitechecker.pro/google-keyword-planner/",
+        "https://sitechecker.pro/web-hosting/namecheap-vs-godaddy/",
+        "https://sitechecker.pro/web-hosting/wpx.net/",
+        "https://sitechecker.pro/web-hosting/muvi.com/",
+        "https://sitechecker.pro/web-hosting/webhosting.uk.com/",
+        "https://sitechecker.pro/web-hosting/liquidweb.com/",
+        "https://sitechecker.pro/web-hosting/mediatemple.net/",
+        "https://sitechecker.pro/web-hosting/ovh.com/",
+        "https://sitechecker.pro/web-hosting/vidyard.com/",
+        "https://sitechecker.pro/web-hosting/godaddy.com/",
+        "https://sitechecker.pro/web-hosting/ipage.com/",
+        "https://sitechecker.pro/web-hosting/tmdhosting.com/",
+        "https://sitechecker.pro/web-hosting/kinsta.com/",
+        "https://sitechecker.pro/web-hosting/whc.ca/",
+        "https://sitechecker.pro/web-hosting/scaleway.com/",
+        "https://sitechecker.pro/web-hosting/uscreen.tv/",
+        "https://sitechecker.pro/web-hosting/webhostingpad.com/",
+        "https://sitechecker.pro/web-hosting/jetpack.com/",
+        "https://sitechecker.pro/web-hosting/iweb.com/",
+        "https://sitechecker.pro/web-hosting/wpengine.com/",
+        "https://sitechecker.pro/web-hosting/scalahosting.com/",
+        "https://sitechecker.pro/web-hosting/webhostinghub.com/",
+        "https://sitechecker.pro/web-hosting/selectel.ru/"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 404,
+      "exists": false,
+      "size": 0,
+      "preview": ""
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 200,
+    "contact": 200,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 200,
+    "shipping": 200,
+    "returns": 0,
+    "faq": 200
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.statistics",
+        "category": "geo",
+        "title": "Quantitative facts",
+        "status": "warn",
+        "weight": 2.5,
+        "problem": "Few numbers (1.59 stats/100 words)",
+        "action": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives."
+      },
+      {
+        "id": "geo.author_byline",
+        "category": "geo",
+        "title": "Named author",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No author byline found",
+        "action": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh."
+      },
+      {
+        "id": "geo.dates",
+        "category": "geo",
+        "title": "Publish / update dates",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No datePublished / dateModified found",
+        "action": "Add visible and machine-readable publish and last-updated dates."
+      },
+      {
+        "id": "seo.keyword_alignment",
+        "category": "seo",
+        "title": "Keyword alignment",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "'visibility' only appears in: H1",
+        "action": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words."
+      },
+      {
+        "id": "seo.title_length",
+        "category": "seo",
+        "title": "Title tag length",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Slightly long (61 chars)",
+        "action": "Keep titles 30-60 characters so they are not truncated in the SERP. Front-load the primary keyword."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Found: About page, Contact page, Privacy policy, Terms of service, Blog / news section, Shipping policy, FAQ page | Missing: Returns / refund policy",
+        "action": "Add the remaining policy/FAQ pages."
+      },
+      {
+        "id": "seo.word_count",
+        "category": "content",
+        "title": "Content depth",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Thin-ish (315 words)",
+        "action": "Expand to at least 600 words of genuinely useful detail. Cover the questions a buyer asks before purchasing."
+      },
+      {
+        "id": "aeo.sentence_length",
+        "category": "aeo",
+        "title": "Sentence length",
+        "status": "fail",
+        "weight": 1.5,
+        "problem": "Sentences too long (39.38 words/sentence)",
+        "action": "Split long sentences. Answers get quoted when they are short and self-contained."
+      },
+      {
+        "id": "geo.quotable_sentences",
+        "category": "geo",
+        "title": "Quotable sentence length",
+        "status": "fail",
+        "weight": 1.5,
+        "problem": "Too long to quote (39.38 words/sentence)",
+        "action": "Keep sentences under 22 words. AI engines quote self-contained sentences, not sprawling ones."
+      },
+      {
+        "id": "seo.image_alt",
+        "category": "seo",
+        "title": "Image alt text",
+        "status": "fail",
+        "weight": 1.5,
+        "problem": "Most images missing alt (35.4% missing)",
+        "action": "Write descriptive alt text for every image — it feeds image search, accessibility and AI understanding."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "fail",
+        "weight": 0.5,
+        "problem": "Very low (code-heavy page) (1.1%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "aeo.faq_schema",
+        "category": "aeo",
+        "title": "FAQPage schema",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No FAQPage schema",
+        "action": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change."
+      },
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "Answers are the wrong length (0.0% of answers)",
+        "action": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot."
+      },
+      {
+        "id": "aeo.question_headings",
+        "category": "aeo",
+        "title": "Question-form headings",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No question headings (1 questions)",
+        "action": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.answer_first",
+        "category": "aeo",
+        "title": "Answer-first intro",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "First paragraph is 6 words",
+        "action": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand."
+      },
+      {
+        "id": "aeo.definition_style",
+        "category": "aeo",
+        "title": "Definition-style openers",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No answer opens with a definition",
+        "action": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "seo.heading_hierarchy",
+        "category": "seo",
+        "title": "Heading hierarchy",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "1 level jump(s), e.g. H2 -> H4",
+        "action": "Do not skip heading levels. Outline the page H1 > H2 > H3 so search engines and AI can parse the structure."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      },
+      {
+        "id": "geo.semantic_html",
+        "category": "geo",
+        "title": "Semantic HTML landmarks",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "Only found: main",
+        "action": "Wrap content in <main> and <article> and use <nav>. Landmarks help extraction pipelines isolate the real content from the chrome."
+      },
+      {
+        "id": "seo.cache_headers",
+        "category": "technical",
+        "title": "Cache headers",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No cache-control header on the HTML response",
+        "action": "Add Cache-Control and an ETag so repeat visits and crawls are cheap."
+      },
+      {
+        "id": "seo.render_blocking",
+        "category": "technical",
+        "title": "Render-blocking head resources",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "Several (11 files)",
+        "action": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

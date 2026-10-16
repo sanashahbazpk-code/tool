@@ -1,0 +1,1299 @@
+{
+  "target": "https://www.meegames.com/en/game/2956-ludo-world.html",
+  "generated_at": "2026-10-15 13:07 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 92.6,
+      "grade": "A"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 46.2,
+      "grade": "F"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 73.8,
+      "grade": "C"
+    },
+    "overall": {
+      "score": 70.9,
+      "grade": "C"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from www.meegames.com",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://www.meegames.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "https://meegames.com/ -> https://www.meegames.com (good)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Fast (0.66s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (13.2 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "Several (11 files)",
+      "fix": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint.",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No cache-control header on the HTML response",
+      "fix": "Add Cache-Control and an ETag so repeat visits and crawls are cheap.",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "406 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 1 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.meegames.com/en/sitemap_index.xml — 5940 URLs across 8 child sitemaps",
+      "fix": "",
+      "evidence": [
+        "https://www.meegames.com/en/game/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/es/juego/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/fr/jeu/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/de/spiel/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/br/jogo/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/zh/youxi/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/id/permainan/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/ko/geim/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/ja/gemu/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/th/game/2965-nsr-street-car-racing.html"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'not set (indexable by default)'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.meegames.com/en/game/2956-ludo-world.html (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good length (44 chars)",
+      "fix": "",
+      "evidence": "Ludo World — play online for free - MEEGames"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Long (164 chars)",
+      "fix": "Keep it 120-160 characters.",
+      "evidence": "Ludo World is a classic board game brought to life with smooth gameplay, a colorful board, and exciting online matches. Play for free on computer, tablet, or phone!"
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: Ludo World",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "No skipped heading levels",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Well structured (5 H2s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Thin-ish (406 words)",
+      "fix": "Expand to at least 600 words of genuinely useful detail. Cover the questions a buyer asks before purchasing.",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'ludo' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "'ludo' appears in: title, H1, URL",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (51 links)",
+      "fix": "",
+      "evidence": [
+        "https://www.meegames.com/en/category/multiplayer/",
+        "https://www.meegames.com/en/category/board/",
+        "https://www.meegames.com/en/category/casual/",
+        "https://www.meegames.com/en/category/strategy/",
+        "https://www.meegames.com/",
+        "https://www.meegames.com/en/category/board/",
+        "https://www.meegames.com/en/game/2683-johnny-trigger-sniper-game.html",
+        "https://www.meegames.com/en/game/2589-g-switch.html",
+        "https://www.meegames.com/en/game/2835-table-tennis-open.html",
+        "https://www.meegames.com/en/game/2588-plants-vs-zombies-tower-defense.html"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "45 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No outbound links",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good alt coverage (0.0% missing)",
+      "fix": "",
+      "evidence": {
+        "total": 74,
+        "missing": 0
+      }
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "15 type(s): AggregateRating, Brand, BreadcrumbList, ContactPoint, EntryPoint, ImageObject, ListItem, Offer",
+      "fix": "",
+      "evidence": [
+        "AggregateRating",
+        "Brand",
+        "BreadcrumbList",
+        "ContactPoint",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Offer",
+        "Organization",
+        "PlayAction",
+        "SearchAction",
+        "VideoGame",
+        "WebApplication",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://www.meegames.com/en/game/2956-ludo-world.html",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "fail",
+      "weight": 0.5,
+      "detail": "Very low (code-heavy page) (3.7%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "warn",
+      "weight": 0.5,
+      "detail": "No lang attribute on <html>",
+      "fix": "Add lang=\"en\" (or the correct language) — it helps both search and screen readers.",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Found: About page, Contact page, Privacy policy, Terms of service, FAQ page | Missing: Blog / news section, Shipping policy, Returns / refund policy",
+      "fix": "Add the remaining policy/FAQ pages.",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 0,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.hreflang",
+      "category": "seo",
+      "title": "hreflang tags",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "11 alternate language versions declared",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No FAQPage schema",
+      "fix": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No QAPage/Question schema (optional)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No question headings (1 questions)",
+      "fix": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from.",
+      "evidence": [
+        "How to play Ludo World"
+      ]
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "Answers are the wrong length (0.0% of answers)",
+      "fix": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot.",
+      "evidence": [
+        {
+          "question": "How to play Ludo World",
+          "level": 2,
+          "answer_words": 36,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "Click dice to roll, drag or click tokens to move. Online game Ludo World belongs to such genres as multiplayer, board, casual, strategy in touchscreen, desktop, mobile, tablet, bro"
+        }
+      ]
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No answer opens with a definition",
+      "fix": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "8 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easy to quote (8 sentences analysed) (16.75 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "First paragraph is 10 words",
+      "fix": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand.",
+      "evidence": "Click dice to roll, drag or click tokens to move."
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "Breadcrumbs declared — improves SERP display",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "406 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "No AI crawler is blocked. Allowed: gptbot, chatgpt-user, oai-searchbot, claudebot, anthropic-ai, claude-web, perplexitybot, perplexity-user",
+      "fix": "",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No outbound links to authoritative sources",
+      "fix": "Add citations: link claims to primary sources. Pages with visible sourcing are dramatically more likely to be quoted by ChatGPT, Perplexity and Google AI Overviews.",
+      "evidence": null
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "warn",
+      "weight": 2.5,
+      "detail": "Few numbers (1.48 stats/100 words)",
+      "fix": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No author byline found",
+      "fix": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Person schema",
+      "fix": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity.",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Found: organization, website with sameAs",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (26.35 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No datePublished / dateModified found",
+      "fix": "Add visible and machine-readable publish and last-updated dates.",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Article / Product / Service schema",
+      "fix": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question.",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 table(s), 8 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "1 question/answer pair(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No /llms.txt (optional; the convention is still emerging, low cost to add: a markdown index of your key pages)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Trust pages found: 5/8",
+      "fix": "",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 0,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Using: <main>, <nav>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easily quotable (16.75 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://www.meegames.com/en/game/2956-ludo-world.html",
+    "final_url": "https://www.meegames.com/en/game/2956-ludo-world.html",
+    "title": "Ludo World — play online for free - MEEGames",
+    "title_length": 44,
+    "meta_description": "Ludo World is a classic board game brought to life with smooth gameplay, a colorful board, and exciting online matches. Play for free on computer, tablet, or phone!",
+    "meta_description_length": 164,
+    "meta_robots": "",
+    "canonical": "https://www.meegames.com/en/game/2956-ludo-world.html",
+    "viewport": "width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover",
+    "lang": "",
+    "h1": [
+      "Ludo World"
+    ],
+    "h2": [
+      "Features",
+      "Game modes",
+      "How to play Ludo World",
+      "You will love these games",
+      "Comments:"
+    ],
+    "h3": [],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 5,
+      "h3": 0,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 406,
+    "first_paragraph": "Click dice to roll, drag or click tokens to move.",
+    "links_total": 96,
+    "links_internal": 96,
+    "links_external": 0,
+    "links_authority": 0,
+    "images_total": 74,
+    "images_missing_alt": 0,
+    "schema_types": [
+      "AggregateRating",
+      "Brand",
+      "BreadcrumbList",
+      "ContactPoint",
+      "EntryPoint",
+      "ImageObject",
+      "ListItem",
+      "Offer",
+      "Organization",
+      "PlayAction",
+      "SearchAction",
+      "VideoGame",
+      "WebApplication",
+      "WebPage",
+      "WebSite"
+    ],
+    "og": {
+      "og:url": "https://www.meegames.com/en/game/2956-ludo-world.html",
+      "og:type": "website",
+      "og:title": "Ludo World — play online for free - MEEGames",
+      "og:description": "Ludo World is a classic board game brought to life with smooth gameplay, a colorful board, and exciting online matches. Play for free on computer, tablet, or phone!",
+      "og:site_name": "MEEGames",
+      "og:image": "https://www.meegames.com/upload/2026/02/ludo-world.png"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Ludo World — play online for free - MEEGames",
+      "twitter:description": "Ludo World is a classic board game brought to life with smooth gameplay, a colorful board, and exciting online matches. Play for free on computer, tablet, or phone!"
+    },
+    "tables": 0,
+    "lists": 8,
+    "blockquotes": 0,
+    "hreflang": [
+      "en:https://www.meegames.com/en/game/2956-ludo-world.html",
+      "es:https://www.meegames.com/es/juego/2956-ludo-world.html",
+      "fr:https://www.meegames.com/fr/jeu/2956-ludo-world.html",
+      "de:https://www.meegames.com/de/spiel/2956-ludo-world.html",
+      "pt:https://www.meegames.com/br/jogo/2956-ludo-world.html",
+      "zh-CN:https://www.meegames.com/zh/youxi/2956-ludo-world.html",
+      "id:https://www.meegames.com/id/permainan/2956-ludo-world.html",
+      "ko:https://www.meegames.com/ko/geim/2956-ludo-world.html",
+      "ja:https://www.meegames.com/ja/gemu/2956-ludo-world.html",
+      "th:https://www.meegames.com/th/game/2956-ludo-world.html",
+      "x-default:https://www.meegames.com/en/game/2956-ludo-world.html"
+    ],
+    "dates": {},
+    "author": "",
+    "qa_blocks": [
+      {
+        "question": "How to play Ludo World",
+        "level": 2,
+        "answer_words": 36,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Click dice to roll, drag or click tokens to move. Online game Ludo World belongs to such genres as multiplayer, board, casual, strategy in touchscreen, desktop, mobile, tablet, bro"
+      }
+    ],
+    "statistic_density": 1.48,
+    "entity_density": 26.35,
+    "avg_sentence_words": 16.75,
+    "text_html_ratio": 3.7,
+    "head_scripts": 4,
+    "head_stylesheets": 7,
+    "inline_script_bytes": 4643,
+    "inline_style_bytes": 201,
+    "semantic_tags": {
+      "article": false,
+      "main": true,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "ludo",
+        11
+      ],
+      [
+        "game",
+        10
+      ],
+      [
+        "board",
+        7
+      ],
+      [
+        "ludo world",
+        7
+      ],
+      [
+        "world",
+        7
+      ],
+      [
+        "players",
+        6
+      ],
+      [
+        "matches",
+        5
+      ],
+      [
+        "mode",
+        5
+      ],
+      [
+        "classic",
+        4
+      ],
+      [
+        "click",
+        4
+      ],
+      [
+        "dice",
+        4
+      ],
+      [
+        "games",
+        4
+      ],
+      [
+        "roll",
+        4
+      ],
+      [
+        "strategy",
+        4
+      ],
+      [
+        "tokens",
+        4
+      ]
+    ],
+    "html_bytes": 71764,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://www.meegames.com/en/game/2956-ludo-world.html",
+    "host": "www.meegames.com",
+    "root_domain": "meegames.com",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://www.meegames.com/",
+    "www_variant": "meegames.com",
+    "www_redirect": "https://meegames.com/ -> https://www.meegames.com (good)",
+    "apex_and_www_both_200": false,
+    "server": "cloudflare",
+    "powered_by": "",
+    "security_headers": {
+      "x-content-type-options": "nosniff"
+    },
+    "missing_security_headers": [
+      "strict-transport-security",
+      "x-frame-options",
+      "content-security-policy",
+      "referrer-policy",
+      "permissions-policy"
+    ],
+    "response_time": 0.663,
+    "home_size": 13474,
+    "content_encoding": "gzip",
+    "cache_control": "",
+    "cdn_hint": "Cloudflare",
+    "robots": {
+      "url": "https://www.meegames.com/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "https://www.meegames.com/en/sitemap_index.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [],
+          "disallow": [
+            "/*/recentlyplayed/",
+            "/*/search"
+          ],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://www.meegames.com/en/sitemap_index.xml",
+      "status": 200,
+      "is_index": true,
+      "url_count": 5940,
+      "child_count": 8,
+      "has_lastmod": true,
+      "sample": [
+        "https://www.meegames.com/en/game/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/es/juego/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/fr/jeu/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/de/spiel/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/br/jogo/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/zh/youxi/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/id/permainan/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/ko/geim/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/ja/gemu/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/th/game/2965-nsr-street-car-racing.html",
+        "https://www.meegames.com/en/game/2665-boxrob-2.html",
+        "https://www.meegames.com/es/juego/2665-boxrob-2.html",
+        "https://www.meegames.com/fr/jeu/2665-boxrob-2.html",
+        "https://www.meegames.com/de/spiel/2665-boxrob-2.html",
+        "https://www.meegames.com/br/jogo/2665-boxrob-2.html",
+        "https://www.meegames.com/zh/youxi/2665-boxrob-2.html",
+        "https://www.meegames.com/id/permainan/2665-boxrob-2.html",
+        "https://www.meegames.com/ko/geim/2665-boxrob-2.html",
+        "https://www.meegames.com/ja/gemu/2665-boxrob-2.html",
+        "https://www.meegames.com/th/game/2665-boxrob-2.html",
+        "https://www.meegames.com/en/game/2647-g-switch-2.html",
+        "https://www.meegames.com/es/juego/2647-g-switch-2.html",
+        "https://www.meegames.com/fr/jeu/2647-g-switch-2.html",
+        "https://www.meegames.com/de/spiel/2647-g-switch-2.html",
+        "https://www.meegames.com/br/jogo/2647-g-switch-2.html"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 404,
+      "exists": false,
+      "size": 0,
+      "preview": ""
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 200,
+    "contact": 200,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 0,
+    "shipping": 0,
+    "returns": 0,
+    "faq": 200
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.statistics",
+        "category": "geo",
+        "title": "Quantitative facts",
+        "status": "warn",
+        "weight": 2.5,
+        "problem": "Few numbers (1.48 stats/100 words)",
+        "action": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives."
+      },
+      {
+        "id": "geo.author_byline",
+        "category": "geo",
+        "title": "Named author",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No author byline found",
+        "action": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh."
+      },
+      {
+        "id": "geo.author_schema",
+        "category": "geo",
+        "title": "Person schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Person schema",
+        "action": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity."
+      },
+      {
+        "id": "geo.content_schema",
+        "category": "geo",
+        "title": "Content type schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Article / Product / Service schema",
+        "action": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question."
+      },
+      {
+        "id": "geo.dates",
+        "category": "geo",
+        "title": "Publish / update dates",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No datePublished / dateModified found",
+        "action": "Add visible and machine-readable publish and last-updated dates."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Found: About page, Contact page, Privacy policy, Terms of service, FAQ page | Missing: Blog / news section, Shipping policy, Returns / refund policy",
+        "action": "Add the remaining policy/FAQ pages."
+      },
+      {
+        "id": "seo.word_count",
+        "category": "content",
+        "title": "Content depth",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Thin-ish (406 words)",
+        "action": "Expand to at least 600 words of genuinely useful detail. Cover the questions a buyer asks before purchasing."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "fail",
+        "weight": 0.5,
+        "problem": "Very low (code-heavy page) (3.7%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "aeo.faq_schema",
+        "category": "aeo",
+        "title": "FAQPage schema",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No FAQPage schema",
+        "action": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change."
+      },
+      {
+        "id": "geo.citations",
+        "category": "geo",
+        "title": "Cites authoritative sources",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No outbound links to authoritative sources",
+        "action": "Add citations: link claims to primary sources. Pages with visible sourcing are dramatically more likely to be quoted by ChatGPT, Perplexity and Google AI Overviews."
+      },
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "Answers are the wrong length (0.0% of answers)",
+        "action": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot."
+      },
+      {
+        "id": "aeo.question_headings",
+        "category": "aeo",
+        "title": "Question-form headings",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No question headings (1 questions)",
+        "action": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.answer_first",
+        "category": "aeo",
+        "title": "Answer-first intro",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "First paragraph is 10 words",
+        "action": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand."
+      },
+      {
+        "id": "aeo.definition_style",
+        "category": "aeo",
+        "title": "Definition-style openers",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No answer opens with a definition",
+        "action": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "seo.meta_description_len",
+        "category": "seo",
+        "title": "Meta description length",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Long (164 chars)",
+        "action": "Keep it 120-160 characters."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      },
+      {
+        "id": "seo.cache_headers",
+        "category": "technical",
+        "title": "Cache headers",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No cache-control header on the HTML response",
+        "action": "Add Cache-Control and an ETag so repeat visits and crawls are cheap."
+      },
+      {
+        "id": "seo.render_blocking",
+        "category": "technical",
+        "title": "Render-blocking head resources",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "Several (11 files)",
+        "action": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint."
+      },
+      {
+        "id": "seo.lang",
+        "category": "technical",
+        "title": "Language declared",
+        "status": "warn",
+        "weight": 0.5,
+        "problem": "No lang attribute on <html>",
+        "action": "Add lang=\"en\" (or the correct language) — it helps both search and screen readers."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

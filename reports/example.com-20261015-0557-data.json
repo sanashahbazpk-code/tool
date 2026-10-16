@@ -1,0 +1,1015 @@
+{
+  "target": "https://example.com/",
+  "generated_at": "2026-10-15 12:57 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 48.8,
+      "grade": "F"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 25.8,
+      "grade": "F"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 32.6,
+      "grade": "F"
+    },
+    "overall": {
+      "score": 35.7,
+      "grade": "F"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from example.com",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "fail",
+      "weight": 1.5,
+      "detail": "http:// returned status 200 and did not land on https",
+      "fix": "Add a server-level 301 from http:// to https:// for every URL.",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "fail",
+      "weight": 1.5,
+      "detail": "Both example.com and www.example.com return 200",
+      "fix": "Pick one (usually https://www or https://apex), 301 the other to it, and make sure the canonical tag matches.",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Fast (0.28s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (0.4 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Few (0 files)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No cache-control header on the HTML response",
+      "fix": "Add Cache-Control and an ETag so repeat visits and crawls are cheap.",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "HTTP 404",
+      "fix": "Publish a robots.txt at the site root so crawlers know the rules.",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "No sitemap found at /sitemap.xml or declared in robots.txt",
+      "fix": "Generate an XML sitemap, list every canonical URL in it, and declare it in robots.txt.",
+      "evidence": null
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'not set (indexable by default)'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No rel=canonical found",
+      "fix": "Add a self-referencing canonical to every indexable page to stop duplicate-URL dilution.",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Title is only 14 characters — too thin",
+      "fix": "Write a descriptive 30-60 character title that names the product or service and the location.",
+      "evidence": "Example Domain"
+    },
+    {
+      "id": "seo.meta_description",
+      "category": "seo",
+      "title": "Meta description",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Missing",
+      "fix": "Write a unique 120-160 character description with the keyword and a reason to click. Google rewrites it often, but it still lifts CTR.",
+      "evidence": null
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "No H1 on the page",
+      "fix": "Add one H1 that states what the page is about, using the primary keyword naturally.",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "No skipped heading levels",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "fail",
+      "weight": 1.5,
+      "detail": "Almost no structure (0 H2s)",
+      "fix": "Break the page into H2 sections. Long unbroken text is hard to scan and hard for AI to quote.",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Thin content (25 words)",
+      "fix": "Expand to at least 600 words of genuinely useful detail. Cover the questions a buyer asks before purchasing.",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'example domain' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "'example domain' only appears in: title",
+      "fix": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words.",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Almost none (0 links)",
+      "fix": "Add contextual internal links from this page to related products, categories and guides. Internal links spread authority and help crawlers.",
+      "evidence": []
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "0 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No outbound links",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No images on the page",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No Open Graph tags at all",
+      "fix": "Add og:title, og:description and og:image.",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "No JSON-LD or microdata found",
+      "fix": "Add JSON-LD: Organization on the homepage, Product/Service on offer pages, BreadcrumbList sitewide, Article on blog posts.",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://example.com/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "Good (27.0%)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width,initial-scale=1",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "warn",
+      "weight": 0.5,
+      "detail": "No lang attribute on <html>",
+      "fix": "Add lang=\"en\" (or the correct language) — it helps both search and screen readers.",
+      "evidence": null
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No FAQPage schema",
+      "fix": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No QAPage/Question schema (optional)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No question headings (0 questions)",
+      "fix": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from.",
+      "evidence": []
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No question/answer pairs detected on the page",
+      "fix": "Add a FAQ section: question as the heading, 40-60 word answer immediately below.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No Q&A pairs to assess",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No <ul>/<ol> on the page",
+      "fix": "Convert features, specs, steps and options into bullet lists. Lists are far easier to lift into an answer box.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "fail",
+      "weight": 1.5,
+      "detail": "No headings at all",
+      "fix": "Add an H1 and H2 sections.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "Only 2 sentence(s) with terminal punctuation were found, so readability cannot be judged reliably (common on list-heavy product and category pages)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "First paragraph is 25 words — good for an intro snippet",
+      "fix": "",
+      "evidence": "This domain is for use in documentation examples without needing permission. This is not a service; avoid relying on it for testing and monitoring purposes."
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No summary or key-takeaways section",
+      "fix": "Add a short \"Key takeaways\" or \"Quick answer\" box near the top. This is what both snippets and AI summaries grab first.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No BreadcrumbList schema",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "robots.txt not readable, so crawler access could not be checked",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No outbound links to authoritative sources",
+      "fix": "Add citations: link claims to primary sources. Pages with visible sourcing are dramatically more likely to be quoted by ChatGPT, Perplexity and Google AI Overviews.",
+      "evidence": null
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "Almost no data (0.0 stats/100 words)",
+      "fix": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No author byline found",
+      "fix": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Person schema",
+      "fix": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity.",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No Organization or LocalBusiness schema",
+      "fix": "Add Organization (or LocalBusiness with address, phone and openingHours) JSON-LD on the homepage. Without it, AI engines cannot confidently attribute your content to your brand.",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (8.0 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No datePublished / dateModified found",
+      "fix": "Add visible and machine-readable publish and last-updated dates.",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Article / Product / Service schema",
+      "fix": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question.",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "No tables or lists on the page",
+      "fix": "Use tables for comparisons and specs, and lists for options and steps. Plain prose is much harder for an AI to lift cleanly.",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No question-and-answer structure",
+      "fix": "Add an FAQ block. It is what Perplexity and AI Overviews quote most often.",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No /llms.txt (optional; the convention is still emerging, low cost to add: a markdown index of your key pages)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "Only found: none",
+      "fix": "Wrap content in <main> and <article> and use <nav>. Landmarks help extraction pipelines isolate the real content from the chrome.",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "Not enough punctuated prose to measure (list/table-heavy page)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://example.com/",
+    "final_url": "https://example.com/",
+    "title": "Example Domain",
+    "title_length": 14,
+    "meta_description": "",
+    "meta_description_length": 0,
+    "meta_robots": "",
+    "canonical": "",
+    "viewport": "width=device-width,initial-scale=1",
+    "lang": "",
+    "h1": [],
+    "h2": [],
+    "h3": [],
+    "heading_counts": {
+      "h1": 0,
+      "h2": 0,
+      "h3": 0,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 25,
+    "first_paragraph": "This domain is for use in documentation examples without needing permission. This is not a service; avoid relying on it for testing and monitoring purposes.",
+    "links_total": 0,
+    "links_internal": 0,
+    "links_external": 0,
+    "links_authority": 0,
+    "images_total": 0,
+    "images_missing_alt": 0,
+    "schema_types": [],
+    "og": {},
+    "twitter": {},
+    "tables": 0,
+    "lists": 0,
+    "blockquotes": 0,
+    "hreflang": [],
+    "dates": {},
+    "author": "",
+    "qa_blocks": [],
+    "statistic_density": 0.0,
+    "entity_density": 8.0,
+    "avg_sentence_words": 12.5,
+    "text_html_ratio": 27.0,
+    "head_scripts": 0,
+    "head_stylesheets": 0,
+    "inline_script_bytes": 0,
+    "inline_style_bytes": 168,
+    "semantic_tags": {
+      "article": false,
+      "main": false,
+      "nav": false
+    },
+    "top_terms": [],
+    "html_bytes": 577,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://example.com/",
+    "host": "example.com",
+    "root_domain": "example.com",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": false,
+    "http_redirect_target": "http://example.com/",
+    "www_variant": "www.example.com",
+    "www_redirect": "https://www.example.com/ serves its own 200 (both variants live)",
+    "apex_and_www_both_200": true,
+    "server": "cloudflare",
+    "powered_by": "",
+    "security_headers": {},
+    "missing_security_headers": [
+      "strict-transport-security",
+      "x-content-type-options",
+      "x-frame-options",
+      "content-security-policy",
+      "referrer-policy",
+      "permissions-policy"
+    ],
+    "response_time": 0.276,
+    "home_size": 400,
+    "content_encoding": "gzip",
+    "cache_control": "",
+    "cdn_hint": "Cloudflare",
+    "robots": {
+      "url": "https://example.com/robots.txt",
+      "status": 404,
+      "exists": false,
+      "sitemaps": [],
+      "groups": []
+    },
+    "ai_bot_rules": {},
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [],
+    "sitemap": {
+      "url": "",
+      "status": 0,
+      "is_index": false,
+      "url_count": 0,
+      "child_count": 0,
+      "has_lastmod": false,
+      "sample": [],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 404,
+      "exists": false,
+      "size": 0,
+      "preview": ""
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {},
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.author_byline",
+        "category": "geo",
+        "title": "Named author",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No author byline found",
+        "action": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh."
+      },
+      {
+        "id": "geo.author_schema",
+        "category": "geo",
+        "title": "Person schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Person schema",
+        "action": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity."
+      },
+      {
+        "id": "geo.content_schema",
+        "category": "geo",
+        "title": "Content type schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Article / Product / Service schema",
+        "action": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question."
+      },
+      {
+        "id": "geo.dates",
+        "category": "geo",
+        "title": "Publish / update dates",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No datePublished / dateModified found",
+        "action": "Add visible and machine-readable publish and last-updated dates."
+      },
+      {
+        "id": "geo.faq_for_summarisation",
+        "category": "geo",
+        "title": "Q&A pairs for summarisation",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No question-and-answer structure",
+        "action": "Add an FAQ block. It is what Perplexity and AI Overviews quote most often."
+      },
+      {
+        "id": "geo.parseable_format",
+        "category": "geo",
+        "title": "Machine-parseable formatting",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "No tables or lists on the page",
+        "action": "Use tables for comparisons and specs, and lists for options and steps. Plain prose is much harder for an AI to lift cleanly."
+      },
+      {
+        "id": "seo.canonical",
+        "category": "seo",
+        "title": "Canonical tag",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No rel=canonical found",
+        "action": "Add a self-referencing canonical to every indexable page to stop duplicate-URL dilution."
+      },
+      {
+        "id": "seo.h1_single",
+        "category": "seo",
+        "title": "Exactly one H1",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "No H1 on the page",
+        "action": "Add one H1 that states what the page is about, using the primary keyword naturally."
+      },
+      {
+        "id": "seo.internal_links",
+        "category": "seo",
+        "title": "Internal links in body",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "Almost none (0 links)",
+        "action": "Add contextual internal links from this page to related products, categories and guides. Internal links spread authority and help crawlers."
+      },
+      {
+        "id": "seo.keyword_alignment",
+        "category": "seo",
+        "title": "Keyword alignment",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "'example domain' only appears in: title",
+        "action": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words."
+      },
+      {
+        "id": "seo.meta_description",
+        "category": "seo",
+        "title": "Meta description",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Missing",
+        "action": "Write a unique 120-160 character description with the keyword and a reason to click. Google rewrites it often, but it still lifts CTR."
+      },
+      {
+        "id": "seo.schema_present",
+        "category": "seo",
+        "title": "Structured data present",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "No JSON-LD or microdata found",
+        "action": "Add JSON-LD: Organization on the homepage, Product/Service on offer pages, BreadcrumbList sitewide, Article on blog posts."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "aeo.faq_schema",
+        "category": "aeo",
+        "title": "FAQPage schema",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No FAQPage schema",
+        "action": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change."
+      },
+      {
+        "id": "geo.citations",
+        "category": "geo",
+        "title": "Cites authoritative sources",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No outbound links to authoritative sources",
+        "action": "Add citations: link claims to primary sources. Pages with visible sourcing are dramatically more likely to be quoted by ChatGPT, Perplexity and Google AI Overviews."
+      },
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No question/answer pairs detected on the page",
+        "action": "Add a FAQ section: question as the heading, 40-60 word answer immediately below."
+      },
+      {
+        "id": "aeo.question_headings",
+        "category": "aeo",
+        "title": "Question-form headings",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No question headings (0 questions)",
+        "action": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from."
+      },
+      {
+        "id": "geo.org_schema",
+        "category": "geo",
+        "title": "Organization / LocalBusiness schema",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No Organization or LocalBusiness schema",
+        "action": "Add Organization (or LocalBusiness with address, phone and openingHours) JSON-LD on the homepage. Without it, AI engines cannot confidently attribute your content to your brand."
+      },
+      {
+        "id": "geo.statistics",
+        "category": "geo",
+        "title": "Quantitative facts",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "Almost no data (0.0 stats/100 words)",
+        "action": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.lists",
+        "category": "aeo",
+        "title": "Bulleted / numbered lists",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No <ul>/<ol> on the page",
+        "action": "Convert features, specs, steps and options into bullet lists. Lists are far easier to lift into an answer box."
+      },
+      {
+        "id": "aeo.summary_block",
+        "category": "aeo",
+        "title": "Summary / key-takeaways block",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No summary or key-takeaways section",
+        "action": "Add a short \"Key takeaways\" or \"Quick answer\" box near the top. This is what both snippets and AI summaries grab first."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "seo.robots_txt",
+        "category": "technical",
+        "title": "robots.txt present",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "HTTP 404",
+        "action": "Publish a robots.txt at the site root so crawlers know the rules."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      },
+      {
+        "id": "geo.semantic_html",
+        "category": "geo",
+        "title": "Semantic HTML landmarks",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "Only found: none",
+        "action": "Wrap content in <main> and <article> and use <nav>. Landmarks help extraction pipelines isolate the real content from the chrome."
+      },
+      {
+        "id": "seo.cache_headers",
+        "category": "technical",
+        "title": "Cache headers",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No cache-control header on the HTML response",
+        "action": "Add Cache-Control and an ETag so repeat visits and crawls are cheap."
+      },
+      {
+        "id": "seo.og_tags",
+        "category": "seo",
+        "title": "Open Graph tags",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No Open Graph tags at all",
+        "action": "Add og:title, og:description and og:image."
+      },
+      {
+        "id": "seo.lang",
+        "category": "technical",
+        "title": "Language declared",
+        "status": "warn",
+        "weight": 0.5,
+        "problem": "No lang attribute on <html>",
+        "action": "Add lang=\"en\" (or the correct language) — it helps both search and screen readers."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

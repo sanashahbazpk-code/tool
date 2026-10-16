@@ -1,0 +1,15 @@
+import json, os, sys, glob
+
+BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+p = os.path.join(BASE, 'seo-tool', 'reports', 'self-final', '127.0.0.1-20261015-0645-data.json')
+d = json.load(open(p, encoding='utf-8'))
+print("=== scores ===")
+print(json.dumps(d['scores'], indent=1)[:3000])
+print("=== site ===")
+print(json.dumps(d['site'], indent=1)[:4000])
+print("=== facts ===")
+print(json.dumps(d['facts'], indent=1)[:6000])
+print("=== trust_paths ===")
+print(json.dumps(d['trust_paths'], indent=1)[:2000])
+print("=== checks count ===", len(d['checks']))
+print(json.dumps(d['checks'][:3], indent=1)[:2000])

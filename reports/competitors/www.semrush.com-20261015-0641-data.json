@@ -1,0 +1,1662 @@
+{
+  "target": "https://www.semrush.com/siteaudit/",
+  "generated_at": "2026-10-15 13:41 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 88.5,
+      "grade": "B"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 84.1,
+      "grade": "B"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 75.4,
+      "grade": "C"
+    },
+    "overall": {
+      "score": 82.7,
+      "grade": "B"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from www.semrush.com",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://www.semrush.com:443/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "https://semrush.com/ -> https://www.semrush.com (good)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Acceptable (1.51s)",
+      "fix": "Target under 0.8s. Enable full-page caching, upgrade the host, and put Cloudflare in front.",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (133.6 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "fail",
+      "weight": 1.0,
+      "detail": "Too many (31 files)",
+      "fix": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint.",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "cache-control: private, no-store",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "2247 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 14 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.semrush.com/sitemap.xml — 5044 URLs across 23 child sitemaps",
+      "fix": "",
+      "evidence": [
+        "https://www.semrush.com/llms.txt",
+        "https://www.semrush.com/api-accounts/",
+        "https://www.semrush.com/api-analytics/",
+        "https://www.semrush.com/api-documentation/",
+        "https://www.semrush.com/api-projects/",
+        "https://www.semrush.com/api-terms/",
+        "https://www.semrush.com/api-use/",
+        "https://www.semrush.com/bot/",
+        "https://www.semrush.com/sem/",
+        "https://www.semrush.com/stats/"
+      ]
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'not set (indexable by default)'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.semrush.com/siteaudit/ (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good length (50 chars)",
+      "fix": "",
+      "evidence": "Free SEO Checker: Check for SEO & AI Search Issues"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good length (105 chars)",
+      "fix": "",
+      "evidence": "Free tool to run a website audit, check for SEO issues, and apply fixes that grow traffic and visibility."
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: SEO Checker",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "No skipped heading levels",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Well structured (13 H2s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Substantial (2247 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'checker' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "'checker' only appears in: title, H1",
+      "fix": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words.",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (130 links)",
+      "fix": "",
+      "evidence": [
+        "https://www.semrush.com/one/",
+        "https://www.semrush.com/enterprise/",
+        "https://www.semrush.com/mcp/",
+        "https://developer.semrush.com/api/",
+        "https://www.semrush.com/stats/",
+        "https://www.semrush.com/kb/request-demo/",
+        "https://www.semrush.com/features/keyword-research/",
+        "https://www.semrush.com/features/competitor-analysis/",
+        "https://www.semrush.com/features/ai-visibility/",
+        "https://www.semrush.com/features/prompt-research/"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "6 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "8 external links, 6 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Some images missing alt (11.1% missing)",
+      "fix": "Write descriptive alt text for every image — it feeds image search, accessibility and AI understanding.",
+      "evidence": {
+        "total": 9,
+        "missing": 1
+      }
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "8 type(s): Answer, FAQPage, ImageObject, Offer, Organization, Question, VideoObject, WebApplication",
+      "fix": "",
+      "evidence": [
+        "Answer",
+        "FAQPage",
+        "ImageObject",
+        "Offer",
+        "Organization",
+        "Question",
+        "VideoObject",
+        "WebApplication"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://www.semrush.com/siteaudit/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "fail",
+      "weight": 0.5,
+      "detail": "Very low (code-heavy page) (2.5%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "html lang=\"en\"",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Found: About page, Contact page, Privacy policy, Terms of service, Blog / news section, FAQ page | Missing: Shipping policy, Returns / refund policy",
+      "fix": "Add the remaining policy/FAQ pages.",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.hreflang",
+      "category": "seo",
+      "title": "hreflang tags",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "14 alternate language versions declared",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "FAQPage JSON-LD found — eligible for FAQ rich results and easy for AI to quote",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found: answer, question",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Strong question coverage (14 questions)",
+      "fix": "",
+      "evidence": [
+        "How to Use the Free SEO Checker",
+        "What Is Semrush’s SEO Checker?",
+        "Why Check Your Website’s SEO?",
+        "What Does Our SEO Checker Analyze?",
+        "How to Use Your Site Audit Report",
+        "Who Will Benefit Most from the Website SEO Checker?",
+        "What Issues Will Our SEO Audit Check For?",
+        "Why Choose Semrush’s SEO Checker?",
+        "What Can You Achieve with Semrush’s Site Audit?",
+        "Is the SEO Checker Free to Use?",
+        "What’s the Difference Between the Free SEO Checker and Semrush’s Site Audit?",
+        "How Often Should I Run an SEO Audit on My Website?"
+      ]
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "warn",
+      "weight": 2.5,
+      "detail": "Mixed answer lengths (21.4% of answers)",
+      "fix": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot.",
+      "evidence": [
+        {
+          "question": "How to Use the Free SEO Checker",
+          "level": 2,
+          "answer_words": 3,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "1 2 3"
+        },
+        {
+          "question": "What Is Semrush’s SEO Checker?",
+          "level": 2,
+          "answer_words": 53,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Semrush’s SEO Checker is a free SEO audit tool that scans your website and finds critical SEO issues that could limit your search performance. The SEO Checker returns an overall SE"
+        },
+        {
+          "question": "Why Check Your Website’s SEO?",
+          "level": 2,
+          "answer_words": 40,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "You should check your website’s SEO to understand how well it’s positioned to perform in Google search, identify issues that may be holding it back, and learn exactly how to fix th"
+        },
+        {
+          "question": "What Does Our SEO Checker Analyze?",
+          "level": 2,
+          "answer_words": 59,
+          "in_40_60": true,
+          "definition_style": false,
+          "answer_preview": "Our free SEO Checker analyzes on-page, off-page, technical, and performance factors to give you a complete view of your site’s SEO health. After the scan, you’ll receive an overall"
+        },
+        {
+          "question": "How to Use Your Site Audit Report",
+          "level": 2,
+          "answer_words": 0,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": ""
+        },
+        {
+          "question": "Who Will Benefit Most from the Website SEO Checker?",
+          "level": 2,
+          "answer_words": 34,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "The following groups will benefit most from using Semrush’s free SEO checker: Think something might be wrong with your website? Upgrade to Semrush One to turn that hunch into clear"
+        },
+        {
+          "question": "What Issues Will Our SEO Audit Check For?",
+          "level": 2,
+          "answer_words": 0,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": ""
+        },
+        {
+          "question": "Why Choose Semrush’s SEO Checker?",
+          "level": 2,
+          "answer_words": 27,
+          "in_40_60": false,
+          "definition_style": false,
+          "answer_preview": "You should choose Semrush’s SEO checker over other SEO checkers because it combines a more in-depth audit with practical, plain-language recommendations you can act on right away."
+        }
+      ]
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No answer opens with a definition",
+      "fix": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "28 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easy to quote (55 sentences analysed) (18.44 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "First paragraph is 23 words — good for an intro snippet",
+      "fix": "",
+      "evidence": "Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system."
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No BreadcrumbList schema",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "2247 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "No AI crawler is blocked. Allowed: gptbot, chatgpt-user, oai-searchbot, claudebot, anthropic-ai, claude-web, perplexitybot, perplexity-user",
+      "fix": "",
+      "evidence": {
+        "gptbot": "allowed",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "warn",
+      "weight": 3.0,
+      "detail": "Only 2 authority citation(s): www.linkedin.com, www.youtube.com",
+      "fix": "Link to 3+ credible sources (industry data, government, research, manufacturer specs). AI engines preferentially cite content that itself cites sources.",
+      "evidence": [
+        "https://www.linkedin.com/company/semrush",
+        "https://www.youtube.com/user/SemrushHQ"
+      ]
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "Almost no data (0.22 stats/100 words)",
+      "fix": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No author byline found",
+      "fix": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Person schema",
+      "fix": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity.",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Found: organization with sameAs",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (22.61 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No datePublished / dateModified found",
+      "fix": "Add visible and machine-readable publish and last-updated dates.",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Article / Product / Service schema",
+      "fix": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question.",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 table(s), 28 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "14 question/answer pair(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Found (4662 bytes) — an emerging convention for telling AI crawlers what matters",
+      "fix": "",
+      "evidence": "# Semrush\n\n> Semrush is a brand visibility management platform that helps marketers audit, optimize, and measure performance across SEO, AI search, content marketing, competitive research, local, social, and paid media. Semrush is powered by a proprietary search dataset built over 17 years of contin"
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Trust pages found: 6/8",
+      "fix": "",
+      "evidence": {
+        "about": 200,
+        "contact": 200,
+        "privacy": 200,
+        "terms": 200,
+        "blog": 200,
+        "shipping": 0,
+        "returns": 0,
+        "faq": 200
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Using: <main>, <nav>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easily quotable (18.44 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://www.semrush.com/siteaudit/",
+    "final_url": "https://www.semrush.com/siteaudit/",
+    "title": "Free SEO Checker: Check for SEO & AI Search Issues",
+    "title_length": 50,
+    "meta_description": "Free tool to run a website audit, check for SEO issues, and apply fixes that grow traffic and visibility.",
+    "meta_description_length": 105,
+    "meta_robots": "",
+    "canonical": "https://www.semrush.com/siteaudit/",
+    "viewport": "width=device-width",
+    "lang": "en",
+    "h1": [
+      "SEO Checker"
+    ],
+    "h2": [
+      "How to Use the Free SEO Checker",
+      "See How the SEO Checker Works",
+      "What Is Semrush’s SEO Checker?",
+      "Why Check Your Website’s SEO?",
+      "What Does Our SEO Checker Analyze?",
+      "How to Use Your Site Audit Report",
+      "Who Will Benefit Most from the Website SEO Checker?",
+      "What Issues Will Our SEO Audit Check For?",
+      "Why Choose Semrush’s SEO Checker?",
+      "What Can You Achieve with Semrush’s Site Audit?",
+      "Frequently Asked Questions",
+      "Try Semrush's Other Free Tools",
+      "Get started with Semrush today"
+    ],
+    "h3": [
+      "Get started",
+      "Discover",
+      "Create and optimize",
+      "Track",
+      "Use cases",
+      "By size",
+      "By role",
+      "By industry",
+      "Grow with Semrush",
+      "Explore Free Tools",
+      "Platform",
+      "About Semrush",
+      "Turn Your SEO Check Into a Full Site Audit",
+      "Fix critical SEO issues",
+      "Boost site speed and performance",
+      "Optimize meta tags and on-page SEO elements",
+      "Identify keyword and content opportunities",
+      "Strengthen off-page SEO",
+      "Validate your SEO efforts",
+      "Grow your SEO knowledge"
+    ],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 13,
+      "h3": 34,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 2247,
+    "first_paragraph": "Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system.",
+    "links_total": 144,
+    "links_internal": 136,
+    "links_external": 8,
+    "links_authority": 2,
+    "images_total": 9,
+    "images_missing_alt": 1,
+    "schema_types": [
+      "Answer",
+      "FAQPage",
+      "ImageObject",
+      "Offer",
+      "Organization",
+      "Question",
+      "VideoObject",
+      "WebApplication"
+    ],
+    "og": {
+      "og:site_name": "Semrush",
+      "og:type": "website",
+      "og:url": "https://www.semrush.com/siteaudit/",
+      "og:image": "https://www.semrush.com/__static__/semrush-logo-700.43215feb8faa.jpg",
+      "og:title": "Free SEO Checker: Check for SEO & AI Search Issues",
+      "og:description": "Free tool to run a website audit, check for SEO issues, and apply fixes that grow traffic and visibility."
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:creator": "@semrush",
+      "twitter:site": "@semrush",
+      "twitter:title": "Free SEO Checker: Check for SEO & AI Search Issues",
+      "twitter:description": "Free tool to run a website audit, check for SEO issues, and apply fixes that grow traffic and visibility."
+    },
+    "tables": 0,
+    "lists": 28,
+    "blockquotes": 0,
+    "hreflang": [
+      "en:https://www.semrush.com/siteaudit/",
+      "de:https://de.semrush.com/siteaudit/",
+      "es:https://es.semrush.com/siteaudit/",
+      "fr:https://fr.semrush.com/siteaudit/",
+      "it:https://it.semrush.com/siteaudit/",
+      "nl:https://nl.semrush.com/siteaudit/",
+      "pl:https://pl.semrush.com/siteaudit/",
+      "pt:https://pt.semrush.com/siteaudit/",
+      "sv:https://sv.semrush.com/siteaudit/",
+      "vi:https://vi.semrush.com/siteaudit/",
+      "tr:https://tr.semrush.com/siteaudit/",
+      "zh:https://zh.semrush.com/siteaudit/",
+      "ja:https://ja.semrush.com/siteaudit/",
+      "ko:https://ko.semrush.com/siteaudit/"
+    ],
+    "dates": {},
+    "author": "",
+    "qa_blocks": [
+      {
+        "question": "How to Use the Free SEO Checker",
+        "level": 2,
+        "answer_words": 3,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "1 2 3"
+      },
+      {
+        "question": "What Is Semrush’s SEO Checker?",
+        "level": 2,
+        "answer_words": 53,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Semrush’s SEO Checker is a free SEO audit tool that scans your website and finds critical SEO issues that could limit your search performance. The SEO Checker returns an overall SE"
+      },
+      {
+        "question": "Why Check Your Website’s SEO?",
+        "level": 2,
+        "answer_words": 40,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "You should check your website’s SEO to understand how well it’s positioned to perform in Google search, identify issues that may be holding it back, and learn exactly how to fix th"
+      },
+      {
+        "question": "What Does Our SEO Checker Analyze?",
+        "level": 2,
+        "answer_words": 59,
+        "in_40_60": true,
+        "definition_style": false,
+        "answer_preview": "Our free SEO Checker analyzes on-page, off-page, technical, and performance factors to give you a complete view of your site’s SEO health. After the scan, you’ll receive an overall"
+      },
+      {
+        "question": "How to Use Your Site Audit Report",
+        "level": 2,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      },
+      {
+        "question": "Who Will Benefit Most from the Website SEO Checker?",
+        "level": 2,
+        "answer_words": 34,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "The following groups will benefit most from using Semrush’s free SEO checker: Think something might be wrong with your website? Upgrade to Semrush One to turn that hunch into clear"
+      },
+      {
+        "question": "What Issues Will Our SEO Audit Check For?",
+        "level": 2,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      },
+      {
+        "question": "Why Choose Semrush’s SEO Checker?",
+        "level": 2,
+        "answer_words": 27,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "You should choose Semrush’s SEO checker over other SEO checkers because it combines a more in-depth audit with practical, plain-language recommendations you can act on right away."
+      },
+      {
+        "question": "What Can You Achieve with Semrush’s Site Audit?",
+        "level": 2,
+        "answer_words": 26,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "You can achieve better search visibility, steady organic traffic growth, and improvements in real business outcomes like sign ups, leads, and sales with Semrush’s Site Audit."
+      },
+      {
+        "question": "Is the SEO Checker Free to Use?",
+        "level": 3,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      },
+      {
+        "question": "What’s the Difference Between the Free SEO Checker and Semrush’s Site Audit?",
+        "level": 3,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      },
+      {
+        "question": "How Often Should I Run an SEO Audit on My Website?",
+        "level": 3,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      },
+      {
+        "question": "Will Running a Website Audit Affect My Rankings?",
+        "level": 3,
+        "answer_words": 0,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": ""
+      },
+      {
+        "question": "Can Semrush’s SEO Checker Help with AI Search Visibility?",
+        "level": 3,
+        "answer_words": 27,
+        "in_40_60": false,
+        "definition_style": false,
+        "answer_preview": "Not sure how to turn SEO checks into real progress? Upgrade to Site Audit to turn your findings into a focused improvement plan you can actually use:"
+      }
+    ],
+    "statistic_density": 0.22,
+    "entity_density": 22.61,
+    "avg_sentence_words": 18.44,
+    "text_html_ratio": 2.5,
+    "head_scripts": 24,
+    "head_stylesheets": 7,
+    "inline_script_bytes": 290686,
+    "inline_style_bytes": 133414,
+    "semantic_tags": {
+      "article": false,
+      "main": true,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "seo",
+        74
+      ],
+      [
+        "issues",
+        33
+      ],
+      [
+        "audit",
+        29
+      ],
+      [
+        "site",
+        27
+      ],
+      [
+        "search",
+        22
+      ],
+      [
+        "checker",
+        21
+      ],
+      [
+        "semrush",
+        19
+      ],
+      [
+        "content",
+        18
+      ],
+      [
+        "seo checker",
+        18
+      ],
+      [
+        "visibility",
+        18
+      ],
+      [
+        "free",
+        17
+      ],
+      [
+        "site audit",
+        14
+      ],
+      [
+        "technical",
+        14
+      ],
+      [
+        "fix",
+        13
+      ],
+      [
+        "page",
+        12
+      ]
+    ],
+    "html_bytes": 595184,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://www.semrush.com/siteaudit/",
+    "host": "www.semrush.com",
+    "root_domain": "semrush.com",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://www.semrush.com:443/",
+    "www_variant": "semrush.com",
+    "www_redirect": "https://semrush.com/ -> https://www.semrush.com (good)",
+    "apex_and_www_both_200": false,
+    "server": "nginx",
+    "powered_by": "",
+    "security_headers": {
+      "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY"
+    },
+    "missing_security_headers": [
+      "content-security-policy",
+      "referrer-policy",
+      "permissions-policy"
+    ],
+    "response_time": 1.513,
+    "home_size": 136828,
+    "content_encoding": "gzip",
+    "cache_control": "private, no-store",
+    "cdn_hint": "yes (edge/CDN headers present)",
+    "robots": {
+      "url": "https://www.semrush.com/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "https://www.semrush.com/sitemap.xml",
+        "https://pt.semrush.com/blog/sitemap/",
+        "https://es.semrush.com/blog/sitemap/",
+        "https://it.semrush.com/blog/sitemap/",
+        "https://fr.semrush.com/blog/sitemap/",
+        "https://de.semrush.com/blog/sitemap/",
+        "https://ja.semrush.com/blog/sitemap/",
+        "https://www.semrush.com/academy/sitemap.xml",
+        "https://es.semrush.com/academy/sitemap.xml",
+        "https://pt.semrush.com/academy/sitemap.xml",
+        "https://it.semrush.com/academy/sitemap.xml",
+        "https://fr.semrush.com/academy/sitemap.xml",
+        "https://de.semrush.com/academy/sitemap.xml",
+        "https://www.semrush.com/free-tools/sitemap.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "008"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "siteauditbot"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": "1"
+        },
+        {
+          "agents": [
+            "semrushbot-si"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "yahoo pipes 2.0"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "facebot"
+          ],
+          "allow": [
+            "/academy/certificates/*"
+          ],
+          "disallow": [
+            "/archive/graphs.php"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "facebookexternalhit"
+          ],
+          "allow": [
+            "/academy/certificates/*"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "bingbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/archive/graphs.php"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "bingpreview"
+          ],
+          "allow": [],
+          "disallow": [
+            "/archive/graphs.php"
+          ],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "linkedinbot"
+          ],
+          "allow": [
+            "/academy/certificates/*"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "twitterbot"
+          ],
+          "allow": [
+            "/blog/*",
+            "/ranking-factors/*",
+            "/academy/certificates/*"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [
+            "/projects/",
+            "*/info/kdt/",
+            "*/sensor/*",
+            "/news/*?page=*",
+            "/analytics/keywordoverview/*",
+            "/blog/*",
+            "/user/*",
+            "/login/$",
+            "/signup/$",
+            "/enterprise/seo/",
+            "/lp/affiliate-program/*",
+            "/lp/for-agencies/en/",
+            "/lp/cannes2026/*",
+            "/lp/enterprise-aio/*",
+            "/lp/enterprise-crawler/*",
+            "/lp/enterprise-partner-program/*",
+            "/lp/seasonal-ai/en/",
+            "/lp/black-friday/*",
+            "/lp/cyber-week/*",
+            "/lp/journeys/*",
+            "/lp/insights/*",
+            "/lp/growth-quadrant/",
+            "/lp/mfour/*",
+            "/lp/semrush-circle/*",
+            "/lp/semrush-one/*",
+            "/seo/",
+            "/lp/seo-consultation/*",
+            "/content-marketing/",
+            "/ppc/",
+            "/competitive-research/",
+            "/analytics/traffic/overview/",
+            "/semrush-questions/*",
+            "/academy/*",
+            "/website/*"
+          ],
+          "disallow": [
+            "/blog/*?img=*",
+            "/archive/graphs.php",
+            "/forrester-marketing-silos/*",
+            "/partner/",
+            "/blog/search/*",
+            "/analytics/seomagic/",
+            "/my_reports/reports/*",
+            "/archive/",
+            "/admin/",
+            "/users/",
+            "/clients/",
+            "/custom_report/",
+            "/limit_hits/",
+            "/payment/",
+            "/no_cookies/",
+            "/double_activation/",
+            "/projects/?*",
+            "/?*/",
+            "/activation_successful*",
+            "/api.html?*",
+            "/partners/",
+            "/partner/",
+            "*/dvd-mode/",
+            "/unsubscribe/",
+            "/unsubscribe/*",
+            "/demonstration/",
+            "/demonstration/*",
+            "*/custom-report/",
+            "*/request-demo/",
+            "*/pleasereg/",
+            "*/custom-report/",
+            "*/custom-report",
+            "/swa/api/*",
+            "/redirect?url=*",
+            "/sso/",
+            "/_/semrush_regular_1_blank/",
+            "/seo-old/*",
+            "/projects2/*",
+            "/free-tools/plagiarism-checker/?q=",
+            "/blog/search/*",
+            "/blog/*utm_source=*",
+            "/blog-manager/*",
+            "/login/*",
+            "/signup/*",
+            "/landing/",
+            "/lp/",
+            "/lp/black-friday-aff/*",
+            "/listings-management/superpower-landing2/",
+            "/academy/*utm_source=*",
+            "/academy/*/results",
+            "/academy/certificates/*",
+            "/website/search/*",
+            "/*/?*"
+          ],
+          "crawl_delay": "20"
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "allowed",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [],
+    "ai_bots_allowed": [
+      "gptbot",
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://www.semrush.com/sitemap.xml",
+      "status": 200,
+      "is_index": true,
+      "url_count": 5044,
+      "child_count": 23,
+      "has_lastmod": true,
+      "sample": [
+        "https://www.semrush.com/llms.txt",
+        "https://www.semrush.com/api-accounts/",
+        "https://www.semrush.com/api-analytics/",
+        "https://www.semrush.com/api-documentation/",
+        "https://www.semrush.com/api-projects/",
+        "https://www.semrush.com/api-terms/",
+        "https://www.semrush.com/api-use/",
+        "https://www.semrush.com/bot/",
+        "https://www.semrush.com/sem/",
+        "https://www.semrush.com/stats/",
+        "https://www.semrush.com/company/contacts/",
+        "https://www.semrush.com/features/",
+        "https://www.semrush.com/features/ai-visibility/",
+        "https://www.semrush.com/features/backlink-analysis/",
+        "https://www.semrush.com/features/brand-sentiment/",
+        "https://www.semrush.com/features/competitor-analysis/",
+        "https://www.semrush.com/features/content-marketing/",
+        "https://www.semrush.com/features/digital-pr/",
+        "https://www.semrush.com/features/features-page-template-1/",
+        "https://www.semrush.com/features/keyword-research/",
+        "https://www.semrush.com/features/local-seo/",
+        "https://www.semrush.com/features/market-analysis/",
+        "https://www.semrush.com/features/prompt-research/",
+        "https://www.semrush.com/features/rank-tracking/",
+        "https://www.semrush.com/features/reports/"
+      ],
+      "errors": [
+        "child sitemap failed: https://www.semrush.com/news/sitemap/ (404)"
+      ]
+    },
+    "llms_txt": {
+      "status": 200,
+      "exists": true,
+      "size": 4662,
+      "preview": "# Semrush\n\n> Semrush is a brand visibility management platform that helps marketers audit, optimize, and measure performance across SEO, AI search, content marketing, competitive research, local, social, and paid media. Semrush is powered by a proprietary search dataset built over 17 years of continuous web crawling, including 289M+ prompts, 28B+ keywords, 43T+ backlinks, and 800M+ domain profiles.\n\nSemrush helps businesses understand where their audience searches, how competitors perform, and h"
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 200,
+    "contact": 200,
+    "privacy": 200,
+    "terms": 200,
+    "blog": 200,
+    "shipping": 0,
+    "returns": 0,
+    "faq": 200
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.citations",
+        "category": "geo",
+        "title": "Cites authoritative sources",
+        "status": "warn",
+        "weight": 3.0,
+        "problem": "Only 2 authority citation(s): www.linkedin.com, www.youtube.com",
+        "action": "Link to 3+ credible sources (industry data, government, research, manufacturer specs). AI engines preferentially cite content that itself cites sources."
+      },
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "warn",
+        "weight": 2.5,
+        "problem": "Mixed answer lengths (21.4% of answers)",
+        "action": "Right under each question heading, put a 40-60 word answer in plain language before you expand. That is the snippet sweet spot."
+      },
+      {
+        "id": "geo.author_byline",
+        "category": "geo",
+        "title": "Named author",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No author byline found",
+        "action": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh."
+      },
+      {
+        "id": "geo.author_schema",
+        "category": "geo",
+        "title": "Person schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Person schema",
+        "action": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity."
+      },
+      {
+        "id": "geo.content_schema",
+        "category": "geo",
+        "title": "Content type schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Article / Product / Service schema",
+        "action": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question."
+      },
+      {
+        "id": "geo.dates",
+        "category": "geo",
+        "title": "Publish / update dates",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No datePublished / dateModified found",
+        "action": "Add visible and machine-readable publish and last-updated dates."
+      },
+      {
+        "id": "seo.keyword_alignment",
+        "category": "seo",
+        "title": "Keyword alignment",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "'checker' only appears in: title, H1",
+        "action": "Put the primary keyword in the title, the H1, the URL slug and the first 100 words."
+      },
+      {
+        "id": "seo.response_time",
+        "category": "technical",
+        "title": "Server response time",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Acceptable (1.51s)",
+        "action": "Target under 0.8s. Enable full-page caching, upgrade the host, and put Cloudflare in front."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Found: About page, Contact page, Privacy policy, Terms of service, Blog / news section, FAQ page | Missing: Shipping policy, Returns / refund policy",
+        "action": "Add the remaining policy/FAQ pages."
+      },
+      {
+        "id": "seo.render_blocking",
+        "category": "technical",
+        "title": "Render-blocking head resources",
+        "status": "fail",
+        "weight": 1.0,
+        "problem": "Too many (31 files)",
+        "action": "Defer non-critical JS and inline critical CSS. Every blocking file in <head> delays first paint."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "fail",
+        "weight": 0.5,
+        "problem": "Very low (code-heavy page) (2.5%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "geo.statistics",
+        "category": "geo",
+        "title": "Quantitative facts",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "Almost no data (0.22 stats/100 words)",
+        "action": "Add concrete numbers: prices, dimensions, weights, success rates, timelines. AI summarisers prefer specific, verifiable statements over marketing adjectives."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.definition_style",
+        "category": "aeo",
+        "title": "Definition-style openers",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No answer opens with a definition",
+        "action": "Open key answers with '<Thing> is <plain-language definition>'. Featured snippets and AI summaries both latch onto that pattern."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "seo.image_alt",
+        "category": "seo",
+        "title": "Image alt text",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Some images missing alt (11.1% missing)",
+        "action": "Write descriptive alt text for every image — it feeds image search, accessibility and AI understanding."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}

@@ -1,0 +1,124 @@
+{
+  "root": "C:\\Users\\Yousuf Traders\\Documents\\deepseek-harness\\default-workspace\\seo-tool\\webapp",
+  "findings": [
+    {
+      "severity": "warning",
+      "area": "content",
+      "title": "Thin content (~441 words)",
+      "detail": "Enough for a brand page, not enough to compete for head keywords.",
+      "fix": "Expand the copy, or add supporting pages.",
+      "weight": 2.0,
+      "evidence": null
+    },
+    {
+      "severity": "critical",
+      "area": "architecture",
+      "title": "Only 2 real internal page link(s)",
+      "detail": "1 links are same-page anchors (#rules-section) and 0 are external. This is a one-page site, so it can only rank for one page's worth of keywords.",
+      "fix": "Build a small content cluster: /how-to-play, /rules, /5-player-ludo, /blog/... Each real page targets one keyword and links to the others. Same-page anchors do not pass any ranking value.",
+      "weight": 3.0,
+      "evidence": null
+    },
+    {
+      "severity": "critical",
+      "area": "technical",
+      "title": "No robots.txt in the project",
+      "detail": "There is no robots.txt to ship, so crawlers get a 404 for it.",
+      "fix": "Add public/robots.txt with the production sitemap URL, and explicitly allow the AI crawlers you want citations from (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot).",
+      "weight": 2.0,
+      "evidence": null
+    },
+    {
+      "severity": "critical",
+      "area": "technical",
+      "title": "No XML sitemap in the project",
+      "detail": "Nothing tells search engines which URLs exist.",
+      "fix": "Generate public/sitemap.xml at build time and declare it in robots.txt.",
+      "weight": 2.0,
+      "evidence": null
+    },
+    {
+      "severity": "critical",
+      "area": "eeat",
+      "title": "Only 0 trust page(s) referenced in the source",
+      "detail": "Found: none. About, Contact, Privacy and Terms pages are E-E-A-T requirements. Google and AI engines both check whether a site is a real, accountable business before trusting it with commercial keywords.",
+      "fix": "Create About, Contact, Privacy Policy and Terms pages. For a game site that will handle real users, Terms and Privacy are not optional.",
+      "weight": 2.5,
+      "evidence": null
+    }
+  ],
+  "stats": {
+    "headings": {
+      "h4": 1,
+      "h3": 7,
+      "h1": 1,
+      "h2": 12
+    },
+    "jsx_text_nodes": 78,
+    "approx_visible_words": 441,
+    "links": {
+      "real_internal_pages": 2,
+      "same_page_anchors": 1,
+      "external": 0,
+      "sample_external": []
+    },
+    "images": {
+      "total": 0,
+      "missing_alt": 0,
+      "empty_alt": 0
+    },
+    "media": {
+      "files": 9,
+      "total_mb": 0.64,
+      "by_ext": {
+        ".png": {
+          "count": 9,
+          "mb": 0.64
+        }
+      },
+      "largest": [
+        {
+          "mb": 0.1,
+          "path": "screenshots\\04-checks.png"
+        },
+        {
+          "mb": 0.09,
+          "path": "screenshots\\01-results-top.png"
+        },
+        {
+          "mb": 0.08,
+          "path": "screenshots\\00-form-desktop.png"
+        },
+        {
+          "mb": 0.08,
+          "path": "screenshots\\00-form-tablet.png"
+        },
+        {
+          "mb": 0.08,
+          "path": "screenshots\\03-keywords.png"
+        },
+        {
+          "mb": 0.07,
+          "path": "screenshots\\00-form-mobile.png"
+        },
+        {
+          "mb": 0.06,
+          "path": "screenshots\\05-downloads.png"
+        },
+        {
+          "mb": 0.05,
+          "path": "screenshots\\02-competitors.png"
+        }
+      ]
+    },
+    "robots_txt": false,
+    "sitemaps": [],
+    "trust_pages_in_source": []
+  },
+  "files": {
+    "source_files": 2,
+    "css_files": 1,
+    "total_files": 15,
+    "index_html": null
+  }
+}

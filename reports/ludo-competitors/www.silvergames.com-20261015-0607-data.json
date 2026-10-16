@@ -1,0 +1,1333 @@
+{
+  "target": "https://www.silvergames.com/en/ludo-legend",
+  "generated_at": "2026-10-15 13:07 UTC",
+  "scores": {
+    "seo": {
+      "label": "SEO",
+      "score": 85.4,
+      "grade": "B"
+    },
+    "aeo": {
+      "label": "AEO",
+      "score": 45.9,
+      "grade": "F"
+    },
+    "geo": {
+      "label": "GEO",
+      "score": 58.7,
+      "grade": "E"
+    },
+    "overall": {
+      "score": 63.3,
+      "grade": "D"
+    }
+  },
+  "checks": [
+    {
+      "id": "seo.https",
+      "category": "technical",
+      "title": "HTTPS enabled",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Served over HTTPS from www.silvergames.com",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.http_redirect",
+      "category": "technical",
+      "title": "http redirects to https",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "http:// -> https://www.silvergames.com/en/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.host_canonical",
+      "category": "technical",
+      "title": "One canonical hostname",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "https://silvergames.com/ -> https://www.silvergames.com/en/",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.response_time",
+      "category": "technical",
+      "title": "Server response time",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Fast (0.44s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.page_size",
+      "category": "technical",
+      "title": "HTML page weight",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Lean (12.8 KB)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.compression",
+      "category": "technical",
+      "title": "Text compression",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "content-encoding: gzip",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.render_blocking",
+      "category": "technical",
+      "title": "Render-blocking head resources",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Few (3 files)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.cache_headers",
+      "category": "technical",
+      "title": "Cache headers",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "cache-control: public, max-age=0, s-maxage=86400",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.server_rendered_content",
+      "category": "technical",
+      "title": "Content present in the served HTML",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "213 words of visible text are in the HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.robots_txt",
+      "category": "technical",
+      "title": "robots.txt present",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "HTTP 200, 1 sitemap directive(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.sitemap",
+      "category": "technical",
+      "title": "XML sitemap",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.silvergames.com/sitemap.xml — 5000 URLs across 8 child sitemaps",
+      "fix": "",
+      "evidence": [
+        "https://www.silvergames.com/en/bowman",
+        "https://www.silvergames.com/en/desktop-tower-defense",
+        "https://www.silvergames.com/en/block-the-pig",
+        "https://www.silvergames.com/en/solitaire",
+        "https://www.silvergames.com/en/turbotastic",
+        "https://www.silvergames.com/en/street-racing-mania",
+        "https://www.silvergames.com/en/soccertastic",
+        "https://www.silvergames.com/en/asteroids",
+        "https://www.silvergames.com/en/soccer-mover",
+        "https://www.silvergames.com/en/smarty-bubbles"
+      ]
+    },
+    {
+      "id": "seo.sitemap_lastmod",
+      "category": "technical",
+      "title": "Sitemap lastmod dates",
+      "status": "warn",
+      "weight": 0.5,
+      "detail": "No <lastmod> values found in the sitemap",
+      "fix": "Add accurate <lastmod> dates so crawlers can prioritise changed pages.",
+      "evidence": null
+    },
+    {
+      "id": "seo.indexable",
+      "category": "seo",
+      "title": "Page is indexable",
+      "status": "pass",
+      "weight": 3.0,
+      "detail": "meta robots: 'not set (indexable by default)'",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.canonical",
+      "category": "seo",
+      "title": "Canonical tag",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "https://www.silvergames.com/en/ludo-legend (self-referencing site)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.title_length",
+      "category": "seo",
+      "title": "Title tag length",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good length (43 chars)",
+      "fix": "",
+      "evidence": "Ludo Legend - Play Online on SilverGames 🕹️"
+    },
+    {
+      "id": "seo.meta_description_len",
+      "category": "seo",
+      "title": "Meta description length",
+      "status": "fail",
+      "weight": 1.5,
+      "detail": "Too long/short (681 chars)",
+      "fix": "Keep it 120-160 characters.",
+      "evidence": "Ludo Legend is a cool multiplayer online board game to play some exciting Ludo matches against friends, random players or CPU bots. Play this free online version of one of the most popular turn-based "
+    },
+    {
+      "id": "seo.h1_single",
+      "category": "seo",
+      "title": "Exactly one H1",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "H1: Ludo Legend",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.heading_hierarchy",
+      "category": "seo",
+      "title": "Heading hierarchy",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "No skipped heading levels",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.subheadings",
+      "category": "content",
+      "title": "Subheadings (H2)",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "Few subheadings (2 H2s)",
+      "fix": "Break the page into H2 sections. Long unbroken text is hard to scan and hard for AI to quote.",
+      "evidence": null
+    },
+    {
+      "id": "seo.word_count",
+      "category": "content",
+      "title": "Content depth",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Thin content (213 words)",
+      "fix": "Expand to at least 600 words of genuinely useful detail. Cover the questions a buyer asks before purchasing.",
+      "evidence": null
+    },
+    {
+      "id": "seo.primary_keyword",
+      "category": "content",
+      "title": "Primary topic detected",
+      "status": "pass",
+      "weight": 0.0,
+      "detail": "'ludo' (from title/H1/URL)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.keyword_alignment",
+      "category": "seo",
+      "title": "Keyword alignment",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "'ludo' appears in: title, H1, URL",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.internal_links",
+      "category": "seo",
+      "title": "Internal links in body",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Good internal linking (145 links)",
+      "fix": "",
+      "evidence": [
+        "https://www.silvergames.com/en/",
+        "https://www.silvergames.com/en/yahtzee",
+        "https://www.silvergames.com/en/ludo-multiplayer",
+        "https://www.silvergames.com/en/yahtzee-online",
+        "https://www.silvergames.com/en/snakes-and-ladders",
+        "https://www.silvergames.com/en/backgammon-2-player",
+        "https://www.silvergames.com/en/yatzy",
+        "https://www.silvergames.com/en/ludo",
+        "https://www.silvergames.com/en/backgammon",
+        "https://www.silvergames.com/en/dicewars"
+      ]
+    },
+    {
+      "id": "seo.nav_links",
+      "category": "seo",
+      "title": "Navigational links",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "15 links inside <nav>/<header>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.outbound_links",
+      "category": "seo",
+      "title": "Outbound links",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "5 external links, 5 nofollow",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.image_alt",
+      "category": "seo",
+      "title": "Image alt text",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Good alt coverage (1.3% missing)",
+      "fix": "",
+      "evidence": {
+        "total": 78,
+        "missing": 1
+      }
+    },
+    {
+      "id": "seo.og_tags",
+      "category": "seo",
+      "title": "Open Graph tags",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "og:title, og:description, og:image present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.schema_present",
+      "category": "seo",
+      "title": "Structured data present",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "4 type(s): AggregateRating, BreadcrumbList, ListItem, VideoGame",
+      "fix": "",
+      "evidence": [
+        "AggregateRating",
+        "BreadcrumbList",
+        "ListItem",
+        "VideoGame"
+      ]
+    },
+    {
+      "id": "seo.url_structure",
+      "category": "seo",
+      "title": "URL structure",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Clean, lowercase, descriptive",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.url_full",
+      "category": "seo",
+      "title": "Resolved URL",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "https://www.silvergames.com/en/ludo-legend",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.text_html_ratio",
+      "category": "content",
+      "title": "Text-to-HTML ratio",
+      "status": "fail",
+      "weight": 0.5,
+      "detail": "Very low (code-heavy page) (2.0%)",
+      "fix": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS.",
+      "evidence": null
+    },
+    {
+      "id": "seo.viewport",
+      "category": "technical",
+      "title": "Mobile viewport",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "viewport: width=device-width, initial-scale=1.0, maximum-scale=5",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.lang",
+      "category": "technical",
+      "title": "Language declared",
+      "status": "warn",
+      "weight": 0.5,
+      "detail": "No lang attribute on <html>",
+      "fix": "Add lang=\"en\" (or the correct language) — it helps both search and screen readers.",
+      "evidence": null
+    },
+    {
+      "id": "seo.trust_pages",
+      "category": "seo",
+      "title": "Trust pages exist",
+      "status": "fail",
+      "weight": 2.0,
+      "detail": "Missing core pages: About page, Contact page, Privacy policy, Terms of service",
+      "fix": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source.",
+      "evidence": {
+        "about": 0,
+        "contact": 0,
+        "privacy": 0,
+        "terms": 0,
+        "blog": 0,
+        "shipping": 200,
+        "returns": 0,
+        "faq": 0
+      }
+    },
+    {
+      "id": "seo.broken_links",
+      "category": "technical",
+      "title": "Broken internal links",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No internal links were sampled",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "seo.hreflang",
+      "category": "seo",
+      "title": "hreflang tags",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "47 alternate language versions declared",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.faq_schema",
+      "category": "aeo",
+      "title": "FAQPage schema",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "No FAQPage schema",
+      "fix": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.howto_schema",
+      "category": "aeo",
+      "title": "HowTo schema",
+      "status": "warn",
+      "weight": 1.0,
+      "detail": "No HowTo schema (only needed if you publish step-by-step guides)",
+      "fix": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.qa_schema",
+      "category": "aeo",
+      "title": "Q&A schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No QAPage/Question schema (optional)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.speakable",
+      "category": "aeo",
+      "title": "Speakable schema",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No speakable markup (optional, voice-assistant only)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.question_headings",
+      "category": "aeo",
+      "title": "Question-form headings",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No question headings (0 questions)",
+      "fix": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from.",
+      "evidence": []
+    },
+    {
+      "id": "aeo.answer_length_40_60",
+      "category": "aeo",
+      "title": "Answers are 40-60 words",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No question/answer pairs detected on the page",
+      "fix": "Add a FAQ section: question as the heading, 40-60 word answer immediately below.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.definition_style",
+      "category": "aeo",
+      "title": "Definition-style openers",
+      "status": "skip",
+      "weight": 0.0,
+      "detail": "No Q&A pairs to assess",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.lists",
+      "category": "aeo",
+      "title": "Bulleted / numbered lists",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "1 list(s) found",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.tables",
+      "category": "aeo",
+      "title": "Tables for comparison",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "No tables on the page",
+      "fix": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material.",
+      "evidence": null
+    },
+    {
+      "id": "aeo.heading_clarity",
+      "category": "aeo",
+      "title": "Descriptive headings",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Headings are descriptive (0.0% vague)",
+      "fix": "",
+      "evidence": []
+    },
+    {
+      "id": "aeo.sentence_length",
+      "category": "aeo",
+      "title": "Sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easy to quote (11 sentences analysed) (16.45 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.answer_first",
+      "category": "aeo",
+      "title": "Answer-first intro",
+      "status": "warn",
+      "weight": 1.5,
+      "detail": "First paragraph is 1 words",
+      "fix": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand.",
+      "evidence": "Yahtzee"
+    },
+    {
+      "id": "aeo.summary_block",
+      "category": "aeo",
+      "title": "Summary / key-takeaways block",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "A summary-style section is present",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "aeo.breadcrumb_schema",
+      "category": "aeo",
+      "title": "BreadcrumbList schema",
+      "status": "pass",
+      "weight": 0.5,
+      "detail": "Breadcrumbs declared — improves SERP display",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_readable_by_ai",
+      "category": "geo",
+      "title": "Content readable without JavaScript",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "213 words are present in the raw HTML response",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.ai_crawler_access",
+      "category": "geo",
+      "title": "AI crawlers allowed",
+      "status": "fail",
+      "weight": 3.0,
+      "detail": "robots.txt blocks: gptbot",
+      "fix": "Un-block the AI crawlers you want citations from (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot). If they cannot fetch the page, ChatGPT, Claude and Perplexity will never quote it. This is the single most common reason a site is invisible in AI answers.",
+      "evidence": {
+        "gptbot": "blocked",
+        "chatgpt-user": "allowed",
+        "oai-searchbot": "allowed",
+        "claudebot": "allowed",
+        "anthropic-ai": "allowed",
+        "claude-web": "allowed",
+        "perplexitybot": "allowed",
+        "perplexity-user": "allowed",
+        "google-extended": "allowed",
+        "ccbot": "allowed",
+        "bytespider": "allowed",
+        "applebot-extended": "allowed",
+        "meta-externalagent": "allowed",
+        "amazonbot": "allowed",
+        "youbot": "allowed",
+        "cohere-ai": "allowed",
+        "imagesiftbot": "allowed",
+        "diffbot": "allowed",
+        "omgili": "allowed"
+      }
+    },
+    {
+      "id": "geo.citations",
+      "category": "geo",
+      "title": "Cites authoritative sources",
+      "status": "warn",
+      "weight": 3.0,
+      "detail": "Only 1 authority citation(s): www.reddit.com",
+      "fix": "Link to 3+ credible sources (industry data, government, research, manufacturer specs). AI engines preferentially cite content that itself cites sources.",
+      "evidence": [
+        "https://www.reddit.com/submit?url=https%3A%2F%2Fwww.silvergames.com%2Fen%2Fludo-legend&title=Ludo%20Legend"
+      ]
+    },
+    {
+      "id": "geo.statistics",
+      "category": "geo",
+      "title": "Quantitative facts",
+      "status": "pass",
+      "weight": 2.5,
+      "detail": "Good density of numbers (3.29 stats/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_byline",
+      "category": "geo",
+      "title": "Named author",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No author byline found",
+      "fix": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh.",
+      "evidence": null
+    },
+    {
+      "id": "geo.author_schema",
+      "category": "geo",
+      "title": "Person schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Person schema",
+      "fix": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity.",
+      "evidence": null
+    },
+    {
+      "id": "geo.org_schema",
+      "category": "geo",
+      "title": "Organization / LocalBusiness schema",
+      "status": "fail",
+      "weight": 2.5,
+      "detail": "No Organization or LocalBusiness schema",
+      "fix": "Add Organization (or LocalBusiness with address, phone and openingHours) JSON-LD on the homepage. Without it, AI engines cannot confidently attribute your content to your brand.",
+      "evidence": null
+    },
+    {
+      "id": "geo.entity_rich",
+      "category": "geo",
+      "title": "Entity-rich content",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "Entity-rich (28.64 proper nouns/100 words)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.dates",
+      "category": "geo",
+      "title": "Publish / update dates",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No datePublished / dateModified found",
+      "fix": "Add visible and machine-readable publish and last-updated dates.",
+      "evidence": null
+    },
+    {
+      "id": "geo.content_schema",
+      "category": "geo",
+      "title": "Content type schema",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No Article / Product / Service schema",
+      "fix": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question.",
+      "evidence": null
+    },
+    {
+      "id": "geo.parseable_format",
+      "category": "geo",
+      "title": "Machine-parseable formatting",
+      "status": "pass",
+      "weight": 2.0,
+      "detail": "0 table(s), 1 list(s)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.faq_for_summarisation",
+      "category": "geo",
+      "title": "Q&A pairs for summarisation",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "No question-and-answer structure",
+      "fix": "Add an FAQ block. It is what Perplexity and AI Overviews quote most often.",
+      "evidence": null
+    },
+    {
+      "id": "geo.llms_txt",
+      "category": "geo",
+      "title": "llms.txt",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "No /llms.txt (optional; the convention is still emerging, low cost to add: a markdown index of your key pages)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.eeat_surface",
+      "category": "geo",
+      "title": "E-E-A-T surface area",
+      "status": "warn",
+      "weight": 2.0,
+      "detail": "Only 1/8 trust pages found (missing: about, contact, privacy, terms, blog, returns, faq)",
+      "fix": "Publish About, Contact, Privacy, Terms, Shipping and Returns pages. AI engines check whether a store is a real, accountable business before recommending it.",
+      "evidence": {
+        "about": 0,
+        "contact": 0,
+        "privacy": 0,
+        "terms": 0,
+        "blog": 0,
+        "shipping": 200,
+        "returns": 0,
+        "faq": 0
+      }
+    },
+    {
+      "id": "geo.semantic_html",
+      "category": "geo",
+      "title": "Semantic HTML landmarks",
+      "status": "pass",
+      "weight": 1.0,
+      "detail": "Using: <article>, <main>, <nav>",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.quotable_sentences",
+      "category": "geo",
+      "title": "Quotable sentence length",
+      "status": "pass",
+      "weight": 1.5,
+      "detail": "Easily quotable (16.45 words/sentence)",
+      "fix": "",
+      "evidence": null
+    },
+    {
+      "id": "geo.multiplatform",
+      "category": "geo",
+      "title": "Third-party presence (Reddit, Quora, industry sites)",
+      "status": "info",
+      "weight": 0.0,
+      "detail": "Not auto-checked — this tool does not query reddit/quora without a SERP key. AI engines lean on sources they have already seen discussed elsewhere.",
+      "fix": "Manually search `<brand> site:reddit.com`, `<brand> site:quora.com` and your top 3 industry publications. If nothing comes up, that is your GEO gap: contribute genuine answers and get listed in industry directories and comparison articles.",
+      "evidence": null
+    }
+  ],
+  "facts": {
+    "url": "https://www.silvergames.com/en/ludo-legend",
+    "final_url": "https://www.silvergames.com/en/ludo-legend",
+    "title": "Ludo Legend - Play Online on SilverGames 🕹️",
+    "title_length": 43,
+    "meta_description": "Ludo Legend is a cool multiplayer online board game to play some exciting Ludo matches against friends, random players or CPU bots. Play this free online version of one of the most popular turn-based dice games ever and become the winner by taking all your tokens to the center of the board first. There are two things you need to focus on. The first one is to take all your colored tokes to the end of the path to win. The second one is to land on the same blocks as your rival’s tokens to kick them back to their starting position. This fun addicting, competitive race never gets old! Have fun playing this free online game Ludo Legend on Silvergames.com! Controls: Touch / Mouse",
+    "meta_description_length": 681,
+    "meta_robots": "",
+    "canonical": "https://www.silvergames.com/en/ludo-legend",
+    "viewport": "width=device-width, initial-scale=1.0, maximum-scale=5",
+    "lang": "",
+    "h1": [
+      "Ludo Legend"
+    ],
+    "h2": [
+      "Ludo Legend",
+      "Related Games"
+    ],
+    "h3": [
+      "Top Board Games",
+      "New Puzzle Games",
+      "Tags"
+    ],
+    "heading_counts": {
+      "h1": 1,
+      "h2": 2,
+      "h3": 3,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    },
+    "words": 213,
+    "first_paragraph": "Yahtzee",
+    "links_total": 165,
+    "links_internal": 160,
+    "links_external": 5,
+    "links_authority": 1,
+    "images_total": 78,
+    "images_missing_alt": 1,
+    "schema_types": [
+      "AggregateRating",
+      "BreadcrumbList",
+      "ListItem",
+      "VideoGame"
+    ],
+    "og": {
+      "og:type": "website",
+      "og:site_name": "SilverGames.com",
+      "og:title": "Ludo Legend - Play Online on SilverGames 🕹️",
+      "og:description": "Ludo Legend is a cool multiplayer online board game to play some exciting Ludo matches against friends, random players or CPU bots. Play this free online version of one of the most popular turn-based dice games ever and become the winner by taking all your tokens to the center of the board first.\n\nThere are two things you need to focus on. The first one is to take all your colored tokes to the end of the path to win. The second one is to land on the same blocks as your rival’s tokens to kick them back to their starting position. This fun addicting, competitive race never gets old! Have fun playing this free online game Ludo Legend on Silvergames.com!\n\nControls: Touch / Mouse",
+      "og:url": "https://www.silvergames.com/en/ludo-legend",
+      "og:image": "https://media.silvergames.com/j/b/s/ludo-legend.jpg"
+    },
+    "twitter": {
+      "twitter:card": "summary_large_image",
+      "twitter:image": "https://media.silvergames.com/j/b/s/ludo-legend.jpg"
+    },
+    "tables": 0,
+    "lists": 1,
+    "blockquotes": 0,
+    "hreflang": [
+      "pt:https://www.silvergames.com/br/ludo-legend",
+      "de:https://www.silvergames.com/de/ludo-legend",
+      "en:https://www.silvergames.com/en/ludo-legend",
+      "es:https://www.silvergames.com/es/ludo-legend",
+      "fr:https://www.silvergames.com/fr/ludo-legend",
+      "it:https://www.silvergames.com/it/ludo-legend",
+      "nl:https://www.silvergames.com/nl/ludo-legend",
+      "ru:https://www.silvergames.com/ru/ludo-legend",
+      "sv:https://www.silvergames.com/sv/ludo-legend",
+      "pl:https://www.silvergames.com/pl/ludo-legend",
+      "tr:https://www.silvergames.com/tr/ludo-legend",
+      "da:https://www.silvergames.com/da/ludo-legend",
+      "nb:https://www.silvergames.com/nb/ludo-legend",
+      "fi:https://www.silvergames.com/fi/ludo-legend",
+      "id:https://www.silvergames.com/do/ludo-legend",
+      "ko:https://www.silvergames.com/ko/ludo-legend",
+      "cs:https://www.silvergames.com/cs/ludo-legend",
+      "ro:https://www.silvergames.com/ro/ludo-legend",
+      "el:https://www.silvergames.com/el/ludo-legend",
+      "hu:https://www.silvergames.com/hu/ludo-legend",
+      "zh:https://www.silvergames.com/zh/ludo-legend",
+      "ja:https://www.silvergames.com/ja/ludo-legend",
+      "hi:https://www.silvergames.com/hi/ludo-legend",
+      "bg:https://www.silvergames.com/bg/ludo-legend",
+      "hr:https://www.silvergames.com/hr/ludo-legend",
+      "uk:https://www.silvergames.com/uk/ludo-legend",
+      "tl:https://www.silvergames.com/tl/ludo-legend",
+      "vi:https://www.silvergames.com/vi/ludo-legend",
+      "bn:https://www.silvergames.com/bn/ludo-legend",
+      "ur:https://www.silvergames.com/ur/ludo-legend",
+      "th:https://www.silvergames.com/th/ludo-legend",
+      "ar:https://www.silvergames.com/ar/ludo-legend",
+      "ms:https://www.silvergames.com/ms/ludo-legend",
+      "bs:https://www.silvergames.com/bs/ludo-legend",
+      "mk:https://www.silvergames.com/mk/ludo-legend",
+      "sq:https://www.silvergames.com/sq/ludo-legend",
+      "et:https://www.silvergames.com/et/ludo-legend",
+      "lv:https://www.silvergames.com/lv/ludo-legend",
+      "lt:https://www.silvergames.com/lt/ludo-legend",
+      "sl:https://www.silvergames.com/sl/ludo-legend",
+      "sk:https://www.silvergames.com/sk/ludo-legend",
+      "sr:https://www.silvergames.com/sr/ludo-legend",
+      "kk:https://www.silvergames.com/kk/ludo-legend",
+      "pa:https://www.silvergames.com/pa/ludo-legend",
+      "mr:https://www.silvergames.com/mr/ludo-legend",
+      "gu:https://www.silvergames.com/gu/ludo-legend",
+      "fa:https://www.silvergames.com/fa/ludo-legend"
+    ],
+    "dates": {},
+    "author": "",
+    "qa_blocks": [],
+    "statistic_density": 3.29,
+    "entity_density": 28.64,
+    "avg_sentence_words": 16.45,
+    "text_html_ratio": 2.0,
+    "head_scripts": 2,
+    "head_stylesheets": 1,
+    "inline_script_bytes": 7445,
+    "inline_style_bytes": 0,
+    "semantic_tags": {
+      "article": true,
+      "main": true,
+      "nav": true
+    },
+    "top_terms": [
+      [
+        "games",
+        11
+      ],
+      [
+        "ludo",
+        7
+      ],
+      [
+        "board",
+        5
+      ],
+      [
+        "player",
+        5
+      ],
+      [
+        "games player",
+        4
+      ],
+      [
+        "legend",
+        4
+      ],
+      [
+        "ludo legend",
+        4
+      ],
+      [
+        "online",
+        4
+      ],
+      [
+        "board games",
+        3
+      ],
+      [
+        "player games",
+        3
+      ],
+      [
+        "backgammon",
+        2
+      ],
+      [
+        "cookies",
+        2
+      ],
+      [
+        "dice",
+        2
+      ],
+      [
+        "dice games",
+        2
+      ],
+      [
+        "first",
+        2
+      ]
+    ],
+    "html_bytes": 60212,
+    "crawl_error": ""
+  },
+  "site": {
+    "base_url": "https://www.silvergames.com/en/ludo-legend",
+    "host": "www.silvergames.com",
+    "root_domain": "silvergames.com",
+    "https_ok": true,
+    "https_error": "",
+    "http_status": 200,
+    "http_redirects_to_https": true,
+    "http_redirect_target": "https://www.silvergames.com/en/",
+    "www_variant": "silvergames.com",
+    "www_redirect": "https://silvergames.com/ -> https://www.silvergames.com/en/",
+    "apex_and_www_both_200": false,
+    "server": "cloudflare",
+    "powered_by": "",
+    "security_headers": {
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "referrer-policy": "strict-origin-when-cross-origin"
+    },
+    "missing_security_headers": [
+      "strict-transport-security",
+      "content-security-policy",
+      "permissions-policy"
+    ],
+    "response_time": 0.438,
+    "home_size": 13120,
+    "content_encoding": "gzip",
+    "cache_control": "public, max-age=0, s-maxage=86400",
+    "cdn_hint": "Cloudflare",
+    "robots": {
+      "url": "https://www.silvergames.com/robots.txt",
+      "status": 200,
+      "exists": true,
+      "sitemaps": [
+        "https://www.silvergames.com/sitemap.xml"
+      ],
+      "groups": [
+        {
+          "agents": [
+            "*"
+          ],
+          "allow": [
+            "/"
+          ],
+          "disallow": [],
+          "crawl_delay": ""
+        },
+        {
+          "agents": [
+            "gptbot"
+          ],
+          "allow": [],
+          "disallow": [
+            "/"
+          ],
+          "crawl_delay": ""
+        }
+      ]
+    },
+    "ai_bot_rules": {
+      "gptbot": "blocked",
+      "chatgpt-user": "allowed",
+      "oai-searchbot": "allowed",
+      "claudebot": "allowed",
+      "anthropic-ai": "allowed",
+      "claude-web": "allowed",
+      "perplexitybot": "allowed",
+      "perplexity-user": "allowed",
+      "google-extended": "allowed",
+      "ccbot": "allowed",
+      "bytespider": "allowed",
+      "applebot-extended": "allowed",
+      "meta-externalagent": "allowed",
+      "amazonbot": "allowed",
+      "youbot": "allowed",
+      "cohere-ai": "allowed",
+      "imagesiftbot": "allowed",
+      "diffbot": "allowed",
+      "omgili": "allowed"
+    },
+    "ai_bots_blocked": [
+      "gptbot"
+    ],
+    "ai_bots_allowed": [
+      "chatgpt-user",
+      "oai-searchbot",
+      "claudebot",
+      "anthropic-ai",
+      "claude-web",
+      "perplexitybot",
+      "perplexity-user",
+      "google-extended",
+      "ccbot",
+      "bytespider",
+      "applebot-extended",
+      "meta-externalagent",
+      "amazonbot",
+      "youbot",
+      "cohere-ai",
+      "imagesiftbot",
+      "diffbot",
+      "omgili"
+    ],
+    "sitemap": {
+      "url": "https://www.silvergames.com/sitemap.xml",
+      "status": 200,
+      "is_index": true,
+      "url_count": 5000,
+      "child_count": 8,
+      "has_lastmod": false,
+      "sample": [
+        "https://www.silvergames.com/en/bowman",
+        "https://www.silvergames.com/en/desktop-tower-defense",
+        "https://www.silvergames.com/en/block-the-pig",
+        "https://www.silvergames.com/en/solitaire",
+        "https://www.silvergames.com/en/turbotastic",
+        "https://www.silvergames.com/en/street-racing-mania",
+        "https://www.silvergames.com/en/soccertastic",
+        "https://www.silvergames.com/en/asteroids",
+        "https://www.silvergames.com/en/soccer-mover",
+        "https://www.silvergames.com/en/smarty-bubbles",
+        "https://www.silvergames.com/en/snake",
+        "https://www.silvergames.com/en/frogger",
+        "https://www.silvergames.com/en/jelly-collapse",
+        "https://www.silvergames.com/en/bottle-flip-challenge",
+        "https://www.silvergames.com/en/zombie-getaway",
+        "https://www.silvergames.com/en/tactical-squad",
+        "https://www.silvergames.com/en/battle-fish",
+        "https://www.silvergames.com/en/dragon-dash",
+        "https://www.silvergames.com/en/bloons-tower-defense",
+        "https://www.silvergames.com/en/bloons-tower-defense-2",
+        "https://www.silvergames.com/en/mahjong-solitaire",
+        "https://www.silvergames.com/en/fishy-rush",
+        "https://www.silvergames.com/en/killer-whale",
+        "https://www.silvergames.com/en/bubble-blast",
+        "https://www.silvergames.com/en/flipping-jellies"
+      ],
+      "errors": []
+    },
+    "llms_txt": {
+      "status": 404,
+      "exists": false,
+      "size": 0,
+      "preview": ""
+    },
+    "broken_links": [],
+    "redirect_links": [],
+    "checked_link_count": 0,
+    "notes": []
+  },
+  "trust_paths": {
+    "about": 0,
+    "contact": 0,
+    "privacy": 0,
+    "terms": 0,
+    "blog": 0,
+    "shipping": 200,
+    "returns": 0,
+    "faq": 0
+  },
+  "competitors": [],
+  "serp_hits": {},
+  "serp_results": {},
+  "keyword_ideas": {},
+  "competitor_snapshots": [],
+  "backlinks": {},
+  "rank_factors": [],
+  "action_plan": {
+    "quick_wins": [
+      {
+        "id": "geo.citations",
+        "category": "geo",
+        "title": "Cites authoritative sources",
+        "status": "warn",
+        "weight": 3.0,
+        "problem": "Only 1 authority citation(s): www.reddit.com",
+        "action": "Link to 3+ credible sources (industry data, government, research, manufacturer specs). AI engines preferentially cite content that itself cites sources."
+      },
+      {
+        "id": "geo.author_byline",
+        "category": "geo",
+        "title": "Named author",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No author byline found",
+        "action": "Add a named author with a one-line credential and a link to an author page. Author identity is an E-E-A-T signal that AI engines weigh."
+      },
+      {
+        "id": "geo.author_schema",
+        "category": "geo",
+        "title": "Person schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Person schema",
+        "action": "Add Person JSON-LD with name, jobTitle, url and sameAs (LinkedIn, X/Twitter). This is how an AI engine connects your content to a real entity."
+      },
+      {
+        "id": "geo.content_schema",
+        "category": "geo",
+        "title": "Content type schema",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No Article / Product / Service schema",
+        "action": "Declare what each page is with Article, Product or Service JSON-LD so AI engines know which passages answer which kind of question."
+      },
+      {
+        "id": "geo.dates",
+        "category": "geo",
+        "title": "Publish / update dates",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No datePublished / dateModified found",
+        "action": "Add visible and machine-readable publish and last-updated dates."
+      },
+      {
+        "id": "geo.eeat_surface",
+        "category": "geo",
+        "title": "E-E-A-T surface area",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "Only 1/8 trust pages found (missing: about, contact, privacy, terms, blog, returns, faq)",
+        "action": "Publish About, Contact, Privacy, Terms, Shipping and Returns pages. AI engines check whether a store is a real, accountable business before recommending it."
+      },
+      {
+        "id": "geo.faq_for_summarisation",
+        "category": "geo",
+        "title": "Q&A pairs for summarisation",
+        "status": "warn",
+        "weight": 2.0,
+        "problem": "No question-and-answer structure",
+        "action": "Add an FAQ block. It is what Perplexity and AI Overviews quote most often."
+      },
+      {
+        "id": "seo.trust_pages",
+        "category": "seo",
+        "title": "Trust pages exist",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "Missing core pages: About page, Contact page, Privacy policy, Terms of service",
+        "action": "Publish About, Contact, Privacy Policy and Terms pages. They are E-E-A-T signals and AI engines check them before citing a source."
+      },
+      {
+        "id": "seo.word_count",
+        "category": "content",
+        "title": "Content depth",
+        "status": "fail",
+        "weight": 2.0,
+        "problem": "Thin content (213 words)",
+        "action": "Expand to at least 600 words of genuinely useful detail. Cover the questions a buyer asks before purchasing."
+      },
+      {
+        "id": "seo.meta_description_len",
+        "category": "seo",
+        "title": "Meta description length",
+        "status": "fail",
+        "weight": 1.5,
+        "problem": "Too long/short (681 chars)",
+        "action": "Keep it 120-160 characters."
+      },
+      {
+        "id": "seo.text_html_ratio",
+        "category": "content",
+        "title": "Text-to-HTML ratio",
+        "status": "fail",
+        "weight": 0.5,
+        "problem": "Very low (code-heavy page) (2.0%)",
+        "action": "Reduce markup around the content: fewer wrapper divs, less inline CSS/JS."
+      }
+    ],
+    "high_impact": [
+      {
+        "id": "aeo.faq_schema",
+        "category": "aeo",
+        "title": "FAQPage schema",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "No FAQPage schema",
+        "action": "Add FAQPage JSON-LD with 5-10 real customer questions and concise answers. This is the single highest-leverage AEO change."
+      },
+      {
+        "id": "geo.ai_crawler_access",
+        "category": "geo",
+        "title": "AI crawlers allowed",
+        "status": "fail",
+        "weight": 3.0,
+        "problem": "robots.txt blocks: gptbot",
+        "action": "Un-block the AI crawlers you want citations from (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot). If they cannot fetch the page, ChatGPT, Claude and Perplexity will never quote it. This is the single most common reason a site is invisible in AI answers."
+      },
+      {
+        "id": "aeo.answer_length_40_60",
+        "category": "aeo",
+        "title": "Answers are 40-60 words",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No question/answer pairs detected on the page",
+        "action": "Add a FAQ section: question as the heading, 40-60 word answer immediately below."
+      },
+      {
+        "id": "aeo.question_headings",
+        "category": "aeo",
+        "title": "Question-form headings",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No question headings (0 questions)",
+        "action": "Rewrite or add H2/H3 headings as real questions (\"How much does X cost?\", \"What is the difference between X and Y?\"). These are what People Also Ask pulls from."
+      },
+      {
+        "id": "geo.org_schema",
+        "category": "geo",
+        "title": "Organization / LocalBusiness schema",
+        "status": "fail",
+        "weight": 2.5,
+        "problem": "No Organization or LocalBusiness schema",
+        "action": "Add Organization (or LocalBusiness with address, phone and openingHours) JSON-LD on the homepage. Without it, AI engines cannot confidently attribute your content to your brand."
+      }
+    ],
+    "nice_to_have": [
+      {
+        "id": "aeo.answer_first",
+        "category": "aeo",
+        "title": "Answer-first intro",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "First paragraph is 1 words",
+        "action": "Open with a 40-60 word paragraph that directly answers the page's main question, then expand."
+      },
+      {
+        "id": "aeo.tables",
+        "category": "aeo",
+        "title": "Tables for comparison",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "No tables on the page",
+        "action": "Add at least one comparison or specification table. Tables are prime snippet and AI-summary material."
+      },
+      {
+        "id": "seo.subheadings",
+        "category": "content",
+        "title": "Subheadings (H2)",
+        "status": "warn",
+        "weight": 1.5,
+        "problem": "Few subheadings (2 H2s)",
+        "action": "Break the page into H2 sections. Long unbroken text is hard to scan and hard for AI to quote."
+      },
+      {
+        "id": "aeo.howto_schema",
+        "category": "aeo",
+        "title": "HowTo schema",
+        "status": "warn",
+        "weight": 1.0,
+        "problem": "No HowTo schema (only needed if you publish step-by-step guides)",
+        "action": "For any process/installation/guide page, add HowTo JSON-LD with numbered steps."
+      },
+      {
+        "id": "seo.lang",
+        "category": "technical",
+        "title": "Language declared",
+        "status": "warn",
+        "weight": 0.5,
+        "problem": "No lang attribute on <html>",
+        "action": "Add lang=\"en\" (or the correct language) — it helps both search and screen readers."
+      },
+      {
+        "id": "seo.sitemap_lastmod",
+        "category": "technical",
+        "title": "Sitemap lastmod dates",
+        "status": "warn",
+        "weight": 0.5,
+        "problem": "No <lastmod> values found in the sitemap",
+        "action": "Add accurate <lastmod> dates so crawlers can prioritise changed pages."
+      }
+    ]
+  },
+  "keys_used": {},
+  "notes": [],
+  "errors": []
+}
